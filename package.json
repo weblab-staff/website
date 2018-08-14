@@ -10,11 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "node-sass": "^4.9.3",
-    "pug": "^2.0.3"
-  },
-  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.5.0",
     "gulp-pug": "^4.0.1",
