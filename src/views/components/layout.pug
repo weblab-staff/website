@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title web.lab 
+    link(rel='stylesheet', href='public/css/main.css')
+    <meta name="viewport" content="width=device-width" />
+    
+  body
+    include navbar.pug
+    
+    block content
+  
+  footer
+    .company.info
+      .company.slug.title {web.lab}
+      .company.detail.copyright copyright 2018
+      
+    .contact.info
+      .contact.slug contact us at
+      a.contact.detail.link(href="mailto:web.lab@mit.edu") web.lab@mit.edu
+    
+    .subscribe.info
+      .subscribe.slug stay updated
+      a.subscribe.detail.link(href="") join our mailing list

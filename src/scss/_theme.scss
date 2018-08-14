@@ -1,0 +1,11 @@
+// Theme Fonts
+@font-face {
+  font-family: Avenir Next;
+  src: url(public/AvenirNext.ttc);
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+$header-font: "Avenir Next";
+$base-font: "Open Sans";
+
+// Theme Colors
