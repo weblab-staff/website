@@ -1,0 +1,70 @@
+.team {
+  &.container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  &.header {
+    margin: 0;
+
+    .slug {
+      font-size: 1.2em;
+      max-width: 400px;
+      overflow: wrap;
+    }
+  }
+
+  .staff {
+    // Square grid credit: https://medium.com/cloudaper/how-to-create-a-flexible-square-grid-with-css-grid-layout-ea48baf038f3
+    &.grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 1fr;
+      grid-gap: 20px;
+
+      &.alumni .img {
+        filter: grayscale(1) contrast(0.8);
+      }
+    }
+
+    &.grid::before {
+      content: "";
+      width: 0;
+      padding-bottom: 100%;
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+    &.grid > *:first-child {
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+    &.single {
+      background-color: $primary-accent;
+      color: $invert-accent;
+      position: relative;
+
+      .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        filter: contrast(0.8);
+      }
+
+      .about {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+      }
+
+      .name {
+        font-size: 1.5em;
+      }
+    }
+  }
+}

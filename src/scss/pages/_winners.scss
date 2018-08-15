@@ -1,0 +1,47 @@
+.winners {
+  .past {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .projects.grid {
+    display: grid;
+    grid-template: repeat(3, minmax(150px, 1fr)) / repeat(2, 1fr);
+    grid-gap: 20px;
+
+    .single.project {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+
+    .img {
+      background-color: $secondary-accent;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .about {
+      position: relative;
+    }
+
+    .place {
+      font-style: italic;
+      font-size: 0.8em;
+    }
+
+    .name {
+      font-size: 1.4em;
+    }
+
+    .descript {
+      margin-top: 1em;
+      font-size: 0.9em;
+      margin-bottom: 0.8em;
+    }
+
+    .link {
+      font-size: 0.8em;
+    }
+  }
+}

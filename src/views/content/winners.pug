@@ -1,0 +1,56 @@
+//- Content on winners.pug
+
+//- About this page
+mixin header()
+  h1 past winners
+  .slug
+    | some blurb about how long we’ve
+    | been around and how proud we
+    | are to share these projects
+
+//- Past winners
+  Add to `past` Array
+mixin past_winners()
+  -
+    var past = [
+      {head: "2018. back to the roots",
+      divisions: [
+        {
+          name: "main divison",
+          winners: [
+            {place: "first place",
+            project: "plix",
+            descript: "an augmented reality collaborative pixel art board by shannon peng and jessica tang",
+            img: "plix.png",
+            link: "plix.herokuapp.com"},
+          ]
+        },
+        {
+          name: "casual divison",
+          winners: [
+            {place: "first place",
+            project: "plix",
+            descript: "an augmented reality collaborative pixel art board by shannon peng and jessica tang",
+            img: "plix.png",
+            link: "plix.herokuapp.com"},
+          ]
+        }
+      ]}
+    ]
+
+  each year in past
+    .past
+      h2= year.head
+      each division in year.divisions
+        .division
+          h3= division.name
+          .projects.grid
+            each winner in division.winners
+              .single.project
+                .img(style='background-image: url("public/img/' + winner.img '\")')
+                .about
+                  .place= winner.place
+                  .name= winner.project
+                  .descript= winner.descript
+                  .link
+                    a(href= winner.link)= winner.link

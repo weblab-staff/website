@@ -1,0 +1,20 @@
+extends components/layout
+
+block content
+  include content/team.pug
+  
+  .team.header.container
+    .contained
+      +header
+
+  .team.container
+    .contained
+      h2 this year's staff
+      .staff.grid
+        +current_staff
+  
+  .team.container
+    .contained
+      h2 our alumni
+      .staff.alumni.grid
+        +alumni

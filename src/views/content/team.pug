@@ -1,0 +1,52 @@
+//- Content on team.pug
+
+//- About this page
+mixin header()
+  h1 our team
+  .slug
+    | in 2010, a group of students passionate
+    | about learning, x, and x started what was
+    | then called 6.470
+    | </br> </br>
+    | today, under the name web.lab, we continue
+    | to teach, inspire, and build every january
+
+//- This year's staff
+  Change `staff` Array
+  Images in `public/img/staff`
+mixin current_staff()
+  -
+    var staff = [
+      {firstName: "aaron",
+      lastName: "sipser",
+      position: "president",
+      img: "asipser.jpg"},
+    ]
+    
+  each person in staff
+    .single.staff
+      .img(style='background-image: url("public/img/staff/' + person.img '\")')
+      .about
+        .name 
+          strong= person.firstName + " "
+          = person.lastName
+        .position= person.position
+
+//- Our alumni
+  Change `alums` Array
+  Images in `public/img/staff`
+mixin alumni()
+  -
+    var alums = [
+      {firstName: "aaron",
+      lastName: "sipser",
+      img: "asipser.jpg"},
+    ]
+    
+  each person in alums
+    .single.staff
+      .img(style='background-image: url("public/img/staff/' + person.img '\")')
+      .about
+        .name 
+          strong= person.firstName + " "
+          = person.lastName

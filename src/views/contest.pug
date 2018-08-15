@@ -1,3 +1,15 @@
 extends components/layout
 
 block content
+  include content/contest.pug
+  .sidebar.container
+      .sidebar
+        .content
+          +sidebar()
+      .main
+        .header.section
+          +header()
+        .section
+          include:markdown-it content/contest.md
+        .section
+          include:markdown-it content/contest.md
