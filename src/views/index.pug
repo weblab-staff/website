@@ -4,29 +4,38 @@ block content
   //- Includes content partials
   include content/index.pug
   
-  .landing.section
-    .landing.carasol
-      .single.image
-        img
-        .num 1
-        .slug work with a team
-    
-    .landing.info
-      h1.title welcome to web.lab
-      .landing.blurb
-        +welcome_blurb
-      a.button join out mailing list
+  .landing.container
+    .contained
+      #carasol.landing.carasol
+        +carasol_feature()
       
-  .feature.projects.section
-    h2.title featured projects
-    .feature.projects.grid
-    a.button(href="/winners") see past winners
+      .landing.info
+        h1.title welcome to web.lab
+        .landing.blurb
+          +welcome_blurb
+        button.button join out mailing list
+      
+  .feature.projects.container
+    .contained
+      h2.title featured projects
+      .feature.projects.grid
+        .right.col
+          +feature_project('one')
+          +feature_project('two')
+        .left.col
+          +feature_project('three')
+          +feature_project('four')
+          +feature_project('five')
+      .center
+        a.button(href="/winners").inverted see past winners
   
-  .sponsors.section
-    .sponsors.head
-      .title.content
-        h2.title thanks to our sponsors
-        .subtitle 
-          +thank_sponsor_subtitle
-      a.sponsor.action(href="mailto:web.lab@mit.edu") ask us about sponsoring
-    .sponsors.grid
+  .sponsors.container
+    .contained
+      .sponsors.head
+        .content
+          h2.title thanks to our sponsors
+          .subtitle 
+            +thank_sponsor_subtitle
+        a.sponsor.action(href="mailto:web.lab@mit.edu") ask us about sponsoring
+      .sponsors.grid
+        +sponsors

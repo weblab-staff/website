@@ -1,2 +1,9 @@
 @import "_theme";
 @import "_base";
+
+// Components
+@import "components/_navbar.scss";
+@import "components/_footer.scss";
+
+// Pages
+@import "pages/_index.scss";

@@ -1,8 +1,59 @@
+html {
+  // background-color: $primary-accent;
+}
+
 body {
+  background-color: $invert-accent;
   font-family: $base-font;
+  margin: 0;
+
+  // For wireframes
+  color: $primary-accent;
+}
+
+a {
+  color: $primary-accent;
 }
 
 .title {
   font-family: $header-font;
   font-weight: 500;
+}
+
+.container {
+  padding-left: calc(50vw - 520px);
+  padding-right: calc(50vw - 520px);
+}
+
+.contained {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button,
+.button {
+  border: 1px solid $primary-accent;
+  color: $primary-accent;
+  font-family: $header-font;
+  font-size: 0.8em;
+  padding: 0.5em 1.5em;
+  margin: 0.5em 0;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $primary-accent;
+    color: $invert-accent;
+  }
+
+  &.inverted {
+    border-color: $invert-accent;
+    background-color: $primary-accent;
+    color: $invert-accent;
+
+    &:hover {
+      background-color: $invert-accent;
+      color: $primary-accent;
+    }
+  }
 }

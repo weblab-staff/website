@@ -1,11 +1,14 @@
 // Theme Fonts
 @font-face {
   font-family: Avenir Next;
-  src: url(public/AvenirNext.ttc);
+  src: url(../fonts/AvenirNext.ttc);
 }
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:400,500");
 
-$header-font: "Avenir Next";
+$header-font: "Montserrat";
 $base-font: "Open Sans";
 
 // Theme Colors
+$primary-accent: #707070;
+$secondary-accent: #e2e2e2;
+$invert-accent: white;

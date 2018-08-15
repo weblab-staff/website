@@ -5,7 +5,7 @@ var pug = require("gulp-pug");
 var connect = require("gulp-connect");
 
 gulp.task("img", function(cb) {
-  pump([gulp.src("src/public/img/*"), gulp.dest("public/img")], cb);
+  pump([gulp.src("src/public/img/**/*"), gulp.dest("public/img")], cb);
 });
 
 gulp.task("fonts", function(cb) {
@@ -14,7 +14,7 @@ gulp.task("fonts", function(cb) {
 
 gulp.task("sass", function() {
   return gulp
-    .src("src/scss/*.scss")
+    .src("src/scss/**/*.scss")
     .pipe(sass())
     .pipe(gulp.dest("public/css"));
 });
@@ -41,6 +41,7 @@ gulp.task("serve", function() {
 gulp.task("stream", ["build", "serve"], function(cb) {
   gulp.watch("src/scss/**/*.scss", ["build"]);
   gulp.watch("src/public/*.js", ["build"]);
+  gulp.watch("src/public/img/**/*", ["build"]);
   gulp.watch("src/views/**/*.pug", ["build"]);
 });
 

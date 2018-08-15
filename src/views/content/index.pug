@@ -1,7 +1,91 @@
+//- Content on index.pug | Landing
+
+//- Welcome Blurb
+  Sentence long below 'welcome to web.lab'
+  NOTE: </br> tags are needed to break
 mixin welcome_blurb()
-  | MIT’s premier web development <a href="/class">class</a>
+  | MIT’s premier web development </br> 
+  | <a href="/class">class</a>
   | and <a href="/contest">contest</a>. 
   | over the course of january, students will learn to...
 
+
+//- Carasol Features
+  Changes `features` Array to change displayed features
+mixin carasol_feature()
+  -
+    var features = [
+      {img: "pineapple.jpg", num: "01", slug: "work with a team"},
+      {img: "blueberry.jpg", num: "02", slug: "free food"}
+    ]
+  
+  each feat in features
+    .single
+      .image(style='background-image: url("public/img/' + feat.img '\")')
+      .content
+        .num= feat.num
+        .slug= feat.slug
+
+
+//- Featured Projects
+  For each feature, change object in `features`
+mixin feature_project(num)
+  -
+    var features = {
+      one: {
+        img: "plix.png", 
+        quote: '"our first blah blah blah, it was great blah blah blah"', 
+        project: "plix", 
+        link: "plix.herokuapp.com", 
+        who: "shannon peng + jessica tang, 2018"},
+      two: {
+        img: "plix.png", 
+        quote: '"our first blah blah blah"', 
+        project: "plix", 
+        link: "plix.herokuapp.com", 
+        who: "shannon peng + jessica tang, 2018"},
+      three: {
+        img: "plix.png", 
+        quote: '"our first blah blah blah"', 
+        project: "plix", 
+        link: "plix.herokuapp.com", 
+        who: "shannon peng + jessica tang, 2018"},
+      four: {
+        img: "plix.png", 
+        quote: '"our first blah blah blah"', 
+        project: "plix", 
+        link: "plix.herokuapp.com", 
+        who: "shannon peng + jessica tang, 2018"},
+      five: {
+        img: "plix.png", 
+        quote: '"our first blah blah blah"', 
+        project: "plix", 
+        link: "plix.herokuapp.com", 
+        who: "shannon peng + jessica tang, 2018"},
+    }
+  
+  div.single.feature(class= num)
+    .img(style='background-image: url("public/img/' + features[num].img '\")')
+    .quote= features[num].quote
+      .detail {
+        a(href= features[num].link)= features[num].project 
+        | }  
+        = features[num].who
+
+//- Sponsor Slug
+  Right below "thanks to our sponsors"
 mixin thank_sponsor_subtitle()
   | for teaching. for cash prizes. for judging.
+
+//- Sponsor Logos
+  Change `sponsors` Array to change displayed logos
+  NOTE: indentation matters!!
+mixin sponsors()
+  -
+    var sponsors = [
+      {name: "PTC", path: "ptc.png", link: "http://ptc.com/"},
+    ]
+  
+  each logo in sponsors
+    a(href= logo.link, target="new")
+      img.logo(src= 'public/img/sponsors/' + logo.path)
