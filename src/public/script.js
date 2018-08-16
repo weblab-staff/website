@@ -27,3 +27,7 @@ function hideFeatures() {
     child.classList.remove("show");
   }
 }
+
+function showDetail(id) {
+  document.getElementById(id).classList.toggle("show");
+}

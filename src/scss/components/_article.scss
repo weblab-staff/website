@@ -1,0 +1,72 @@
+.section,
+article {
+  padding-left: 60px;
+  padding-right: calc(50vw - 540px);
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  &.header {
+    padding-top: 60px;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .slug {
+      margin: 0;
+      font-size: 1.2em;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .bullet.grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+
+    .num {
+      font-size: 2em;
+    }
+
+    .link {
+      text-decoration: underline;
+      cursor: pointer;
+
+      &::after {
+        content: "»";
+        position: absolute;
+        transform: rotate(90deg) translate(0, -5px);
+      }
+    }
+
+    .open {
+      cursor: pointer;
+    }
+
+    .details {
+      display: none;
+      padding-left: 40px;
+
+      &.show {
+        display: block;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+}
+
+article + article {
+  border-top: 1px solid $primary-accent;
+}

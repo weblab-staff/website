@@ -1,0 +1,18 @@
+//- Content on class.pug
+
+//- About this page
+mixin header()
+  h1 the class
+  p.slug 
+    | a small slug about the class here
+
+//- Sidebar generator
+mixin sidebar()
+  ul#sidebar
+    li.head#head_mark the class
+    li.select#eligible_mark who is eligible
+
+//- Call article sections here
+mixin articles()
+  article.section#eligible
+    include:markdown-it(html=true) contest/who_is_eligible.md

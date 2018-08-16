@@ -1,4 +1,6 @@
 //- Content on contest.pug
+- 
+  var start_dev_date = "Monday, January 8, 2018 at 11AM"
 
 //- About this page
 mixin header()
@@ -9,11 +11,55 @@ mixin header()
     | in order to quality for our contest
 
 //- Sidebar generator
+  NOTE: ids matching articles are crucial `ARTICLE_mark`
 mixin sidebar()
-  ul
-    li.head.select the contest
-    li who is eligible
+  ul#sidebar
+    li.head.select#head_mark the contest
+    li#eligible_mark 
+      a(href="#eligible") who is eligible
+    li#rules_mark 
+      a(href="#rules") contest rules
+
+//- Article: Contest Rules
+mixin rules_article()
+  h1 contest rules
+  .bullet.grid
+    .num 01.
+    .rule 
+      | You may not begin development on your site until #{start_dev_date}. </br>
+      | Failure to do so will result in disqualification.
+      
+    .num 02.
+    .rule 
+      | Your site must meet all the 
+      span.link(onclick="showDetail('ruletwo')") basic requirements
+      #ruletwo.details
+        p 
+          strong Dynamically-generated, database-backed pages.
+          | Your site must contain pages that are produced dynamically by some server-side application (e.g. Node.js, Ruby on Rails, PHP or Python scripts) using the results of queries to some database or other data service.
+        p 
+          strong Personalized experience based on user accounts. 
+          | Your site must have a sign-in feature. You may implement your own username/password login system or use an existing system (e.g. Facebook or Google login). The content and/or UI of the website should reflect whether a user is logged in. You are not required to implement account management (e.g. password recovery). Note: If your site uses MIT certificates, you must implement an alternative form of authentication for our non-MIT judges.
+        p 
+          strong Original design and implementation. 
+          | Your site’s high-level design and the implementation of key features must be original. You may use Web application frameworks like Express.js or Ruby on Rails and frontend frameworks like Bootstrap and Backbone. You may use open-source components as long as the top-level design is original and your site’s main functionality is not simply a wrapper around the component. You may not customize a CMS system such as Wordpress for your site.
     
-//- TODO: build generator plugins
-mixin sections()
-  | hello
+    .num 03.
+    .rule
+      | Your site must help users access a nontrivial amount of content. Check out some 
+      span.link(onclick="showDetail('rulethree')") reccomended methods
+      #rulethree.details
+        p 
+          strong Pre-generated dataset. 
+          | Your database contains a processed version of a publicly accessible dataset, or you can bootstrap your site with fake data. If you choose to bootstrap your site by generating data, be creative! Judges will be bored by a site where the same three names show up everywhere!
+        p 
+          strong 3rd party data access. 
+          | Your system uses another application's publicly accessible API to access and return data on the fly. You must declare all 3rd-party APIs that you use. If you go this route, you should use a database as a cache and fallback mechanism for the API requests. You will be disqualified if your application malfunctions after the submission deadline as a result of a broken 3rd party API.
+
+//- Call article sections here
+  NOTE: `ARTICLE` ids are crucial to the sidebar
+mixin articles()
+  article.section#eligible
+    include:markdown-it(html=true) contest/who_is_eligible.md
+  article.section#rules
+    +rules_article
