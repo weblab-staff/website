@@ -1,0 +1,13 @@
+extends components/layout
+
+block content
+  include content/faq.pug
+  
+  .faq.header.container
+    .contained
+      +header
+  
+  .faq.container
+    .contained
+      .faq.grid
+        +questions

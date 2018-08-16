@@ -1,0 +1,15 @@
+.faq {
+  &.container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  &.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+    h2 {
+      font-weight: normal;
+    }
+  }
+}
