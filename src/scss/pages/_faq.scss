@@ -6,7 +6,23 @@
   &.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+
+    .question {
+      padding: 0 20px 20px;
+      border-bottom: 1px solid $secondary-accent;
+
+      &:nth-child(3n + 1) {
+        border-right: 1px solid $secondary-accent;
+      }
+
+      &:nth-child(3n + 2) {
+        border-right: 1px solid $secondary-accent;
+      }
+
+      &:nth-last-child(-n + 3) {
+        border-bottom: none;
+      }
+    }
 
     h2 {
       font-weight: normal;
