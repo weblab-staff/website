@@ -4,7 +4,7 @@ block content
   //- Includes content partials
   include content/index.pug
   
-  .landing.container
+  .landing.container.inverted
     .contained
       #carasol.landing.carasol
         +carasol_feature()
@@ -13,7 +13,7 @@ block content
         h1.title welcome to web.lab
         .landing.blurb
           +welcome_blurb
-        button.button join out mailing list
+        button.button.inverted join our mailing list
       
   .feature.projects.container
     .contained
@@ -27,9 +27,9 @@ block content
           +feature_project('four')
           +feature_project('five')
       .center
-        a.button(href="/winners").inverted see past winners
+        a.button(href="/winners") see past winners
   
-  .sponsors.container
+  .sponsors.container.inverted
     .contained
       .sponsors.head
         .content

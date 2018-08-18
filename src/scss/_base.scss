@@ -2,9 +2,26 @@ body {
   background-color: $invert-accent;
   font-family: $base-font;
   margin: 0;
+  position: relative;
 
   // For wireframes
+  color: $primary-text;
+}
+
+h1,
+h2,
+h3 {
   color: $primary-accent;
+}
+
+.inverted {
+  color: $invert-accent;
+
+  h1,
+  h2,
+  h3 {
+    color: $invert-accent;
+  }
 }
 
 a {
@@ -17,8 +34,8 @@ a {
 }
 
 .container {
-  padding-left: calc(50vw - 520px);
-  padding-right: calc(50vw - 520px);
+  padding-left: calc(50vw - #{$max-width} / 2);
+  padding-right: calc(50vw - #{$max-width} / 2);
 }
 
 .contained {
@@ -30,7 +47,7 @@ a {
 .header {
   background-color: $primary-accent;
   color: $invert-accent;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 40px;
 
   .slug {
@@ -50,6 +67,7 @@ button,
   margin: 0.5em 0;
   cursor: pointer;
   text-decoration: none;
+  background-color: transparent;
 
   &:hover {
     background-color: $primary-accent;
@@ -58,7 +76,7 @@ button,
 
   &.inverted {
     border-color: $invert-accent;
-    background-color: $primary-accent;
+    background-color: transparent;
     color: $invert-accent;
 
     &:hover {

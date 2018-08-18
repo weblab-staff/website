@@ -1,5 +1,26 @@
 .navbar {
-  border-bottom: 1px solid $primary-accent;
+  color: $invert-accent;
+
+  &.container {
+    width: 100%;
+    max-width: $max-width;
+
+    position: absolute;
+  }
+
+  img {
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .right {
+    font-size: 22px;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+  }
 
   .contained {
     display: flex;
