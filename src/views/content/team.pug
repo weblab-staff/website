@@ -65,7 +65,7 @@ mixin current_staff()
     
   each person in staff
     .single.staff
-      .img(style='background-image: url("public/img/staff/current/' + person.img '\")')
+      .img(style='background-image: url("/public/img/staff/current/' + person.img '\")')
       .about
         .name 
           strong= person.firstName + " "
@@ -178,7 +178,7 @@ mixin alumni()
     
   each person in alums
     .single.staff
-      .img(style=`background-image: url("public/img/staff/alums/${person.year}/${person.img}` '\")')
+      .img(style=`background-image: url("/public/img/staff/alums/${person.year}/${person.img}` '\")')
       .about
         .name 
           strong= person.firstName + " "

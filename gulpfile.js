@@ -2,39 +2,46 @@ var gulp = require("gulp");
 var pump = require("pump");
 var sass = require("gulp-sass");
 var pug = require("gulp-pug");
+var rename = require("gulp-rename");
 var connect = require("gulp-connect");
 
 gulp.task("img", function(cb) {
-  pump([gulp.src("src/public/img/**/*"), gulp.dest("public/img")], cb);
+  pump([gulp.src("src/public/img/**/*"), gulp.dest("build/public/img")], cb);
 });
 
 gulp.task("fonts", function(cb) {
-  pump([gulp.src("src/public/fonts/*"), gulp.dest("public/fonts")], cb);
+  pump([gulp.src("src/public/fonts/*"), gulp.dest("build/public/fonts")], cb);
 });
 
 gulp.task("sass", function() {
   return gulp
     .src("src/scss/**/*.scss")
     .pipe(sass())
-    .pipe(gulp.dest("public/css"));
+    .pipe(gulp.dest("build/public/css"));
 });
 
 gulp.task("pug", function buildHTML() {
   return gulp
     .src("src/views/*.pug")
     .pipe(pug())
-    .pipe(gulp.dest(""));
+    .pipe(rename(function (path) {
+        if (path.basename != "index") {
+          path.dirname = path.basename;
+          path.basename = "index";
+        }
+    }))
+    .pipe(gulp.dest("build"));
 });
 
 gulp.task("build", ["img", "sass", "pug", "fonts"], function(cb) {
-  pump([gulp.src("src/public/*.js"), gulp.dest("public/")], cb);
+  pump([gulp.src("src/public/*.js"), gulp.dest("build/public/")], cb);
 });
 
 gulp.task("serve", function() {
   connect.server({
     livereload: true,
     port: 8080,
-    root: ["./"]
+    root: ["./build"]
   });
 });
 

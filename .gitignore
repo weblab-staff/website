@@ -1,5 +1,4 @@
 node_modules/
-public/
 !src/public/
-*.html
 **/.DS_Store
+build

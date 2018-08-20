@@ -22,7 +22,7 @@ mixin carasol_feature()
   
   each feat in features
     .single
-      .image(style='background-image: url("public/img/' + feat.img '\")')
+      .image(style='background-image: url("/public/img/' + feat.img '\")')
       .content
         //- .num= feat.num // I think numbers are ugly :P
         .slug= feat.slug
@@ -66,7 +66,7 @@ mixin feature_project(num)
     }
   
   div.single.feature(class= num)
-    .img(style='background-image: url("public/img/' + features[num].img '\")')
+    .img(style='background-image: url("/public/img/' + features[num].img '\")')
     .quote= features[num].quote
       .detail {
         a(href= features[num].link)= features[num].project 
@@ -92,4 +92,4 @@ mixin sponsors()
   
   each logo in sponsors
     a(href= logo.link, target="new")
-      img.logo(src= 'public/img/sponsors/' + logo.path)
+      img.logo(src= '/public/img/sponsors/' + logo.path)
