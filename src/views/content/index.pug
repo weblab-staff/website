@@ -15,16 +15,16 @@ mixin welcome_blurb()
 mixin carasol_feature()
   -
     var features = [
-      {img: "lecture.jpg", num: "01", slug: "a crash course on web development and design"},
-      {img: "working.jpg", num: "02", slug: "helping beginners build full-fledged websites"},
-      {img: "awards.jpg", num: "03", slug: "may the best website win!"}
+      {img: "lecture.jpg", num: "01", slug: "A crash course on web development and design"},
+      {img: "working.jpg", num: "02", slug: "Helping beginners build full-fledged websites"},
+      {img: "awards.jpg", num: "03", slug: "May the best website win!"}
     ]
   
   each feat in features
     .single
       .image(style='background-image: url("public/img/' + feat.img '\")')
       .content
-        .num= feat.num
+        //- .num= feat.num // I think numbers are ugly :P
         .slug= feat.slug
 
 
