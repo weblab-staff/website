@@ -2,3 +2,4 @@ node_modules/
 !src/public/
 **/.DS_Store
 build
+*.html
