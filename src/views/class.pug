@@ -3,11 +3,12 @@ extends components/layout
 block content
   include content/class.pug
   script(src='/public/scroll.js')
+  .header.container
+    .contained
+      +header()
   .sidebar.container
-      aside.sidebar
-        .content
-          +sidebar()
-      .main
-        .header.section
-          +header()
-        +articles
+    aside.sidebar
+      .content
+        +sidebar()
+    .main
+      +articles

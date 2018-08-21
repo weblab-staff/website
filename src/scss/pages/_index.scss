@@ -5,9 +5,10 @@
 
   &.container {
     color: white;
-    padding-top: 100px;
-    height: calc(76vh - 100px);
-    background-image: url("/public/img/landing_waves.svg");
+    padding-top: 120px;
+    height: calc(76vh - 120px);
+    background-color: $primary-accent;
+    background-image: url("/public/img/lines.svg");
     background-position: center;
     background-size: cover;
 
@@ -55,9 +56,9 @@
 
       .content {
         font-size: 1.5em;
-        line-height: 1;
+        line-height: 1.2em;
         color: $invert-accent;
-        width: 400px;
+        width: 300px;
         position: absolute;
         left: 30px;
         bottom: 30px;
@@ -86,6 +87,8 @@
     color: $primary-text;
     padding-top: 40px;
     padding-bottom: 60px;
+
+    border-bottom: 1px solid $primary-accent;
   }
 
   &.grid {
@@ -162,7 +165,6 @@
   &.container {
     padding-top: 40px;
     padding-bottom: 60px;
-    background-color: $primary-accent;
   }
 
   &.head {
@@ -181,9 +183,9 @@
       margin-bottom: 10px;
       height: 100px;
       transition: filter 0.2s;
-      filter: brightness(9);
+      // filter: brightness(9);
       // filter: sepia(1) hue-rotate(175deg);
-      // filter: grayscale(1) opacity(0.6);
+      filter: grayscale(1) opacity(0.6);
     }
 
     .logo:hover {

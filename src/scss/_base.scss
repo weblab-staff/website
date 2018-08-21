@@ -3,6 +3,7 @@ body {
   font-family: $base-font;
   margin: 0;
   position: relative;
+  background-color: $grey;
 
   // For wireframes
   color: $primary-text;
@@ -49,6 +50,12 @@ a {
   color: $invert-accent;
   padding-top: 100px;
   padding-bottom: 40px;
+
+  h1,
+  h2,
+  h3 {
+    color: $invert-accent;
+  }
 
   .slug {
     font-size: 1.2em;

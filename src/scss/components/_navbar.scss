@@ -4,8 +4,15 @@
   &.container {
     width: 100%;
     max-width: $max-width;
+    border-bottom: 1px solid #efefef;
 
-    position: absolute;
+    position: fixed;
+    z-index: 99;
+
+    &.solid {
+      background-color: $primary-accent;
+      // border: none;
+    }
   }
 
   img {
