@@ -51,9 +51,9 @@ function updateNavSolid() {
 
 window.onload = function() {
   updateProgress();
+};
+
+window.onscroll = function() {
+  updateProgress();
   updateNavSolid();
-  window.onscroll = function() {
-    updateProgress();
-    updateNavSolid();
-  };
 };

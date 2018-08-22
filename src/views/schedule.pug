@@ -1,4 +1,19 @@
 extends components/layout
 
 block content
-  h1 schedule
+  include content/schedule.pug
+  .schedule.header.container
+    .contained
+      +header
+  
+  .milestone.container
+    .contained
+      +milestones
+  
+  .calendar.container
+    .contained
+      +calendar
+  
+  .schedule.container
+    .contained
+      +schedule

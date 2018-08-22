@@ -1,0 +1,55 @@
+.calendar {
+  &.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1px;
+
+    .day {
+      box-shadow: 0 0 0 1px $secondary-accent;
+      padding: 0.2em 0.5em;
+      font-size: 10pt;
+    }
+
+    .day.ofweek {
+      text-align: center;
+      background-color: $secondary-accent;
+      color: $invert-accent;
+    }
+
+    .date {
+      color: $primary-accent;
+      font-size: 0.8em;
+      margin-bottom: 0.5em;
+    }
+
+    .topic {
+      font-style: italic;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+.schedule {
+  .day {
+    border-top: 2px solid $secondary-accent;
+  }
+  .date {
+  }
+  .lec {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 16px 0;
+    border-top: 1px solid $primary-accent;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}

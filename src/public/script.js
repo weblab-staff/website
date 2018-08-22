@@ -39,11 +39,9 @@ function updateNavSolid() {
       : (document.documentElement || document.body.parentNode || document.body)
           .scrollTop;
   var navbar = document.getElementById("navbar");
-  console.log(scrollTop);
 
   if (scrollTop > 10) {
     navbar.classList.add("solid");
-    console.log("jellp");
   } else {
     navbar.classList.remove("solid");
   }
@@ -52,8 +50,7 @@ function updateNavSolid() {
 console.log("hello");
 // When scrolled, make background of header
 window.onload = function() {
-  console.log("hello again");
   cycleFeatures();
-  updateNavSolid();
-  window.onscroll = updateNavSolid;
 };
+
+window.onscroll = updateNavSolid;
