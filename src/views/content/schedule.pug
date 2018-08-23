@@ -22,81 +22,140 @@ mixin milestones()
       |   (jan 30): 
       a() Final submission
 
-//- Calendar for the month
--
-  var start = 1 //- Start day (0 = Sun, 1 = Mon, ...)
-  var calender = {
-    1: {},
-    2: {},
-    3: {},
-    4: {},
-    5: {},
-    6: {},
-    7: {},
-    8: {},
-    9: {},
-    10: {},
-    11: {},
-    12: {},
-    13: {},
-    14: {},
-    15: {},
-    16: {},
-    17: {},
-    18: {},
-    19: {},
-    20: {},
-    21: {},
-    22: {},
-    23: {},
-    24: {},
-    25: {},
-    26: {},
-    27: {},
-    28: {},
-    29: {},
-    30: {},
-    31: {}
-  }
-mixin calendar()
-  h2 calendar
-  .calendar.grid
-    for day in ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-      .day.ofweek= day
-    - var empty = start;
-    while empty > 0
-      .day
-      - empty--
-    - var days = 1;
-    while days < 31
-      .day
-        .date jan #{days}
-        if days == 1
-          .topic What is a Website
-          .lec OH: Environment Setup
-        else if days == 2
-          .topic Git & Javascript
-      - days++
+//- Sidebar generator
+mixin sidebar()
+  ul#sidebar
+    li.select
+      a week 1: 
+      | 1/08 - 1/14
+    li
+      a week 2: 
+      | 1/15 - 1/21
+    li
+      a week 3: 
+      | 1/22 - 1/28
+    li
+      a week 4: 
+      | 1/29 - 2/04
 
 //- Detailed schedule information
+-
+  var start = 1 //- Start day (0 = Sun, 1 = Mon, ...)
+  var calendar = {
+    1: [
+      {
+        type: "lec", 
+        name: "6.148 2018 Kickoff", 
+        who: "Aaron Sipser",
+        when: "11:00AM - 11:30AM", 
+        where: "10-250",
+        links: [
+          {name: "YouTube", link: "https://www.youtube.com/watch?v=DUk2HYt44cM"}, 
+          {name: "Theme Reveal", link: "https://youtu.be/vajvNu_AVD8"}, 
+          {name: "Slides 1", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_kickoff.pdf"}, 
+          {name: "Slides 2", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_ideation.pdf"}
+        ]
+      },
+      {
+        type: "lec",
+        name: "What is a Website?",
+        who: "Aaron Sipser",
+        when: "11:30AM - 12:00PM",
+        where: "10-250"
+      },
+      { type: "block", name: "LUNCH!" },
+      {
+        type: "OH",
+        name: "Environmental Setup Office Hours",
+        when: "07:00PM - 09:00PM",
+        where: "32-044"
+      },
+      {
+        type: "event",
+        name: "Hackathon",
+        when: "07:00PM - 01:00AM",
+        where: "32-044",
+      },
+    ],
+    // 2: [],
+    // 3: [],
+    // 4: [],
+    // 5: [],
+    // 6: [],
+    // 7: [],
+    // 8: [],
+    // 9: [],
+    10: [
+      {
+        type: "milestone",
+        name: "Milestone 0 Due",
+        link: "http://webdevelopment.mit.edu/2018/contest/milestones#m0",
+        where: "N/A",
+        when: "11:59PM"
+      },
+    ],
+    // 11: [],
+    // 12: [],
+    // 13: [],
+    // 14: [],
+    // 15: [],
+    // 16: [],
+    // 17: [],
+    // 18: [],
+    // 19: [],
+    // 20: [],
+    // 21: [],
+    // 22: [],
+    // 23: [],
+    // 24: [],
+    // 25: [],
+    // 26: [],
+    // 27: [],
+    // 28: [],
+    // 29: [],
+    // 30: [],
+    // 31: [],
+  }
+  
 mixin schedule()
-  h2 schedule
-  - var days = 1;
-  while days < 31
-    .day
-      h3.date january #{days}
-      .lec
-        .time 11:00AM - 11:30AM
-        .name 6.148 2018 Kickoff
-          .lecturer Lecturer: Aaron Sipser
-        .room 10-250
-        ul.resources
-          li 
-            a Youtube
-          li 
-            a Slides
-      .lec
-        .time 07:00PM - 09:00PM
-        .name Environmental Setup Office Hours
-        .room 32-044
-      - days ++
+  -
+    var thisday = 1;
+    var oftheweek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    
+  while thisday < 31
+    if thisday in calendar
+      .day
+        h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
+        for event in calendar[thisday]
+          if event.type == "lec"
+            .lec
+              +event_details(event)
+          else if event.type == "OH"
+            .oh
+              +event_details(event)
+          else if event.type == "event"
+            .event 
+              +event_details(event)
+          else if event.type == "block"
+            .block= event.name
+          else if event.type == "milestone"
+            .milestone
+              .time= event.when
+              .name= event.name
+              .room= event.where
+              a(href= event.link) Details
+    - thisday ++
+
+
+//- Helper for schedule()
+mixin event_details(event)
+  .time= event.when
+  .name= event.name
+    if event.who != undefined
+      .lecturer Lecturer: #{event.who}
+  .room= event.where
+  if event.links
+    ul.resources
+      for resource in event.links
+        li
+          a(href=resource.link)= resource.name

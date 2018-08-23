@@ -1,6 +1,10 @@
 .navbar {
   color: $invert-accent;
 
+  a {
+    color: $invert-accent;
+  }
+
   &.container {
     width: 100%;
     max-width: $max-width;

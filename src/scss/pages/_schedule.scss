@@ -1,52 +1,128 @@
-.calendar {
-  &.container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  &.grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 1px;
-
-    .day {
-      box-shadow: 0 0 0 1px $secondary-accent;
-      padding: 0.2em 0.5em;
-      font-size: 10pt;
-    }
-
-    .day.ofweek {
-      text-align: center;
-      background-color: $secondary-accent;
-      color: $invert-accent;
-    }
-
-    .date {
-      color: $primary-accent;
-      font-size: 0.8em;
-      margin-bottom: 0.5em;
-    }
-
-    .topic {
-      font-style: italic;
-      margin-bottom: 0.25em;
-    }
-  }
-}
+$event-color: #fb8b24;
+$oh-color: #f2bb05;
+$block-color: #bbb;
+$mile-color: #c60300;
 
 .schedule {
+  &.sidebar.container {
+    margin-bottom: 40px;
+
+    ul {
+      padding-top: 20px;
+    }
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 12px;
+
+    button {
+      height: 3em;
+    }
+  }
+  .filters.box {
+    display: flex;
+    align-items: center;
+
+    .filter {
+      font-size: 1.1em;
+      margin-right: 10px;
+    }
+
+    #lecture-filter {
+      border-color: $primary-accent;
+      background-color: $primary-accent;
+      &.off {
+        color: $primary-accent;
+        background-color: transparent;
+      }
+    }
+    #oh-filter {
+      border-color: $oh-color;
+      background-color: $oh-color;
+      &.off {
+        color: $oh-color;
+        background-color: transparent;
+      }
+    }
+    #event-filter {
+      border-color: $event-color;
+      background-color: $event-color;
+      &.off {
+        color: $event-color;
+        background-color: transparent;
+      }
+    }
+    #mile-filter {
+      border-color: $mile-color;
+      background-color: $mile-color;
+      &.off {
+        color: $mile-color;
+        background-color: transparent;
+      }
+    }
+
+    .switch {
+      border: 1px solid $primary-accent;
+      background-color: $primary-accent;
+      color: $invert-accent;
+      cursor: pointer;
+      font-family: $header-font;
+      font-size: 0.8em;
+      padding: 0.5em 1.5em;
+      margin: 0.5em 10px 0.5em 0;
+
+      &.off {
+        color: $primary-accent;
+        background-color: transparent;
+      }
+    }
+  }
+
   .day {
-    border-top: 2px solid $secondary-accent;
+    border-top: 2px solid $primary-accent;
   }
-  .date {
-  }
-  .lec {
+  .lec,
+  .oh,
+  .event,
+  .milestone {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr 1fr;
     grid-gap: 20px;
-    padding: 16px 0;
+    padding: 16px 10px;
     border-top: 1px solid $primary-accent;
+
+    .time,
+    .room {
+      color: rgba($primary-text, 0.5);
+    }
+    .lecturer {
+      font-size: 0.8em;
+      color: $primary-text;
+    }
+    .name {
+      font-weight: 600;
+      color: $primary-accent;
+    }
   }
+  .oh {
+    background-color: rgba($oh-color, 0.3);
+  }
+  .event {
+    background-color: rgba($event-color, 0.3);
+  }
+  .milestone {
+    background-color: rgba($mile-color, 0.3);
+  }
+  .block {
+    padding: 16px 0;
+    text-align: center;
+    border-top: 1px solid $primary-accent;
+    background-color: rgba($block-color, 0.5);
+  }
+
   ul {
     list-style-type: none;
     padding: 0;

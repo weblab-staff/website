@@ -47,6 +47,10 @@ function updateNavSolid() {
   }
 }
 
+function flipSwitch(filter) {
+  document.getElementById(`${filter}-filter`).classList.toggle("off");
+}
+
 console.log("hello");
 // When scrolled, make background of header
 window.onload = function() {

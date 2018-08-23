@@ -26,7 +26,12 @@ h3 {
 }
 
 a {
-  color: inherit;
+  color: $secondary-accent;
+  cursor: pointer;
+}
+
+a:hover {
+  color: darken($secondary-accent, 15);
 }
 
 .title {

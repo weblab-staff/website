@@ -10,10 +10,20 @@ block content
     .contained
       +milestones
   
-  .calendar.container
-    .contained
-      +calendar
-  
   .schedule.container
     .contained
+      h2 schedule
+      .head
+        .filters.box
+          .filter filtering by:
+          #lecture-filter.switch(onclick="flipSwitch('lecture')") lectures
+          #oh-filter.switch(onclick="flipSwitch('oh')") office hours
+          #event-filter.switch(onclick="flipSwitch('event')") events
+          #mile-filter.switch(onclick="flipSwitch('mile')") milestones
+        button export
+  .schedule.sidebar.container
+    aside.sidebar
+      .content
+        +sidebar
+    .main
       +schedule
