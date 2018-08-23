@@ -34,6 +34,10 @@ a:hover {
   color: darken($secondary-accent, 20);
 }
 
+.header a {
+  color: $invert-accent;
+}
+
 .title {
   font-family: $header-font;
   font-weight: 500;
