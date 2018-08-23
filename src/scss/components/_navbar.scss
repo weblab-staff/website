@@ -11,6 +11,7 @@
     border-bottom: 1px solid #efefef;
 
     position: fixed;
+    top: 0;
     z-index: 99;
 
     &.solid {
@@ -25,7 +26,7 @@
   }
 
   .right {
-    font-size: 22px;
+    font-size: 26px;
 
     a {
       display: flex;
@@ -36,6 +37,7 @@
   .contained {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 16px;
     padding-bottom: 14px;
   }
@@ -49,8 +51,10 @@
   }
 
   .left {
+    font-size: 14pt;
+
     .link {
-      margin-left: 18px;
+      margin-left: 22px;
     }
   }
 }

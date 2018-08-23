@@ -17,6 +17,10 @@
       grid-template-columns: 460px 360px;
       grid-gap: 80px;
     }
+
+    a {
+      color: $invert-accent;
+    }
   }
 
   &.carasol {

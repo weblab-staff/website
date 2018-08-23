@@ -1,8 +1,11 @@
 extends components/layout
 
+block config
+  - var page_title = "Schedule"
+
 block content
   include content/schedule.pug
-  .schedule.header.container
+  .header.container
     .contained
       +header
   
@@ -15,11 +18,11 @@ block content
       h2 schedule
       .head
         .filters.box
-          .filter filtering by:
-          #lecture-filter.switch(onclick="flipSwitch('lecture')") lectures
+          .filter show
+          #lec-filter.switch(onclick="flipSwitch('lec')") lectures
           #oh-filter.switch(onclick="flipSwitch('oh')") office hours
           #event-filter.switch(onclick="flipSwitch('event')") events
-          #mile-filter.switch(onclick="flipSwitch('mile')") milestones
+          #milestone-filter.switch(onclick="flipSwitch('milestone')") milestones
         button export
   .schedule.sidebar.container
     aside.sidebar

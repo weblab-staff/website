@@ -22,27 +22,11 @@ mixin milestones()
       |   (jan 30): 
       a() Final submission
 
-//- Sidebar generator
-mixin sidebar()
-  ul#sidebar
-    li.select
-      a week 1: 
-      | 1/08 - 1/14
-    li
-      a week 2: 
-      | 1/15 - 1/21
-    li
-      a week 3: 
-      | 1/22 - 1/28
-    li
-      a week 4: 
-      | 1/29 - 2/04
-
-//- Detailed schedule information
+//- Detailed schedule information set here
 -
   var start = 1 //- Start day (0 = Sun, 1 = Mon, ...)
   var calendar = {
-    1: [
+    6: [
       {
         type: "lec", 
         name: "6.148 2018 Kickoff", 
@@ -65,7 +49,7 @@ mixin sidebar()
       },
       { type: "block", name: "LUNCH!" },
       {
-        type: "OH",
+        type: "oh",
         name: "Environmental Setup Office Hours",
         when: "07:00PM - 09:00PM",
         where: "32-044"
@@ -77,14 +61,6 @@ mixin sidebar()
         where: "32-044",
       },
     ],
-    // 2: [],
-    // 3: [],
-    // 4: [],
-    // 5: [],
-    // 6: [],
-    // 7: [],
-    // 8: [],
-    // 9: [],
     10: [
       {
         type: "milestone",
@@ -94,43 +70,60 @@ mixin sidebar()
         when: "11:59PM"
       },
     ],
-    // 11: [],
-    // 12: [],
-    // 13: [],
-    // 14: [],
-    // 15: [],
-    // 16: [],
-    // 17: [],
-    // 18: [],
-    // 19: [],
-    // 20: [],
-    // 21: [],
-    // 22: [],
-    // 23: [],
-    // 24: [],
-    // 25: [],
-    // 26: [],
-    // 27: [],
-    // 28: [],
-    // 29: [],
-    // 30: [],
-    // 31: [],
   }
-  
+  // TODO: Check start and end date info
+  var weeks = [[7 - start, 13 - start], 
+              [14 - start, 20 - start], 
+              [21 - start, 27 - start], 
+              [28 - start, 34 - start - 31]]
+
+//- Sidebar generator
+  Does not need to be edited
+mixin sidebar()
+  ul#sidebar
+    li.select
+      a(href="#weekone") week 1: 
+      | 1/#{weeks[0][0]} - 1/#{weeks[0][1]}
+    li
+      a(href="#weektwo") week 2: 
+      | 1/#{weeks[1][0]} - 1/#{weeks[1][1]}
+    li
+      a(href="#weekthree") week 3: 
+      | 1/#{weeks[2][0]} - 1/#{weeks[2][1]}
+    li
+      a(href="#weekfour") week 4: 
+      | 1/#{weeks[3][0]} - 2/#{weeks[3][1]}
+
+
+//- Schedule generator
+  Does not need to be edited
 mixin schedule()
   -
     var thisday = 1;
     var oftheweek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
     
   while thisday < 31
+    if thisday == weeks[0][0]
+      #weekone
+    else if thisday == weeks[1][0]
+      #weektwo
+    else if thisday == weeks[2][0]
+      #weekthree
+    else if thisday == weeks[3][0]
+      #weekfour
+
     if thisday in calendar
-      .day
+      - var types = ""
+      for ev in calendar[thisday]
+        if !types.includes(ev.type)
+          - types += `${ev.type} `
+      .day(class= types)
         h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
         for event in calendar[thisday]
           if event.type == "lec"
             .lec
               +event_details(event)
-          else if event.type == "OH"
+          else if event.type == "oh"
             .oh
               +event_details(event)
           else if event.type == "event"
