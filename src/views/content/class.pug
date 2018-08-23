@@ -10,9 +10,22 @@ mixin header()
 mixin sidebar()
   ul#sidebar
     li.select.head#head_mark the class
-    li#eligible_mark who is eligible
+    li#summary_mark
+      a(href="#summary") what you'll learn
+    li#structure_mark
+      a(href="#summary") class structure
+    li#milestone_mark
+      a(href="#milestone") milestones
+    li#resources_mark
+      a(href="#resources") resources
 
 //- Call article sections here
 mixin articles()
-  article.section#eligible
-    include:markdown-it(html=true) contest/who_is_eligible.md
+  article.section#summary
+    h1 what you'll learn
+  article.section#structure
+    h1 class structure
+  article.section#milestone
+    h1 milestones
+  article.section#resources
+    h1 resources

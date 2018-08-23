@@ -1,6 +1,6 @@
 //- Content on contest.pug
 - 
-  var start_dev_date = "Monday, January 8, 2018 at 11AM"
+  var start_dev_date = "Monday, January 6, 2018 at 11AM"
 
 //- About this page
 mixin header()
@@ -19,6 +19,12 @@ mixin sidebar()
       a(href="#eligible") who is eligible
     li#rules_mark 
       a(href="#rules") contest rules
+    li#milestones_mark 
+      a(href="#milestones") milestones
+    li#prizes_mark 
+      a(href="#prizes") prizes
+    li#judging_mark 
+      a(href="#judging") judging
 
 //- Article: Contest Rules
 mixin rules_article()
@@ -55,6 +61,47 @@ mixin rules_article()
         p 
           strong 3rd party data access. 
           | Your system uses another application's publicly accessible API to access and return data on the fly. You must declare all 3rd-party APIs that you use. If you go this route, you should use a database as a cache and fallback mechanism for the API requests. You will be disqualified if your application malfunctions after the submission deadline as a result of a broken 3rd party API.
+    
+    .num 04.
+    .rule
+      | Your site must contain some nontrivial frontend feature. At a high level, this means that your site cannot simply consist of pages returned by the server, but rather must support some sort of dynamic user interaction. Here are 
+      span.link(onclick="showDetail('rulefour')") some suggestions
+      #rulefour.details
+        p
+          strong Data visualization. 
+          | Your application presents data in a visual manner that enhances the users' understanding of the data. The visualization should highlight some feature of the data that isn't obvious or trivial. The user must be able to influence which data gets displayed in the visualizations. You are allowed to use a pre-existing implementation for your visualization, like a jQueryUI widget, provided that it fits with your application. Remember that all widgets and libraries must be cited.
+        p
+          strong Dynamic filtering. 
+          | Your application shows a small (< 10%) subset of data which is most relevant to the user at the moment, or ranks the data such that the most relevant items are shown first. The subset and/or the ordering of the data must change in response to the user's actions. Three examples that would fulfill this requirement are full-text search, criteria-based search, and a "recommended for you" section. For the latter, you will have to convince us that the contents changes based on user actions.
+        p 
+          strong Asynchronous viewing/modification of data. 
+          | After your application is loaded, future additions, modifications, or deletions are done asynchronously (without a new page load). A "single-page app" that contains significant functionality implemented via asynchronous calls to your server would satisfy this requirement.
+    
+    .num 05.
+    .rule
+      | Teams must use version control and host source code on 
+      a(href="http://github.com/") Github
+      |. Our staff will create repositories for every team as well as teach how to use Github.
+    
+    .num 06.
+    .rule
+      | Your site must work in either Chrome or Firefox. Teams will be able to specify browser of choice.
+    
+    .num 07.
+    .rule
+      | Teams must comply with US laws and MIT academic policy and integrity policies. You can read 
+      span.link(onclick="showDetail('rulefive')") more details about these policies
+      #rulefive.details
+        p
+          strong Plagiarism. 
+          | We will ask you to name all your team members and list all the 3rd party data, code, and media that you have used. Please keep careful track of your sources, just like you would for any other course, and include a citation of ALL sources used. This includes, but is not limited to, the use of: 3rd party libraries, code distributed by the staff, code snippets shared on Piazza, and code snippets found on StackOverflow or other forums. For all components of your application that are not your own, include a citation in the README of your repository. Additionally, for code snippets pasted (with or without modification) into your source code, include a brief citation or link to the origin of the code as a comment in the code itself. Plagiarism may result in disqualification, a failing grade, and referral to MIT's Committee of Discipline.
+        p
+          strong Third-party code/data/media. 
+          | Any code or content that is not your own must be public available at no cost through legal means. This includes content such as images, fonts, and stylesheets. All such code and content must be cited in your repository's README (see Plagiarism section above). You may not use any code that you wrote before January 9, 2018, unless it was publicly released.
+        p
+          strong Straight-forward evil. 
+          | Do not spam or host malware. Do not encourage or assist users in breaking non-disclosure agreements or infringing copyright. Your site must not provide a haven for discussion or sharing of topics violating relevant local, state, and Federal laws, including copyright law. Do not abuse MIT's infrastructure or databases. Do not interfere with other contestants' development process.
+
 
 //- Call article sections here
   NOTE: `ARTICLE` ids are crucial to the sidebar
@@ -63,3 +110,9 @@ mixin articles()
     include:markdown-it(html=true) contest/who_is_eligible.md
   article.section#rules
     +rules_article
+  article.section#milestones
+    h1 milestones
+  article.section#prizes
+    h1 prizes
+  article.section#judging
+    h1 judging
