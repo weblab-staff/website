@@ -5,11 +5,18 @@
     &.sidebar {
       margin-top: 0;
       margin-bottom: 80px;
+      grid-gap: 30px;
 
       ul#sidebar {
         padding-top: 20px;
       }
     }
+  }
+
+  &.header {
+    margin: 0;
+    padding-top: 82px;
+    padding-bottom: 22px;
   }
 
   .head {
@@ -93,10 +100,10 @@
     .event,
     .milestone {
       display: grid;
-      grid-template-columns: 1fr 4fr 1fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr 1fr;
       grid-gap: 20px;
       padding: 16px 10px;
-      border-top: 1px solid $primary-accent;
+      border-top: 1px solid rgba($primary-text, 0.5);
 
       .time,
       .room {
@@ -111,20 +118,44 @@
         color: $primary-accent;
       }
     }
-    .oh {
+    .oh span {
       background-color: rgba($oh-color, 0.3);
+      // background-color: $oh-color;
+      // color: $invert-accent;
+      // font-weight: 400;
+      // color: $oh-color;
     }
-    .event {
+    .event span {
       background-color: rgba($event-color, 0.3);
+      // background-color: $event-color;
+      // color: $invert-accent;
+      // font-weight: 400;
+      // color: $event-color;
     }
-    .milestone {
+    .milestone span {
       background-color: rgba($mile-color, 0.3);
+      // background-color: $mile-color;
+      // color: $invert-accent;
+      // font-weight: 400;
+      // color: $mile-color;
     }
     .block {
       padding: 16px 0;
       text-align: center;
-      border-top: 1px solid $primary-accent;
+      border-top: 1px solid rgba($primary-text, 0.5);
       background-color: rgba($block-color, 0.5);
+    }
+
+    a {
+      color: $primary-accent;
+
+      &:hover {
+        color: darken($primary-accent, 10);
+      }
+    }
+
+    i {
+      margin-right: 10px;
     }
   }
 

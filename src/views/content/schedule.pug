@@ -34,10 +34,10 @@ mixin milestones()
         when: "11:00AM - 11:30AM", 
         where: "10-250",
         links: [
-          {name: "YouTube", link: "https://www.youtube.com/watch?v=DUk2HYt44cM"}, 
-          {name: "Theme Reveal", link: "https://youtu.be/vajvNu_AVD8"}, 
-          {name: "Slides 1", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_kickoff.pdf"}, 
-          {name: "Slides 2", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_ideation.pdf"}
+          {type: "youtube", name: "YouTube", link: "https://www.youtube.com/watch?v=DUk2HYt44cM"}, 
+          // {name: "Theme Reveal", link: "https://youtu.be/vajvNu_AVD8"}, 
+          {type: "pdf", name: "Slides 1", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_kickoff.pdf"}, 
+          {type: "pdf", name: "Slides 2", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_ideation.pdf"}
         ]
       },
       {
@@ -134,21 +134,26 @@ mixin schedule()
           else if event.type == "milestone"
             .milestone
               .time= event.when
-              .name= event.name
+              .name
+                span= event.name
               .room= event.where
-              a(href= event.link) Details
+              a(href= event.link) <i class="fas fa-info"></i>
     - thisday ++
 
 
 //- Helper for schedule()
 mixin event_details(event)
   .time= event.when
-  .name= event.name
+  .name
+    span= event.name
     if event.who != undefined
       .lecturer Lecturer: #{event.who}
   .room= event.where
   if event.links
-    ul.resources
+    .resources
       for resource in event.links
-        li
-          a(href=resource.link)= resource.name
+        a(href=resource.link)
+          if resource.type == "youtube"
+            <i class="fab fa-youtube"></i>
+          else if resource.type == "pdf"
+            <i class="far fa-file-pdf"></i>
