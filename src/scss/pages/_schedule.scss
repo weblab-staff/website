@@ -4,12 +4,15 @@
 
     &.sidebar {
       margin-top: 0;
-      margin-bottom: 80px;
       grid-gap: 30px;
 
       ul#sidebar {
         padding-top: 20px;
       }
+    }
+
+    .main {
+      padding-bottom: 20px;
     }
   }
 
@@ -24,6 +27,7 @@
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 12px;
+    margin-top: 10px;
 
     button {
       height: 3em;
@@ -32,12 +36,6 @@
   .filters.box {
     display: flex;
     align-items: center;
-
-    .filter {
-      margin-top: 1em;
-      font-size: 1.1em;
-      margin-right: 10px;
-    }
 
     #lec-filter {
       border-color: $primary-accent;
@@ -96,6 +94,10 @@
   .day {
     border-top: 2px solid $primary-accent;
 
+    .date {
+      color: $primary-text;
+    }
+
     .lec,
     .oh,
     .event,
@@ -112,7 +114,7 @@
       }
       .lecturer {
         font-size: 0.8em;
-        color: $primary-text;
+        color: rgba($primary-text, 0.5);
       }
       .name {
         font-weight: 600;
@@ -120,24 +122,12 @@
       }
     }
     .oh span {
-      // background-color: rgba($oh-color, 0.3);
-      // background-color: $oh-color;
-      // color: $invert-accent;
-      // font-weight: 400;
       color: $oh-color;
     }
     .event span {
-      // background-color: rgba($event-color, 0.3);
-      // background-color: $event-color;
-      // color: $invert-accent;
-      // font-weight: 400;
       color: $event-color;
     }
     .milestone span {
-      // background-color: rgba($mile-color, 0.3);
-      // background-color: $mile-color;
-      // color: $invert-accent;
-      // font-weight: 400;
       color: $mile-color;
     }
     .block {
@@ -157,6 +147,7 @@
 
     i {
       margin-right: 10px;
+      font-size: 14pt;
     }
   }
 
