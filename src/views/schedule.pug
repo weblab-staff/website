@@ -9,24 +9,24 @@ block content
     .contained
       +header
   
-  .milestone.container
-    .contained
-      +milestones
+  //- .milestone.container
+  //-   .contained
+  //-     +milestones
   
-  .schedule.container
-    .contained
-      h2 schedule
-      .head
-        .filters.box
-          .filter show
-          #lec-filter.switch(onclick="flipSwitch('lec')") lectures
-          #oh-filter.switch(onclick="flipSwitch('oh')") office hours
-          #event-filter.switch(onclick="flipSwitch('event')") events
-          #milestone-filter.switch(onclick="flipSwitch('milestone')") milestones
-        button export
+  //- .schedule.container
+  //-   .contained
+      //- h2 schedule
   .schedule.sidebar.container
     aside.sidebar
       .content
         +sidebar
     .main
+      .head
+        .filters.box
+          //- .filter
+          #lec-filter.switch(onclick="flipSwitch('lec')") lectures
+          #oh-filter.switch(onclick="flipSwitch('oh')") office hours
+          #event-filter.switch(onclick="flipSwitch('event')") events
+          #milestone-filter.switch(onclick="flipSwitch('milestone')") milestones
+        button export
       +schedule

@@ -3,6 +3,10 @@
 
   a {
     color: $invert-accent;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &.container {
