@@ -115,7 +115,7 @@ mixin schedule()
     if thisday in calendar
       - var types = ""
       for ev in calendar[thisday]
-        if !types.includes(ev.type)
+        if !types.includes(ev.type) && ev.type != "block"
           - types += `${ev.type} `
       .day(class= types)
         h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
