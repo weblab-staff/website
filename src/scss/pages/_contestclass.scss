@@ -1,0 +1,13 @@
+.header {
+  &.contest {
+    background-size: cover;
+    background-position: center;
+    background-image: url("/public/img/banner/contest-banner.png");
+  }
+
+  &.class {
+    background-size: cover;
+    background-position: center;
+    background-image: url("/public/img/banner/class-banner.png");
+  }
+}

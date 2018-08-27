@@ -56,9 +56,79 @@
 
   .left {
     font-size: 14pt;
+  }
 
-    .link {
-      margin-left: 22px;
+  .link {
+    margin-left: 22px;
+  }
+
+  // Only display hamburger menu options on mobile
+  .menu-toggle,
+  .menu-close {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .navbar {
+    .menu-toggle {
+      display: block;
+    }
+
+    .menu-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 40px;
+
+      &:hover {
+        color: $secondary-accent;
+      }
+    }
+
+    .main-menu {
+      position: absolute;
+      right: -100vw;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow-y: scroll;
+      overflow-x: visible;
+      padding-top: 70px;
+      transition: right 0.3s ease, box-shadow 0.3s ease;
+      z-index: 999;
+
+      .link {
+        font-size: 20pt;
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+        margin: 0;
+
+        &:hover {
+          text-decoration: none;
+          background-color: $primary-accent;
+        }
+      }
+
+      &:target,
+      &[aria-expanded="true"] {
+        left: 0;
+        outline: none;
+
+        & + .backdrop {
+          position: absolute;
+          display: block;
+          content: "";
+          left: 0;
+          top: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 998;
+          background: $primary-text;
+          cursor: default;
+        }
+      }
     }
   }
 }

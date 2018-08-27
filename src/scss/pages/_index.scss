@@ -7,6 +7,7 @@
     color: white;
     padding-top: 120px;
     height: calc(76vh - 120px);
+    max-height: 470px;
     background-color: $primary-accent;
     background-image: url("/public/img/lines.svg");
     background-position: center;
@@ -14,8 +15,8 @@
 
     .contained {
       display: grid;
-      grid-template-columns: 460px 360px;
-      grid-gap: 80px;
+      grid-template-columns: minmax(25%, 460px) 400px;
+      grid-gap: 60px;
     }
 
     a {
@@ -24,7 +25,7 @@
   }
 
   &.carasol {
-    width: 460px;
+    width: inherit;
     height: 400px;
     // transform: translate(30px, 0);
     // box-shadow: -30px 30px 0 0 $secondary-accent;
@@ -77,7 +78,9 @@
 
   &.info {
     margin-top: 30%;
-    width: 400px;
+    max-width: 400px;
+    width: calc(100% - 80px);
+    overflow: wrap;
   }
 
   &.blurb {
@@ -199,5 +202,66 @@
 
   h2.title {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .landing {
+    &.container {
+      height: auto;
+      max-height: none;
+
+      .contained {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-gap: 40px;
+      }
+    }
+
+    &.info {
+      padding: 0 40px;
+      grid-row-start: 1;
+      margin: 0;
+    }
+
+    &.carasol {
+      grid-row-start: 2;
+
+      .single,
+      .single .image {
+        width: 100vw;
+      }
+    }
+  }
+
+  .feature.projects {
+    &.grid {
+      grid-template-columns: 1fr;
+    }
+
+    .right.col {
+      grid-template-rows: repeat(2, 240px);
+    }
+
+    .left.col {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 240px);
+    }
+
+    .single.feature {
+      &.five {
+        grid-column-end: 2;
+      }
+    }
+  }
+
+  .sponsors {
+    &.head {
+      display: block;
+    }
+    &.grid {
+      justify-content: center;
+    }
   }
 }
