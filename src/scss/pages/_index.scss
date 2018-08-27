@@ -227,10 +227,12 @@
 
     &.carasol {
       grid-row-start: 2;
+      height: 300px;
 
       .single,
       .single .image {
         width: 100vw;
+        height: 300px;
       }
     }
   }
