@@ -50,3 +50,20 @@
     }
   }
 }
+
+@media screen and (max-width: 730px) {
+  .sidebar.container {
+    grid-gap: 0 !important;
+    grid-template-columns: 0 1fr;
+
+    .content {
+      overflow: hidden;
+    }
+  }
+
+  .main article {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
