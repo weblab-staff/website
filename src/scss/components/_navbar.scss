@@ -72,7 +72,7 @@
 
 // Credit : https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793
 @media screen and (max-width: 730px) {
-  $nav-width: 100vw;
+  $nav-width: 300px;
 
   .navbar {
     .menu-toggle {
@@ -107,6 +107,59 @@
         font-size: 18pt;
         display: block;
         padding: 20px 0 20px 60px;
+        margin: 0;
+
+        &:hover {
+          text-decoration: none;
+          background-color: $primary-accent;
+        }
+      }
+
+      &:target,
+      &[aria-expanded="true"] {
+        right: 0;
+        outline: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  $nav-width: 100vw;
+
+  .navbar {
+    .menu-toggle {
+      display: block;
+    }
+
+    .menu-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 40px;
+
+      &:hover {
+        color: $secondary-accent;
+      }
+    }
+
+    .main-menu {
+      position: absolute;
+      right: -$nav-width;
+      top: 0;
+      width: $nav-width;
+      height: 100vh;
+      overflow-y: scroll;
+      overflow-x: visible;
+      padding-top: 70px;
+      z-index: 999;
+      transition: right 0.3s ease;
+      background: $primary-text;
+
+      .link {
+        font-size: 18pt;
+        display: block;
+        padding: 20px 0;
         text-align: center;
         margin: 0;
 
