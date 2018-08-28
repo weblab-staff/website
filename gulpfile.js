@@ -4,6 +4,7 @@ var sass = require("gulp-sass");
 var pug = require("gulp-pug");
 var rename = require("gulp-rename");
 var connect = require("gulp-connect");
+var calendar = require("./scripts/generate_calendar.js");
 
 gulp.task("img", function(cb) {
   pump([gulp.src("src/public/img/**/*"), gulp.dest("build/public/img")], cb);
@@ -20,10 +21,13 @@ gulp.task("sass", function() {
     .pipe(gulp.dest("build/public/css"));
 });
 
-gulp.task("pug", function buildHTML() {
+gulp.task("pug", function () {
   return gulp
     .src("src/views/*.pug")
-    .pipe(pug())
+    .pipe(pug({
+      // allow imports in pug files via 'require'
+      locals: {require : require}
+    }))
     .pipe(rename(function (path) {
         if (path.basename != "index") {
           path.dirname = path.basename;
@@ -31,6 +35,10 @@ gulp.task("pug", function buildHTML() {
         }
     }))
     .pipe(gulp.dest("build"));
+});
+
+gulp.task("calendar", function () {
+  calendar.generate();
 });
 
 gulp.task("build", ["img", "sass", "pug", "fonts"], function(cb) {
@@ -52,4 +60,4 @@ gulp.task("stream", ["build", "serve"], function(cb) {
   gulp.watch("src/views/**/*.pug", ["build"]);
 });
 
-gulp.task("default", ["build"]);
+gulp.task("default", ["build", "calendar"]);
