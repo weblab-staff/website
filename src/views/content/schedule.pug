@@ -25,54 +25,8 @@ mixin milestones()
 //- Detailed schedule information set here
 -
   var start = 2 //- Start day (0 = Sun, 1 = Mon, ...)
-  const calendar = require('./src/views/content/schedule.json');
-  /*{
-    6: [
-      {
-        type: "lec", 
-        name: "6.148 2018 Kickoff", 
-        who: "Aaron Sipser",
-        when: "11:00AM - 11:30AM", 
-        where: "10-250",
-        links: [
-          {type: "youtube", name: "YouTube", link: "https://www.youtube.com/watch?v=DUk2HYt44cM"}, 
-          // {name: "Theme Reveal", link: "https://youtu.be/vajvNu_AVD8"}, 
-          {type: "pdf", name: "Slides 1", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_kickoff.pdf"}, 
-          {type: "pdf", name: "Slides 2", link: "http://webdevelopment.mit.edu/2018/pages/lectures/WEBday1_ideation.pdf"}
-        ]
-      },
-      {
-        type: "lec",
-        name: "What is a Website?",
-        who: "Aaron Sipser",
-        when: "11:30AM - 12:00PM",
-        where: "10-250"
-      },
-      { type: "block", name: "LUNCH!" },
-      {
-        type: "oh",
-        name: "Environmental Setup Office Hours",
-        when: "07:00PM - 09:00PM",
-        where: "32-044"
-      },
-      {
-        type: "event",
-        name: "Hackathon",
-        when: "07:00PM - 01:00AM",
-        where: "32-044",
-      },
-    ],
-    10: [
-      {
-        type: "milestone",
-        name: "Milestone 0 Due",
-        link: "http://webdevelopment.mit.edu/2018/contest/milestones#m0",
-        where: "N/A",
-        when: "11:59PM"
-      },
-    ],
-  }*/
-  
+  const calendar = require('./src/views/content/calendar.json');
+
   // TODO: Check start and end date info
   var weeks = [[7 - start, 13 - start], 
               [14 - start, 20 - start], 
@@ -122,24 +76,11 @@ mixin schedule()
       .day(class= types)
         h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
         for event in calendar[thisday]
-          if event.type == "lec"
-            .lec
-              +event_details(event)
-          else if event.type == "oh"
-            .oh
-              +event_details(event)
-          else if event.type == "event"
-            .event 
-              +event_details(event)
-          else if event.type == "block"
+          if event.type == "block"
             .block= event.name
-          else if event.type == "milestone"
-            .milestone
-              .time= event.when
-              .name
-                span= event.name
-              .room= event.where
-              a(href= event.link) <i class="fas fa-info"></i>
+          else
+            div(class=event.type)
+              +event_details(event)
     - thisday ++
 
 
@@ -159,3 +100,5 @@ mixin event_details(event)
             <i class="fab fa-youtube"></i>
           else if resource.type == "pdf"
             <i class="far fa-file-pdf"></i>
+          else if resource.type == "info"
+            <i class="fas fa-info"></i>

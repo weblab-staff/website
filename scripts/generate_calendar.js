@@ -45,14 +45,50 @@ var exports = {
             time = getTime(start) + ' - ' + getTime(end);
           }
 
+          let who;
+          let links = [];
+          if (ev.description) {
+            for (line of ev.description.split('\n')) {
+              let split = line.split(':');
+              if (split.length == 1) {
+                who = line; // assume line without colon is the lecturer
+              } else {
+                let type = 'info';
+                if (split[0].toLowerCase().indexOf('youtube') > -1) {
+                  type = 'youtube';
+                } else if (split[0].toLowerCase().indexOf('slides') > -1) {
+                  type = 'pdf';
+                }
+
+                links.push({
+                  type: type,
+                  name: split[0].trim(),
+                  link: split.slice(1).join(':').trim()
+                });
+              }
+            }
+          }
+
+          // this block is going to change when we figure out a better way to set type
+          let type = 'event';
+          if (ev.start.date) {
+            type = 'milestone'; //assume all 'full-day' things are milestones
+          } else if (ev.summary.toLowerCase().indexOf('lunch') > -1) {
+            type = 'block';
+          } else if (ev.summary.toLowerCase().indexOf('office hours') > -1) {
+            type = 'oh';
+          } else if (ev.description && ev.description.split('\n')[0].indexOf(':') == -1) {
+            type = 'lec'; //sketchy temporary check: there is a lecturer on the first line
+          }
+
           let entry = {
-            type: 'lec',
+            type: type,
             name: ev.summary,
-            who: ev.description,
+            who: who,
             when: time,
             where: ev.location,
             timestamp: start, // js-friendly time for sorting purposes
-            links: []
+            links: links
           }
 
           if (day in output) {
@@ -63,7 +99,7 @@ var exports = {
           }
         }
 
-        fs.writeFileSync(__dirname + '/../src/views/content/schedule.json', JSON.stringify(output));
+        fs.writeFileSync(__dirname + '/../src/views/content/calendar.json', JSON.stringify(output));
       });
     });
   }

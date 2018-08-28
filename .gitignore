@@ -3,5 +3,4 @@ node_modules/
 **/.DS_Store
 build
 *.html
-config.json
-src/views/content/schedule.json
+src/views/content/calendar.json

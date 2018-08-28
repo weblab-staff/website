@@ -60,4 +60,4 @@ gulp.task("stream", ["build", "serve"], function(cb) {
   gulp.watch("src/views/**/*.pug", ["build"]);
 });
 
-gulp.task("default", ["build", "calendar"]);
+gulp.task("default", ["build"]);
