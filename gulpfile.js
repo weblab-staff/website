@@ -21,7 +21,7 @@ gulp.task("sass", function() {
     .pipe(gulp.dest("build/public/css"));
 });
 
-gulp.task("pug", function () {
+gulp.task("pug", ["calendar"], function () {
   return gulp
     .src("src/views/*.pug")
     .pipe(pug({
