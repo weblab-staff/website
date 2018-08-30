@@ -8,9 +8,8 @@
 mixin header()
   h1 about web.lab
   p.slug 
-    | at its core, web.lab is a six unit
-    | MIT class with contest prizes for those
-    | who want to participate
+    | learn how to build a dynamic, server-backed website.
+    | take part in a competition to win thousands of dollars. 
 
 //- Sidebar generator
   NOTE: ids matching articles are crucial `ARTICLE_mark`
@@ -43,10 +42,13 @@ include contest.pug
 mixin articles()
   article.section#what
     h1 what is web.lab
+    include:markdown-it(html=true) articles/about.md
   article.section#class
     h1 class structure
+    include:markdown-it(html=true) articles/structure.md
   article.section#contest
     h1 what is the contest
+    include:markdown-it(html=true) articles/contest.md
   article.section#eligible
     include:markdown-it(html=true) articles/who_is_eligible.md
   article.section#milestones
