@@ -548,6 +548,7 @@ mixin past_winners()
                 .about
                   .place= winner.place
                   .name= winner.project
+                  .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
                     a(href= winner.link)= winner.link
@@ -557,6 +558,7 @@ mixin past_winners()
                 .about
                   .place= "Semifinalist"
                   .name= winner.project
+                  .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
                     a(href= winner.link)= winner.link
@@ -566,6 +568,7 @@ mixin past_winners()
                 .about
                   .place= "Honorable Mention"
                   .name= winner.project
+                  .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
                     a(href= winner.link)= winner.link
