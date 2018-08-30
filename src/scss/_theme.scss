@@ -6,14 +6,14 @@
 }
 @font-face {
   font-family: "Avenir Next";
-  font-weight: 500;
+  font-weight: bold;
   src: url(../fonts/AvenirNext-Medium.woff);
 }
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: bold;
-  src: url(../fonts/AvenirNext-Bold.woff);
-}
+// @font-face {
+//   font-family: "Avenir Next";
+//   font-weight: bold;
+//   src: url(../fonts/AvenirNext-Bold.woff);
+// }
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:400,500");
 
 $header-font: "Avenir Next";
