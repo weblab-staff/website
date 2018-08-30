@@ -1,30 +1,4 @@
-//- Content on contest.pug
-- 
-  var start_dev_date = "Monday, January 6, 2018 at 11AM"
-
-//- About this page
-mixin header()
-  h1 the contest
-  p.slug 
-    | students compete in teams of </br>
-    | 1-3 students and meet milestones </br>
-    | in order to quality for our contest
-
-//- Sidebar generator
-  NOTE: ids matching articles are crucial `ARTICLE_mark`
-mixin sidebar()
-  ul#sidebar
-    li.head.select#head_mark the contest
-    li#eligible_mark 
-      a(href="#eligible") who is eligible
-    li#rules_mark 
-      a(href="#rules") contest rules
-    li#milestones_mark 
-      a(href="#milestones") milestones
-    li#prizes_mark 
-      a(href="#prizes") prizes
-    li#judging_mark 
-      a(href="#judging") judging
+//- Contest content on about.pug
 
 //- Article: Contest Rules
 mixin rules_article()
@@ -101,18 +75,3 @@ mixin rules_article()
         p
           strong Straight-forward evil. 
           | Do not spam or host malware. Do not encourage or assist users in breaking non-disclosure agreements or infringing copyright. Your site must not provide a haven for discussion or sharing of topics violating relevant local, state, and Federal laws, including copyright law. Do not abuse MIT's infrastructure or databases. Do not interfere with other contestants' development process.
-
-
-//- Call article sections here
-  NOTE: `ARTICLE` ids are crucial to the sidebar
-mixin articles()
-  article.section#eligible
-    include:markdown-it(html=true) contest/who_is_eligible.md
-  article.section#rules
-    +rules_article
-  article.section#milestones
-    h1 milestones
-  article.section#prizes
-    h1 prizes
-  article.section#judging
-    h1 judging
