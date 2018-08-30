@@ -1,0 +1,59 @@
+//- Content on about.pug
+
+//- TODO: automate this
+- 
+  var start_dev_date = "Monday, January 6, 2018 at 11AM"
+
+//- About this page
+mixin header()
+  h1 about web.lab
+  p.slug 
+    | at its core, web.lab is a six unit
+    | MIT class with contest prizes for those
+    | who want to participate
+
+//- Sidebar generator
+  NOTE: ids matching articles are crucial `ARTICLE_mark`
+mixin sidebar()
+  ul#sidebar
+    li.head.select#head_mark about
+    li#what_mark
+      a(href="#what") what is web.lab
+    li#class_mark
+      a(href="#class") class structure
+    li#contest_mark
+      a(href="#contest") what is the contest
+    li#eligible_mark 
+      a(href="#eligible") who is eligible
+    li#milestones_mark 
+      a(href="#milestones") milestones
+    li#rules_mark 
+      a(href="#rules") contest rules
+    li#prizes_mark 
+      a(href="#prizes") prizes
+    li#judging_mark 
+      a(href="#judging") judging
+
+
+//- Separating content specifically about the contest
+include contest.pug
+
+//- Call article sections here
+  NOTE: `ARTICLE` ids are crucial to the sidebar
+mixin articles()
+  article.section#what
+    h1 what is web.lab
+  article.section#class
+    h1 class structure
+  article.section#contest
+    h1 what is the contest
+  article.section#eligible
+    include:markdown-it(html=true) articles/who_is_eligible.md
+  article.section#milestones
+    h1 milestones
+  article.section#rules
+    +rules_article
+  article.section#prizes
+    h1 prizes
+  article.section#judging
+    h1 judging
