@@ -56,6 +56,6 @@ mixin articles()
   article.section#rules
     +rules_article
   article.section#prizes
-    h1 prizes
+    include:markdown-it articles/prizes.md
   article.section#judging
-    h1 judging
+    +judging_article
