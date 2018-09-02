@@ -1,0 +1,18 @@
+mixin milestones()
+  -
+    const calendar = require('./src/views/content/calendar.json');
+
+    // collect milestones
+    const milestones = [];
+    for (day in calendar) {
+      for (event of calendar[day]) {
+        if (event.type === 'milestone') {
+          milestones.push(event);
+        }
+      }
+    }
+    milestones.sort((a, b) => a.timestamp - b.timestamp);
+
+  for milestone in milestones
+    h4 #{milestone.name}
+    p #{new Date(milestone.timestamp)}

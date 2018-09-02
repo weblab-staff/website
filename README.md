@@ -23,5 +23,5 @@ clone the repo anywhere, and then:
 
 ```
 $ gulp
-$ ln -s "${PWD}/build" /path/to/serve/to
+$ ln -s $PWD/build /path/to/serve/to
 ```
