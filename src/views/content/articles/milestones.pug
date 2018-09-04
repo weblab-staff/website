@@ -7,12 +7,18 @@ mixin milestones()
     for (day in calendar) {
       for (event of calendar[day]) {
         if (event.type === 'milestone') {
-          milestones.push(event);
+          milestones.push({
+            name: event.name,
+            date: new Date(event.timestamp).toLocaleDateString()
+          });
         }
       }
     }
     milestones.sort((a, b) => a.timestamp - b.timestamp);
 
+
   for milestone in milestones
-    h4 #{milestone.name}
-    p #{new Date(milestone.timestamp)}
+    h3 #{milestone.name}
+    h4 #{milestone.date} at 11:59PM
+    p Information about milestone
+    hr
