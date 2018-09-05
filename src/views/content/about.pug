@@ -1,18 +1,14 @@
 //- Content on about.pug
 
-//- TODO: automate this
-- 
-  var start_dev_date = "Monday, January 6, 2018 at 11AM"
-  var final_submission = "11:59 AM (that's noon!) on Tuesday 1/30/18"
-  var semifinalist_time = "Wednesday 1/31/18 from approximately 8:30 AM to 4:00 PM"
-  var luncheon_time = "12 PM - 2 PM on Friday 2/2/2018"
+// Include all date strings from config file
+- const dates = require("./config.json").dates;
 
 //- About this page
 mixin header()
   h1 about web.lab
-  p.slug 
+  p.slug
     | learn how to build a dynamic, server-backed website.
-    | take part in a competition to win thousands of dollars. 
+    | take part in a competition to win thousands of dollars.
 
 //- Sidebar generator
   NOTE: ids matching articles are crucial `ARTICLE_mark`
@@ -25,20 +21,21 @@ mixin sidebar()
       a(href="#class") class structure
     li#contest_mark
       a(href="#contest") what is the contest
-    li#eligible_mark 
+    li#eligible_mark
       a(href="#eligible") who is eligible
-    li#milestones_mark 
+    li#milestones_mark
       a(href="#milestones") milestones
-    li#rules_mark 
+    li#rules_mark
       a(href="#rules") contest rules
-    li#prizes_mark 
+    li#prizes_mark
       a(href="#prizes") prizes
-    li#judging_mark 
+    li#judging_mark
       a(href="#judging") judging
 
 
 //- Separating content specifically about the contest
 include contest.pug
+include articles/milestones.pug
 
 //- Call article sections here
   NOTE: `ARTICLE` ids are crucial to the sidebar
@@ -56,6 +53,7 @@ mixin articles()
     include:markdown-it(html=true) articles/who_is_eligible.md
   article.section#milestones
     h1 milestones
+    +milestones
   article.section#rules
     +rules_article
   article.section#prizes
