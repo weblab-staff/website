@@ -17,7 +17,7 @@ function updateProgress() {
   for (let article of articles) {
     let articleTop = article.getBoundingClientRect().top;
     console.log(article.id, articleTop);
-    if (articleTop < 1) {
+    if (articleTop < 66) {
       // Update as current article
       clearSelect();
       document.getElementById(`${article.id}_mark`).classList.add("select");

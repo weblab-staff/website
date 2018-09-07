@@ -6,7 +6,9 @@ mixin rules_article()
   .bullet.grid
     .num 01.
     .rule 
-      | You may not begin development on your site until #{start_dev_date}. </br>
+      | You may not begin development on your site until 
+      strong #{dates.start_dev}
+      | . </br>
       | Failure to do so will result in disqualification.
       
     .num 02.
@@ -75,3 +77,111 @@ mixin rules_article()
         p
           strong Straight-forward evil. 
           | Do not spam or host malware. Do not encourage or assist users in breaking non-disclosure agreements or infringing copyright. Your site must not provide a haven for discussion or sharing of topics violating relevant local, state, and Federal laws, including copyright law. Do not abuse MIT's infrastructure or databases. Do not interfere with other contestants' development process.
+
+//- Article: Judging
+mixin judging_article()
+  h1 judging
+  p To be considered for judging, your team and the site you produce must abide by the 
+    a(href="#rules") competition rules
+    | .
+
+  p When judging contest submissions, we will focus on four main areas:
+  ul
+    li 
+      strong Functionality
+      | : whether the site functions without errors; whether the exposed features deliver usable results
+    li 
+      strong Usability
+      | : the overall ease-of-use of the site
+    li 
+      strong Aesthetics
+      | : the attention paid to graphic and UI design; the overall look-and-feel of the site
+    li 
+      strong Concept Execution
+      | : the degree to which the site identifies a problem and provides a realistic solution
+  
+  p More details about each category are below.
+
+  h3 Functionality
+  .descript Functionality concerns the ability of user to visit your site and perform the actions that are advertised. 
+    span.link(onclick="showDetail('functionalitydetails')") Read more
+    .details#functionalitydetails
+      p 
+        strong Errors
+        | : Does your site load without errors? Are there portions of the site that are not implemented or don't work as intended? Do actions on the site cause uncaught errors or exceptions?
+      p 
+        strong Features
+        | : How many features are implemented? Are they useful, nontrivial, and well-polished? Note that this is not a race to implement as many features as possible -- judges will be more impressed with a reasonable number of polished, well-executed features than a large number of poorly-implemented features. A large, incohesive feature set also reflects poorly on usability and concept execution (see below).
+      p 
+        strong Response time
+        | : Does your site take an egregiously long time to display results? Note that we are not going to benchmark your site or judge your algorithms, but a site that takes five minutes to load query results is unreasonable.
+      p 
+        strong Security
+        | : Can the site be broken with the simplest of attacks? Note that we will not mount complex attacks against your site. The basic mitigations discussed in lecture will suffice.
+
+  h3 Usability
+  .descript Usability concerns the ease-of-use and learnability of the site. At a high level, is it obvious to the user what can be done, and does your system behave as expected? 
+    span.link(onclick="showDetail('usabilitydetails')") Read more
+    .details#usabilitydetails
+      p
+        strong Ease of learning
+        | : Can a user encountering this web site for the first time easily discover what the web site does and how to make it work?
+      p
+        strong Visibility
+        | : Is important information and system state readily visible on the site? Are features clearly indicated?
+      p
+        strong Efficiency
+        | : Is it easy for the user to access all features of the site and be able to use them? Are there mechanisms built in for experienced users to save time? Efficiency generally does not refer to response time, but to how easily the user can perform common tasks on the site. For example, a feature that requires many mouse clicks across many menus to access has poorer efficiency than a features that requires few clicks.
+      p
+        strong Safety and recovery
+        | : Is it easy for a user to make a mistake? Is it easy for a user to recover from a mistake, via undo, edits, or other mechanisms?
+
+  h3 Aesthetics
+  .descript Aesthetics concerns the overall look-and-feel of the site and the impression it makes on the user. 
+    span.link(onclick="showDetail('aestheticdetails')") Read more
+    .details#aestheticdetails
+      p 
+        strong Layout
+        | : Is the overall layout of your site simple or cluttered? Are the user's eyes immediately drawn to the most relevant parts of the page?
+      p 
+        strong Consistency
+        | : Is the visual design of your site consistent across its components? Is there a familiar, comfortable set of colors, shapes, and fonts used?
+      p 
+        strong Attention to graphic design
+        | : Have you considered the basics of graphic design, including: color, balance and whitespace, and typography?
+      p 
+        strong Aesthetic innovation
+        | : Does your site do something particularly fresh, bold, or innovative in its visual design? This could be in the execution of a single feature or visualization or in taking a bold approach to the overall design of your site.
+        
+  h3 Concept Execution
+  .descript Concept execution concerns whether you have identified a real, existing problem and presented a compelling solution. 
+    span.link(onclick="showDetail('conceptdetails')") Read more
+    .details#conceptdetails
+      p
+        strong Problem statement
+        | : Is the problem clear and well-defined? Is it a real, existing problem?
+      p
+        strong Conceptual clarity
+        | : Does your solution employ a number of clearly-defined concepts? Concepts are ideas and notions that manifest themselves clearly in the implementation of your solution, or a common thread that runs through your feature set.
+      p
+        strong Feature set
+        | : Does your application consist of a coherent, well-thought-out set of features? Do the features make sense when considered as part of a larger whole? Do the features address the problem to be solved?
+      p
+        strong Originality
+        | : Does your application solve the problem in a way that hasn't been done before? Note that you may do well in this category even with a well-established problem, as long as your solution is novel.
+
+  h2 Judging Process
+  p The final submission will be a form, to be posted to the Milestones page at a later date. This form will close at exactly 
+    strong= dates.final_submission + "."
+  p After the submission form closes, the staff will identify semifinalists. We expect to have around 12-18 semifinalists (for the Main Division) depending on the quality of the submissions. Results will be announced by 8:00 PM of the same day.
+  p Semifinalists will have a 15 minute time slot on #{dates.semifinalist} to give a 5-minute presentation to the judges and answer questions about their site. We recommend that your presentation explain:
+  ol
+    li What problem does your site aim to solve?
+    li How does your site fit the theme?
+    li Why is there a need for this problem to be solved?
+    li Why does your site solve this problem well?
+  p Semifinalists will also give a short presentation at the Award Ceremony and must attend a mandatory Winner's Luncheon from #{dates.luncheon}.
+  p From the pool of semifinalists, the sponsor judges will determine the top teams. The results will be announced at the Award Ceremony.
+  p 
+    strong PLEASE NOTE
+    | : Your team is allowed to make changes to your site after the final submission deadline. However, if you site is broken when we look at it, you will not have a second chance, so make updates at your own risk.
