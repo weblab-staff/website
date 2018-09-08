@@ -56,7 +56,7 @@ What problem does your site aim to solve?
 How does your site fit the theme?
 Why is there a need for this problem to be solved?
 Why does your site solve this problem well?
-Semifinalists will also give a short presentation at the Award Ceremony and must attend a mandatory Winner's Luncheon from 12 PM - 2 PM on Friday 2/2/2018.
+Semifinalists will also give a short presentation at the Award Ceremony and must attend a mandatory Winner's Luncheon from 12 PM - 2 PM on the last Friday of IAP.
 
 From the pool of semifinalists, the sponsor judges will determine the top teams. The results will be announced at the Award Ceremony.
 
