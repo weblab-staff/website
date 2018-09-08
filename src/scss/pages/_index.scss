@@ -231,6 +231,10 @@
         display: grid;
         grid-template-columns: 100vw;
         grid-gap: 40px;
+
+        img {
+          display: none;
+        }
       }
     }
 
