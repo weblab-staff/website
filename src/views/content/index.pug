@@ -39,39 +39,39 @@ mixin feature_project(num)
   -
     var features = {
       one: {
-        img: "plix.png", 
-        quote: '"our first blah blah blah, it was great blah blah blah"', 
-        project: "plix", 
-        link: "plix.herokuapp.com", 
-        who: "shannon peng + jessica tang, 2018"},
+        img: "sandy5.jpg", 
+        quote: '"this class gave me fundamental skills that I continue to use for professional design and development"', 
+        project: "scribble", 
+        link: "http://scribble6148.herokuapp.com", 
+        who: "sandy yang, 2018"},
       two: {
-        img: "plix.png", 
-        quote: '"our first blah blah blah"', 
-        project: "plix", 
-        link: "plix.herokuapp.com", 
-        who: "shannon peng + jessica tang, 2018"},
+        img: "beaverbytes3.jpg", 
+        quote: '"a crash-course in teamwork"', 
+        project: "beaverbytes", 
+        link: "http://beaverbytes.herokuapp.com", 
+        who: "weishan liao, alyssa li, agustin garcia, 2018"},
       three: {
-        img: "plix.png", 
-        quote: '"our first blah blah blah"', 
+        img: "jessica2.jpg", 
+        quote: '"my project landed me a job"', 
         project: "plix", 
-        link: "plix.herokuapp.com", 
-        who: "shannon peng + jessica tang, 2018"},
+        link: "http://plix.herokuapp.com", 
+        who: "jessica tang, 2018"},
       four: {
-        img: "plix.png", 
-        quote: '"our first blah blah blah"', 
-        project: "plix", 
-        link: "plix.herokuapp.com", 
-        who: "shannon peng + jessica tang, 2018"},
+        img: "robert5.jpg", 
+        quote: '"a gratifying teaching experience"', 
+        project: "web.lab staff", 
+        link: "team/", 
+        who: "robert vunabundi, 2018"},
       five: {
-        img: "plix.png", 
-        quote: '"our first blah blah blah"', 
-        project: "plix", 
-        link: "plix.herokuapp.com", 
-        who: "shannon peng + jessica tang, 2018"},
+        img: "palantir.jpg", 
+        quote: '"sponsor quote"', 
+        project: "sponsor", 
+        link: "#", 
+        who: "sponsor, 2018"},
     }
   
   div.single.feature(class= num)
-    .img(style='background-image: url("/public/img/' + features[num].img '\")')
+    .img(style='background-image: url("/public/img/testimonials/' + features[num].img '\")')
     .quote= features[num].quote
       .detail {
         a(href= features[num].link)= features[num].project 
