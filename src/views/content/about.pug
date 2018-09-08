@@ -3,6 +3,8 @@
 // Include all date strings from config file
 - const dates = require("./config.json").dates;
 
+// Include all submissions links from config file
+- const submissions = require("./config.json").submissionLinks;
 //- About this page
 mixin header()
   h1 about web.lab
@@ -50,10 +52,11 @@ mixin articles()
     h1 what is the contest
     include:markdown-it(html=true) articles/contest.md
   article.section#eligible
+    h1 who is eligible
     include:markdown-it(html=true) articles/who_is_eligible.md
   article.section#milestones
     h1 milestones
-    +milestones
+    +milestones(submissions)
   article.section#rules
     +rules_article
   article.section#prizes

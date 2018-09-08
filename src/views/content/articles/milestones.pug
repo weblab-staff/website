@@ -1,24 +1,185 @@
-mixin milestones()
+mixin milestones(submissions)
   -
     const calendar = require('./src/views/content/calendar.json');
-
     // collect milestones
     const milestones = [];
+    const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
     for (day in calendar) {
       for (event of calendar[day]) {
         if (event.type === 'milestone') {
           milestones.push({
             name: event.name,
-            date: new Date(event.timestamp).toLocaleDateString()
+            date: new Date(event.timestamp).toLocaleDateString("en-US", dateOptions)
           });
         }
       }
     }
     milestones.sort((a, b) => a.timestamp - b.timestamp);
 
+  h2 Milestone 0 - Teams and Idea Brainstorming
+  h3 Due: #{milestones[0].date} at 11:59PM. 
+    a(href= submissions.milestone0) Submit Here
+  p.
+    In web.lab we will be using Github for milestone and final submissions and to make it easier for you to turn in your source code.
+  h4 Milestone Requirements
+  ol
+    li Form a team (up to three people). Make sure your team is eligible according to the rules.
+    li Have each team member create an account on github.com.
+    li Come up with 10 ideas that fit this year's theme
+    li Submit your team information and 10 ideas  
+      a(href= submissions.milestone0) here
 
-  for milestone in milestones
-    h3 #{milestone.name}
-    h4 #{milestone.date} at 11:59PM
-    p Information about milestone
-    hr
+  hr
+
+  h2 Milestone 1 - Project Pitches
+  h3 Due: #{milestones[1].date} at 11:59PM. 
+    a(href= submissions.milestone1) Signup here
+  p.
+    For this milestone, you will choose an idea for your website. 
+    You will then flesh out the idea as well as draft some initial designs 
+    for the website, before you do any coding. You and your team will give
+    a casual pitch of your website idea and designs to staff and sponsors 
+    for review and feedback. This is not a formal presentation, 
+    it's just to ensure you are on the right track with your idea and design, 
+    and for you to ask questions directly in person about your website.  
+  p.
+    We will have time slots available between
+    1PM and 5PM on both Saturday, January 13 and Sunday, 
+    January 14 in Room 32-044 (Basement of Stata Center). 
+    You will have 3 minutes to present a quick, casual pitch, 
+    followed by some questions and feedback from staff. 
+  
+  h4 Milestone Requirements
+  p.
+    Please make sure your pitch contains the following content, 
+    as well as a few slides with your initial designs and mockups. 
+    There will not be any projectors in the room, so please 
+    bring your laptop to show them.
+
+  ol
+    li Introduce yourselves.
+    li Tell us how your idea fits the theme, and what problem it addreses.
+    li Briefly describe your target demographic.
+    li What are the killer features of your website?
+    li Create some initial designs and mockups for your website (at least 2) - this can be done using any wireframe software, Adobe Photoshop, Sketch, etc.
+
+  p.
+    If no members of your team can make it to the time slots we have listed, 
+    please create a private post on Piazza and we can help you schedule a 
+    make-up session.
+  
+  hr
+
+  h2 Milestone 2 - Minimal Viable Product
+  h3 Due: #{milestones[2].date} at 11:59PM. 
+    a(href= submissions.milestone2) Submit Here
+  p.
+    For this milestone, we would like to see that you've made 
+    significant progress towards your final product by looking at your MVP. 
+    You may wish to review the technical requirements to ensure that your 
+    site meets these #[a(href="/about/#rules") basic requirements]. #[br]#[br]
+    
+    Remember, your MVP should capture the essence of your application 
+    and include your most important or compelling features. 
+    As such, your app should go beyond a simple skeleton or scaffold. 
+    Users should be able to get the essence of your application via a 
+    fully-functional important feature.  
+  h4 Milestone Requirements
+  p You should have, at minimum:
+  ul
+    li A login system. You should be able to distinguish between the case where no one is logged in and the case where a specific user is logged in using a personal username/password combination or a third-party API such as Facebook.
+    li Dynamic content. The site should be able to display different content on the same page under different situations.
+    li A database with a "significant" amount of data. We're not going to define number of lines or entries, as long as your database contains enough data to satisfy the two requirements above and be able to generate sufficiently different content given different situations to support your features.
+    li Your most important or compelling feature implemented. While you may decide to forgo some stylistic or other minor details, the vast majority of the functionality should be present.
+  p In addition answer the following questions:
+  ol
+    li What additional features do you wish to implement? How far along on those features are you?
+    li What technologies are you using for the back-end? Include any frameworks if relevant.
+    li What technologies are you using for the front-end? Include Javascript frameworks such as jQuery, templating frameworks such as Handlebars.js, and other client-side frameworks such as Ember.js or Backbone.js.
+    li What is the main browser you are targeting? Must be one of our supported browsers.
+    li What implementation unknown / risks are you still facing? Consider this an exercise of imagination, not a test of confidence.
+
+  hr
+
+  h2 Final Submission
+  h3 Due: #{milestones[3].date} at NOON for competing students. END DATE for rest 
+    a(href= submissions.final) Submit Here
+  p.
+    Please submit your team's website at the appropriate form above. 
+    Note: this form will close at exactly 11:59 AM 
+    (in the morning, so we can get back to you earlier!); 
+    submissions will not be accepted after the form has closed.
+  
+  b.
+    please note that if, at 11:59 AM, your site is broken in any capacity 
+    (link doesn't work, login doesn't work, site crashes, etc), 
+    your team will not be eligible to advance to the semifinalist round. 
+    For this reason, we recommend that you do not change the site 
+    while we are judging, since if it breaks we will not 
+    allow your team to move on as a semifinalist.
+  p.
+    Additionally, please be aware of the following if you 
+    are chosen for a semifinalist:
+  ul
+    li If your team has advanced as semifinalist in either 
+    | the Rookie or Main divisions, you will be notified by 8 PM on Tuesday.
+    li.
+      Semifinalists will have a 15 minute time slot on Wednesday, 
+      February 01 from approximately 8:30 AM to 4 PM to give a 5 minute 
+      presentation to the judges and answer questions about their site. 
+      We recommend that your presentation explain:
+    ol
+      li What problem does your site aim to solve?
+      li How does your site fit the theme?
+      li Why is there a need for this problem to be solved?
+      li Why does your site solve this problem well?
+    li.
+      Your presentation may be structured however you 
+      like but must include a live demo of your features. 
+      More information about the presentation will be included 
+      in the semifinalist announcement.
+    li.
+      Sign-ups for the presentations will be sent out 30 minutes 
+      after the semifinalist announcement and will be first-come 
+      first-served.
+    li.
+      Your team is allowed to make changes to your site after the 
+      final submission deadline. However, if your site is broken when we 
+      look at it, you will not have a second chance, so make 
+      updates at your own risk.
+    li.
+      Semifinalists will also give a short presentation at the Award 
+      Ceremony and must attend a mandatory Winner's Luncheon from 12pm - 2pm 
+      on Friday.
+
+
+
+
+
+
+
+
+    
+
+
+
+  
+
+
+  
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
