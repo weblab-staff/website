@@ -11,6 +11,7 @@ $ npm install
 ## building and running
 
 ```
+$ gulp calendar
 $ gulp stream
 ```
 
