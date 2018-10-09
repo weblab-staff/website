@@ -16,7 +16,7 @@ function updateProgress() {
 
   for (let article of articles) {
     let articleTop = article.getBoundingClientRect().top;
-    console.log(article.id, articleTop);
+    // console.log(article.id, articleTop);
     if (articleTop < 66) {
       // Update as current article
       clearSelect();
@@ -39,11 +39,9 @@ function updateNavSolid() {
       : (document.documentElement || document.body.parentNode || document.body)
           .scrollTop;
   var navbar = document.getElementById("navbar");
-  console.log(scrollTop);
 
   if (scrollTop > 10) {
     navbar.classList.add("solid");
-    console.log("jellp");
   } else {
     navbar.classList.remove("solid");
   }

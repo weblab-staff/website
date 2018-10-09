@@ -8,6 +8,7 @@
     color: white;
     padding-top: 120px;
     height: calc(76vh - 120px);
+    min-height: 380px;
     max-height: 470px;
     background-color: $primary-accent;
     background-image: url("/public/img/lines.svg");
@@ -95,7 +96,7 @@
 
   &.blurb {
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -148,25 +149,33 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      filter: brightness(0.6);
       transition: 0.5s;
       // filter: grayscale(1) contrast(0.7) brightness(0.9);
-      &:hover {
-        filter: brightness(1);
+
+      .quote {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: rgba($primary-text, 0.4);
+        transition: opacity 0.2s;
+
+        .text {
+          width: 80%;
+          max-height: calc(100% - 40px);
+          position: absolute;
+          left: 20px;
+          bottom: 20px;
+          font-size: 1.15em;
+
+          .detail {
+            font-size: 10pt;
+          }
+        }
       }
-    }
 
-    .quote {
-      width: 80%;
-      max-height: calc(100% - 40px);
-      // max-width: 300px;
-      position: absolute;
-      left: 20px;
-      bottom: 20px;
-      font-size: 1.15em;
-
-      .detail {
-        font-size: 10pt;
+      &:hover .quote {
+        opacity: 1;
       }
     }
 
