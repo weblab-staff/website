@@ -6,9 +6,15 @@
 - [building and running](#building-and-running)
 - [deploying code](#deploying-code)
 - [directory structure](#directory-structure)
+- [website config](#website-config)
 - [google calendar config](#google-calendar-config)
+- [yearly site updates](#yearly-site-updates)
 - [editing content](#editing-content)
-  - [index](#index)
+  - [dates](#dates-configdatejson)
+  - [index](#index-srcviewscontentindexpug)
+  - [about](#about-srcviewscontentaboutpug)
+  - [about contest articles](#about-contest-articles-srcviewscontentcontestpug)
+  - [schedule](#schedule-srcviewscontentschedulepug)
 
 ## getting started
 
@@ -39,7 +45,7 @@ $ ln -s $PWD/build /path/to/serve/to
 
 ## directory structure
 
-on the top level, code is separated as either source (`src`), built html files based on source (`build`), scripts for generating dynamic content (`scripts`), and config files such as `gulpfile.js`.
+on the top level, code is separated as either source (`src`), built html files based on source (`build`), scripts for generating dynamic content (`scripts`), config files used to generate built content (`config`), and deploy/build files such as `gulpfile.js`.
 
 in `src`, files are separated as such:
 
@@ -67,6 +73,7 @@ src/
   - `components/` contains supporting pug files such as the `navbar.pug` and the template `layout.pug`
 
 ## website config
+
 the website should be maintainable with minimal modification to the actual code.
 most important values are specified in the `config` directory
 
@@ -97,17 +104,70 @@ info: link_to_something_else
 
 if no type is explicitly provided, the website will infer based on the title (e.g. contains 'lunch', 'milestone', 'office hours')
 
+## yearly site updates
+
+TODO: explain what needs to be changed from year to year and point to the section explaining how to make those changes
+
 ## editing content
 
 content files for editing are all contained in `src/views/content/`. you do not need to touch any of the pug files at the top level of `src/views/`. you will be updating the content of the mixins in these files. this section is split up into pages and what can be updated/how to update components on each page.
+
+### dates (`config/date.json`)
+
+contains strings for dates used throughout the site
+
+- **startDev**
+  - date when teams can start developing
+  - used in: `contest.pug` > `rules_article()` (about page)
+- **finalSubmission**
+  - date and time of when final submission is due
+  - used in: `contest.pug` (about page)
+- **semifinalist**
+  - date and time range for when semifinalist presentations will occur
+  - used in `contest.pug` > `judging_article()` (about page)
+- **luncheon**
+  - date and time of the finalist luncheons
+  - used in `contest.pug` > `judging_article()` (about page)
 
 ### index (`src/views/content/index.pug`)
 
 content on the homepage
 
-- **welcome_blurb()** contains the description below "welcome to web.lab". `</br>` tags are needed to specifically separate into
-- **join_mailing_list** is the button below the welcome description. as of 2018, it links to a google form
-- **carasol_feature()** is no longer used. it has been replaced by the graphic on the right of the welcome blurb
-- **feature_projects(num)** populates the "what people think" section. update the features array to change feature images, quotes, and text
-- **thank_sponsor_subtitle()** is the text below the header "thanks to our sponsors"
-- **sponsors()** can be updated by adding objects to the array `sponsors`. each array should be formatted as such `{name: "", path: "TO/IMG.png", link: "http://", level: ""}`.
+- **welcome_blurb()**
+  - contains the description below "welcome to web.lab". `</br>` tags are needed to specifically separate into
+- **join_mailing_list**
+  - is the button below the welcome description. as of 2018, it links to a google form
+- **carasol_feature()**
+  - is no longer used. it has been replaced by the graphic on the right of the welcome blurb
+- **feature_projects(num)**
+  - populates the "what people think" section. update the features array to change feature images, quotes, and text
+- **thank_sponsor_subtitle()**
+  - is the text below the header "thanks to our sponsors"
+- **sponsors()**
+  - can be updated by adding objects to the array `sponsors`. each array should be formatted as such `{name: "", path: "TO/IMG.png", link: "http://", level: ""}`.
+
+### about (`src/views/content/about.pug`)
+
+contains the generic content on the about page, as well as structures/adds in articles
+
+- **header()**
+  - contains the text in the header of the page
+- **sidebar()**
+  - generates the sidebar. when a new article is added or one is removed, the sidebar needs to be updated to add/remove a link to that article
+- **articles()**
+  - these are the various sections on this page, or articles. the content in these articles is either a markdown file in `articles/` or is a mixin in `contest.pug`
+
+### about contest articles (`src/views/content/contest.pug`)
+
+various articles/content about the contest that cannot be formatted in markdown
+
+- **rules_article()**
+  - contains the contest rules and their details. each rule is numbered (`.num`) and has a brief description.
+  - for longer rules, a `.details` section is included whose visibility can be toggled. a `span` of text in the general `.rule` description is designated to toggle `.details` by matching html id.
+- **judging_article()**
+  - contains a generic rubric of what judging will look for in projects.
+  - similar to rules, more details for each rubric category can be toggled by the user and uses a `span` of text in the `.descript` to toggle a `.details` section by specific html id.
+
+### schedule (`src/views/content/schedule.pug`)
+
+this file is helper mixins that parse the `calendar.json` file. see [here](#google-calendar-config) to change the schedule and [redeploy](#deploying-code) the site to update.
