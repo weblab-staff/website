@@ -8,6 +8,7 @@
 - [directory structure](#directory-structure)
 - [google calendar config](#google-calendar-config)
 - [editing content](#editing-content)
+  - [index](#index)
 
 ## getting started
 
@@ -98,4 +99,15 @@ if no type is explicitly provided, the website will infer based on the title (e.
 
 ## editing content
 
-content files for editing are all contained in `src/views/content/`.
+content files for editing are all contained in `src/views/content/`. you do not need to touch any of the pug files at the top level of `src/views/`. you will be updating the content of the mixins in these files. this section is split up into pages and what can be updated/how to update components on each page.
+
+### index (`src/views/content/index.pug`)
+
+content on the homepage
+
+- **welcome_blurb()** contains the description below "welcome to web.lab". `</br>` tags are needed to specifically separate into
+- **join_mailing_list** is the button below the welcome description. as of 2018, it links to a google form
+- **carasol_feature()** is no longer used. it has been replaced by the graphic on the right of the welcome blurb
+- **feature_projects(num)** populates the "what people think" section. update the features array to change feature images, quotes, and text
+- **thank_sponsor_subtitle()** is the text below the header "thanks to our sponsors"
+- **sponsors()** can be updated by adding objects to the array `sponsors`. each array should be formatted as such `{name: "", path: "TO/IMG.png", link: "http://", level: ""}`.
