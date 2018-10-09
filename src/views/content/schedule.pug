@@ -89,7 +89,7 @@ mixin event_details(event)
   .time= event.when
   .name
     span= event.name
-    if event.who != undefined
+    if event.who
       .lecturer Lecturer: #{event.who}
   .room= event.where
   if event.links

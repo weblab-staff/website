@@ -68,7 +68,7 @@ var exports = {
               for (line of ev.description.split('\n')) {
                 let split = line.split(':');
                 if (split.length == 1) {
-                  entry.who = line; // assume line without colon is the lecturer
+                  entry.who = line.trim(); // assume line without colon is the lecturer
                 } else {
                   const key = split[0].toLowerCase().trim();
                   const val = split[1].toLowerCase().trim();
