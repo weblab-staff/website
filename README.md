@@ -49,6 +49,19 @@ $ gulp
 $ ln -s $PWD/build /path/to/serve/to
 ```
 
+## yearly site updates
+
+TODO: explain what needs to be changed from year to year and point to the section explaining how to make those changes
+
+every year the following changes _need_ to be made to the site:
+
+- [update dates](#dates-configdatejson) in about articles
+- [update current team](#team-configteamjson) with photos and bump last year's cruft to alums
+- [calendar updates](#google-calendar-config) in google calendar which will be auto-updated for the schedule page when the site is redeployed
+- [winners](#winners-configwinnersjson) from the last year should be added with images, link, and description
+
+if you wish to update photos on the home page for "what people think", check out this [section](#index-srcviewscontentindexpug)
+
 ## directory structure
 
 on the top level, code is separated as either source (`src`), built html files based on source (`build`), scripts for generating dynamic content (`scripts`), config files used to generate built content (`config`), and deploy/build files such as `gulpfile.js`.
@@ -111,11 +124,6 @@ info: link_to_something_else
 if no type is explicitly provided, the website will infer based on the title (e.g. contains 'lunch', 'milestone', 'office hours')
 
 to make an event with an instantaneous time (e.g. milestone due at 11:59am), set the calendar entry to start and end at the same time (e.g. 11:59am - 11:59am)
-
-## yearly site updates
-
-TODO: explain what needs to be changed from year to year and point to the section explaining how to make those changes
-
 
 ## editing content
 
