@@ -45,8 +45,8 @@ gulp.task("pug", ["calendar"], function() {
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("calendar", function() {
-  calendar.generate();
+gulp.task("calendar", async () => {
+  await calendar.generate();
 });
 
 gulp.task("build", ["img", "sass", "pug", "fonts", "favicon"], function(cb) {
