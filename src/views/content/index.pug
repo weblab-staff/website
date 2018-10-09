@@ -81,7 +81,7 @@ mixin feature_project(num)
 //- Sponsor Slug
   Right below "thanks to our sponsors"
 mixin thank_sponsor_subtitle()
-  | for teaching. for cash prizes. for judging.
+  | for industry insight. for cash prizes. for professional judging.
 
 //- Sponsor Logos
   Change `sponsors` Array to change displayed logos
@@ -89,12 +89,30 @@ mixin thank_sponsor_subtitle()
 mixin sponsors()
   -
     var sponsors = [
-      {name: "PTC", path: "ptc.png", link: "https://ptc.com/"},
-      {name: "Appian", path: "appian.png", link: "https://appian.com/"},
-      {name: "Facebook", path: "facebook.svg", link: "https://facebook.com/"},
-      {name: "MIT Open Learning", path: "open-learning.png", link: "https://openlearning.mit.edu/"}
+      //- {name: "PTC", path: "ptc.png", link: "https://ptc.com/"},
+      {name: "Appian", path: "appian.png", link: "https://appian.com/", level: "gold"},
+      {name: "MIT Open Learning", path: "open-learning.png", link: "https://openlearning.mit.edu/", level: "gold"},
+      {name: "Facebook", path: "facebook.png", link: "https://facebook.com/", level: "silver"},
+      {name: "Bloomberg", path: "bloomberg.png", link: "https://www.bloomberg.com/", level: "silver"},
+      {name: "Oracle", path: "oracle.png", link: "https://www.oracle.com/", level: "silver"}
     ]
-  
-  each logo in sponsors
-    a(href= logo.link, target="new")
-      img.logo(src= '/public/img/sponsors/' + logo.path)
+  div.platinum
+    each logo in sponsors
+      if logo.level == "platinum"
+        a(href= logo.link, target="new")
+          img.logo.plat(src= '/public/img/sponsors/' + logo.path)
+  div.gold
+    each logo in sponsors
+      if logo.level == "gold"
+        a(href= logo.link, target="new")
+          img.logo.gold(src= '/public/img/sponsors/' + logo.path)
+  div.silver
+    each logo in sponsors
+      if logo.level == "silver"
+        a(href= logo.link, target="new")
+          img.logo.silver(src= '/public/img/sponsors/' + logo.path)
+  div.other
+    each logo in sponsors
+      if logo.level == "other"
+        a(href= logo.link, target="new")
+          img.logo.silver(src= '/public/img/sponsors/' + logo.path)

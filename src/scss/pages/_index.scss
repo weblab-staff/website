@@ -197,9 +197,24 @@
   }
 
   &.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    .platinum, .gold, .silver {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .platinum img {
+      height: 15em;
+    }
+    .gold img {
+      height: 10em;
+    }
+    .silver img {
+      height: 5em;
+    }
+    .other img {
+      height: 3em;
+    }
 
     .logo {
       margin-bottom: 10px;
