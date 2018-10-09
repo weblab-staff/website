@@ -37,59 +37,52 @@ var exports = {
           let output = {};
 
           for (ev of res.items) {
+            let entry = { // individual calendar entry
+              name: ev.summary,
+              type: 'lec',
+              where: ev.location,
+              links: []
+            }
+
             let start = new Date(ev.start.dateTime || ev.start.date);
             let end = new Date(ev.end.dateTime || ev.start.date);
             let day = start.getDate() + (start.getMonth() * 31); // assumes only jan/feb
+            entry.timestamp = start;
 
-            let time = '11:59PM'; // default if no time given
+            entry.time = '11:59PM'; // default if no time given
             if (ev.start.dateTime) {
-              time = getTime(start) + ' - ' + getTime(end);
+              entry.time = getTime(start) + ' - ' + getTime(end);
             }
 
-            let who;
-            let links = [];
+            // infer type if none explicitly given
+            const title = ev.summary.toLowerCase();
+            if (title.indexOf('lunch') > -1) {
+              entry.type = 'block';
+            } else if (title.indexOf('milestone') > -1) {
+              entry.type = 'milestone';
+            } else if (title.indexOf('office hours') > -1) {
+              entry.type = 'oh';
+            }
+
             if (ev.description) {
               for (line of ev.description.split('\n')) {
                 let split = line.split(':');
                 if (split.length == 1) {
-                  who = line; // assume line without colon is the lecturer
+                  entry.who = line; // assume line without colon is the lecturer
                 } else {
-                  let type = 'info';
-                  if (split[0].toLowerCase().indexOf('youtube') > -1) {
-                    type = 'youtube';
-                  } else if (split[0].toLowerCase().indexOf('slides') > -1) {
-                    type = 'pdf';
-                  }
+                  const key = split[0].toLowerCase().trim();
+                  const val = split[1].toLowerCase().trim();
 
-                  links.push({
-                    type: type,
-                    name: split[0].trim(),
-                    link: split.slice(1).join(':').trim()
-                  });
+                  if (key == "type") {
+                    entry.type = val; // can always explicitly set type
+                  } else {
+                    entry.links.push({
+                      type: key.split(" ")[0],
+                      link: split.slice(1).join(':').trim()
+                    });
+                  }
                 }
               }
-            }
-
-            // this block is going to change when we figure out a better way to set type
-            let type = 'event';
-            if (ev.start.date) {
-              type = 'milestone'; //assume all 'full-day' things are milestones
-            } else if (ev.summary.toLowerCase().indexOf('lunch') > -1) {
-              type = 'block';
-            } else if (ev.summary.toLowerCase().indexOf('office hours') > -1) {
-              type = 'oh';
-            } else if (ev.description && ev.description.split('\n')[0].indexOf(':') == -1) {
-              type = 'lec'; //sketchy temporary check: there is a lecturer on the first line
-            }
-
-            let entry = {
-              type: type,
-              name: ev.summary,
-              who: who,
-              when: time,
-              where: ev.location,
-              timestamp: start, // js-friendly time for sorting purposes
-              links: links
             }
 
             if (day in output) {
