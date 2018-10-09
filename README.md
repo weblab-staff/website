@@ -97,6 +97,8 @@ info: link_to_something_else
 
 if no type is explicitly provided, the website will infer based on the title (e.g. contains 'lunch', 'milestone', 'office hours')
 
+to make an event with an instantaneous time (e.g. milestone due at 11:59am), set the calendar entry to start and end at the same time (e.g. 11:59am - 11:59am)
+
 ## editing content
 
 content files for editing are all contained in `src/views/content/`. you do not need to touch any of the pug files at the top level of `src/views/`. you will be updating the content of the mixins in these files. this section is split up into pages and what can be updated/how to update components on each page.

@@ -49,9 +49,13 @@ var exports = {
             let day = start.getDate() + (start.getMonth() * 31); // assumes only jan/feb
             entry.timestamp = start;
 
-            entry.time = '11:59PM'; // default if no time given
+            entry.when = '11:59PM'; // default if no time given
             if (ev.start.dateTime) {
-              entry.time = getTime(start) + ' - ' + getTime(end);
+              if (getTime(start) == getTime(end)) {
+                entry.when = getTime(start);
+              } else {
+                entry.when = getTime(start) + ' - ' + getTime(end);
+              }
             }
 
             // infer type if none explicitly given
