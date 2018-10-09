@@ -88,15 +88,8 @@ mixin thank_sponsor_subtitle()
   Change `sponsors` Array to change displayed logos
   NOTE: indentation matters!!
 mixin sponsors()
-  -
-    var sponsors = [
-      //- {name: "PTC", path: "ptc.png", link: "https://ptc.com/"},
-      {name: "Appian", path: "appian.png", link: "https://appian.com/", level: "gold"},
-      {name: "MIT Open Learning", path: "open-learning.png", link: "https://openlearning.mit.edu/", level: "gold"},
-      {name: "Facebook", path: "facebook.png", link: "https://facebook.com/", level: "silver"},
-      {name: "Bloomberg", path: "bloomberg.png", link: "https://www.bloomberg.com/", level: "silver"},
-      {name: "Oracle", path: "oracle.png", link: "https://www.oracle.com/", level: "silver"}
-    ]
+  - var sponsors = require('./config').sponsors;
+  
   div.platinum
     each logo in sponsors
       if logo.level == "platinum"
