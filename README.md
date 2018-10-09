@@ -65,6 +65,10 @@ src/
   - `content/` holds supporting pug files with content for their corresponding page. `content/articles/` contains markdown articles imported into content.
   - `components/` contains supporting pug files such as the `navbar.pug` and the template `layout.pug`
 
+## website config
+the website should be maintainable with minimal modification to the actual code.
+most important values are specified in the `config` directory
+
 ## google calendar config
 
 all events in our calendar must follow this format in the description:

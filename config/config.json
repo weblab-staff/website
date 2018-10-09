@@ -2,8 +2,8 @@
   "calendarId": "r29uij251idu376bifugabkhoo@group.calendar.google.com",
   "googleApiKey": "AIzaSyBWw7tnK1X91Fuv67TqYtc_fRCIo8FWW4Y",
   "dates": {
-    "start_dev": "Monday, January 6, 2018 at 11AM",
-    "final_submission": "11:59 AM (that's noon!) on Tuesday 1/30/18",
+    "startDev": "Monday, January 6, 2018 at 11AM",
+    "finalSubmission": "11:59 AM (that's noon!) on Tuesday 1/30/18",
     "semifinalist": "Wednesday 1/31/18 from approximately 8:30 AM to 4:00 PM",
     "luncheon": "12 PM - 2 PM on Friday 2/2/2018"
   },

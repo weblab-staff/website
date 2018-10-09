@@ -1,5 +1,5 @@
 const https = require('https');
-const config = require('../config.json');
+const config = require('../config');
 const fs = require('fs');
 
 function getTime (date) {
