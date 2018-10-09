@@ -89,7 +89,7 @@ mixin event_details(event)
   .time= event.when
   .name
     span= event.name
-    if event.who != undefined
+    if event.who
       .lecturer Lecturer: #{event.who}
   .room= event.where
   if event.links
@@ -98,7 +98,7 @@ mixin event_details(event)
         a(href=resource.link)
           if resource.type == "youtube"
             <i class="fab fa-youtube"></i>
-          else if resource.type == "pdf"
+          else if resource.type == "slides"
             <i class="far fa-file-pdf"></i>
           else if resource.type == "info"
             <i class="fas fa-info"></i>
