@@ -14,6 +14,10 @@ gulp.task("fonts", function(cb) {
   pump([gulp.src("src/public/fonts/*"), gulp.dest("build/public/fonts")], cb);
 });
 
+gulp.task("favicon", function(cb) {
+  pump([gulp.src("src/favicon.ico"), gulp.dest("build")], cb);
+});
+
 gulp.task("sass", function() {
   return gulp
     .src("src/scss/**/*.scss")
@@ -21,27 +25,31 @@ gulp.task("sass", function() {
     .pipe(gulp.dest("build/public/css"));
 });
 
-gulp.task("pug", ["calendar"], function () {
+gulp.task("pug", ["calendar"], function() {
   return gulp
     .src("src/views/*.pug")
-    .pipe(pug({
-      // allow imports in pug files via 'require'
-      locals: {require : require}
-    }))
-    .pipe(rename(function (path) {
+    .pipe(
+      pug({
+        // allow imports in pug files via 'require'
+        locals: { require: require }
+      })
+    )
+    .pipe(
+      rename(function(path) {
         if (path.basename != "index") {
           path.dirname = path.basename;
           path.basename = "index";
         }
-    }))
+      })
+    )
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("calendar", function () {
+gulp.task("calendar", function() {
   calendar.generate();
 });
 
-gulp.task("build", ["img", "sass", "pug", "fonts"], function(cb) {
+gulp.task("build", ["img", "sass", "pug", "fonts", "favicon"], function(cb) {
   pump([gulp.src("src/public/*.js"), gulp.dest("build/public/")], cb);
 });
 
