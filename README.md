@@ -5,16 +5,22 @@
 - [getting started](#getting-started)
 - [building and running](#building-and-running)
 - [deploying code](#deploying-code)
+- [yearly site updates](#yearly-site-updates)
+
+more detailed documentation about the site organization:
+
 - [directory structure](#directory-structure)
 - [website config](#website-config)
 - [google calendar config](#google-calendar-config)
-- [yearly site updates](#yearly-site-updates)
 - [editing content](#editing-content)
   - [dates](#dates-configdatejson)
   - [index](#index-srcviewscontentindexpug)
   - [about](#about-srcviewscontentaboutpug)
-  - [about contest articles](#about-contest-articles-srcviewscontentcontestpug)
+  - [contest articles](#about-contest-articles-srcviewscontentcontestpug)
   - [schedule](#schedule-srcviewscontentschedulepug)
+  - [team](#team-configteamjson)
+  - [winners](#winners-configwinnersjson)
+  - [FAQ](#FAQ-srcviewscontentfaqpug)
 
 ## getting started
 
@@ -160,7 +166,7 @@ contains the generic content on the about page, as well as structures/adds in ar
 - **articles()**
   - these are the various sections on this page, or articles. the content in these articles is either a markdown file in `articles/` or is a mixin in `contest.pug`
 
-### about contest articles (`src/views/content/contest.pug`)
+### contest articles (`src/views/content/contest.pug`)
 
 various articles/content about the contest that cannot be formatted in markdown
 
@@ -173,4 +179,87 @@ various articles/content about the contest that cannot be formatted in markdown
 
 ### schedule (`src/views/content/schedule.pug`)
 
-this file is helper mixins that parse the `calendar.json` file. see [here](#google-calendar-config) to change the schedule and [redeploy](#deploying-code) the site to update.
+file full of helper mixins that parse the `calendar.json` file. see [here](#google-calendar-config) to change the schedule and [redeploy](#deploying-code) the site to update.
+
+### team (`config/team.json`)
+
+file parsed to make up team page. to edit text in the header go to `src/views/content/team.pug`.
+
+note that all team member names will display _lowercase_ no matter how you enter it in the json.
+
+members of the **current** team are in the list under the key `current`. each member's object is formatted as follows
+
+```
+{
+  "firstName": "Boaty",
+  "lastName": "McBoatFace",
+  "position": "boat",
+  "img": "boat.png"
+}
+```
+
+the image referenced should be in `src/public/img/staff/current`.
+
+**alums** are in the list under the key `alums`. each member's object is formatted as follows
+
+```
+{
+  "firstName": "Boaty",
+  "lastName": "McBoatFace",
+  "year": "2016",
+  "img": "boat.png"
+}
+```
+
+the image referenced should be in `src/public/img/staff/alums`.
+
+### winners (`config/winners.json`)
+
+file parsed to make up the winners page. to edit text in the header go to `src/views/content/winners.pug`.
+
+the `winners` json is a list of objects. each object is a previous year's competition. each year object should contain a `head` with the year and theme, i.e. "2015. around the world", and `divisions`. `divisions` is a list containing objects for each division. division objects should be formatted as follows
+
+```
+{
+  "name": "DIVISION NAME",
+  "winners": [...],
+  "honorableMentions": [...],
+  "semifinalists": [...]
+}
+```
+
+`winners`, `honorableMentions`, and `semifinalists` are lists of winner objects which should be formatted as below. they can be empty.
+
+```
+{
+  "place": "X place",
+  "project": "NAME",
+  "creators": [
+    "PERSON1",
+    "PERSON2"
+  ]
+  "descript": "BRIEF DESCRIPTION",
+  "img": "LINK/TO/IMG",
+  "link": "PROJECT.HEROKUAPP.COM"
+}
+```
+
+note that the order of winner objects does matter and link _should not_ contain "http://" or "https://".
+
+### FAQ (`src/views/content/faq.pug`)
+
+contains the various questions on the faq page.
+
+- **header()**
+  - contains the text in the header of the page
+- **questions()**
+  - each faq question should be formatted in divs as follows
+
+```
+.question
+  h2 QUESTION?
+  p ANSWER
+    br/
+    br/
+    | OPTIONALLY MORE ANSWER AFTER TWO LINE BREAKS
+```
