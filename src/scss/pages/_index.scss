@@ -8,6 +8,7 @@
     color: white;
     padding-top: 120px;
     height: calc(76vh - 120px);
+    min-height: 380px;
     max-height: 470px;
     background-color: $primary-accent;
     background-image: url("/public/img/lines.svg");
