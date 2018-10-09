@@ -71,12 +71,13 @@ mixin feature_project(num)
     }
   
   div.single.feature(class= num)
-    .img(style='background-image: url("/public/img/testimonials/' + features[num].img '\")')
-    .quote= features[num].quote
-      .detail {
-        a(href= features[num].link)= features[num].project 
-        | }  
-        = features[num].who
+    .img(alt= features[num].quote, style='background-image: url("/public/img/testimonials/' + features[num].img '\")')
+      .quote
+        .text= features[num].quote
+          .detail {
+            a(href= features[num].link)= features[num].project 
+            | }  
+            = features[num].who
 
 //- Sponsor Slug
   Right below "thanks to our sponsors"
