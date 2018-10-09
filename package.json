@@ -16,6 +16,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "jstransformer-markdown-it": "^2.1.0",
+    "node": "^10.11.0",
     "nodemon": "^1.18.3",
     "pump": "^3.0.0"
   }
