@@ -1,4 +1,9 @@
 .navbar {
+  height: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99;
   color: $invert-accent;
 
   a {
@@ -12,16 +17,10 @@
   &.container {
     width: 100%;
     max-width: $max-width;
-    // border-bottom: 1px solid #efefef;
+  }
 
-    position: fixed;
-    top: 0;
-    z-index: 99;
-
-    &.solid {
-      background-color: $primary-accent;
-      // border: none;
-    }
+  &.solid .container {
+    background-color: $primary-accent;
   }
 
   img {

@@ -1,27 +1,28 @@
-.navbar.container#navbar
-  .contained
-    .right
-      a.title.link(href="/") 
-        img(src="/public/img/logo.svg")
-        | {web.lab}
-    .left
-      a(href="#main-menu"
-        role="button"
-        aria-expanded="false"
-        aria-controls="main-menu"
-        aria-label="Open main menu").menu-toggle
-        i.fa.fa-bars
-      .main-menu#main-menu(role="navigation"
-       aria-expanded="false"
-       aria-label="Main menu")
-        a.link(href="/about") about
-        a.link(href="/schedule") schedule
-        a.link(href="/team") team
-        a.link(href="/winners") winners
-        a.link(href="/FAQ") FAQ
-        a(href="#main-menu-toggle"
-        role="button"
-        aria-expanded="false"
-        aria-controls="main-menu"
-        aria-label="Close main menu").menu-close
-          i.fa.fa-times
+.navbar#navbar
+  .background.container
+    .contained
+      .right
+        a.title.link(href="/") 
+          img(src="/public/img/logo.svg")
+          | {web.lab}
+      .left
+        a(href="#main-menu"
+          role="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Open main menu").menu-toggle
+          i.fa.fa-bars
+        .main-menu#main-menu(role="navigation"
+         aria-expanded="false"
+         aria-label="Main menu")
+          a.link(href="/about") about
+          a.link(href="/schedule") schedule
+          a.link(href="/team") team
+          a.link(href="/winners") winners
+          a.link(href="/FAQ") FAQ
+          a(href="#main-menu-toggle"
+          role="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Close main menu").menu-close
+            i.fa.fa-times

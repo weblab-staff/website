@@ -1,4 +1,5 @@
 block config
+- var banner = true
 
 doctype html
 html
@@ -8,13 +9,16 @@ html
     script(src='/public/script.js')
     <meta name="viewport" content="width=device-width" />
     link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
-
     
   body
-    include navbar.pug
+    #sideheader
+      if banner
+        include banner.pug
+    #mainpage(class= banner && 'bannered')
+      include navbar.pug
+        
+      block content
     
-    block content
-  
   footer.container
     .contained
       .company.info
