@@ -93,7 +93,7 @@
       position: absolute;
       right: -$nav-width;
       top: 0;
-      width: $nav-width;
+      width: 0;
       height: 100vh;
       overflow-y: scroll;
       overflow-x: visible;
@@ -114,8 +114,10 @@
         }
       }
 
+      &.open,
       &:target,
       &[aria-expanded="true"] {
+        width: $nav-width;
         right: 0;
         outline: none;
       }
@@ -143,10 +145,10 @@
     }
 
     .main-menu {
+      width: 0;
       position: absolute;
       right: -$nav-width;
       top: 0;
-      width: $nav-width;
       height: 100vh;
       overflow-y: scroll;
       overflow-x: visible;
@@ -168,8 +170,11 @@
         }
       }
 
+      &.open,
       &:target,
       &[aria-expanded="true"] {
+        width: $nav-width;
+        display: block;
         right: 0;
         outline: none;
       }

@@ -93,9 +93,16 @@ function checkFilterMatch(day) {
   }
 }
 
+function toggleMenu() {
+  let menu = document.getElementById("mainmenu");
+
+  menu.classList.toggle("open");
+}
+
 console.log("Hello, World!");
 // When scrolled, make background of header
 window.onload = function() {
+  updateNavSolid();
   cycleFeatures();
 };
 

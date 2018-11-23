@@ -206,23 +206,30 @@
   }
 
   &.grid {
-    .platinum, .gold, .silver {
+    .platinum,
+    .gold,
+    .silver {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
     }
 
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+
     .platinum img {
-      height: 15em;
+      max-height: 15em;
     }
     .gold img {
-      height: 10em;
+      max-height: 10em;
     }
     .silver img {
-      height: 5em;
+      max-height: 5em;
     }
     .other img {
-      height: 3em;
+      max-height: 3em;
     }
 
     .logo {
@@ -264,6 +271,7 @@
 
     &.info {
       padding: 0 40px;
+      width: calc(100% - 80px);
       grid-row-start: 1;
       margin: 0;
     }
@@ -307,6 +315,7 @@
     }
     &.grid {
       justify-content: center;
+      overflow: hidden;
     }
   }
 }

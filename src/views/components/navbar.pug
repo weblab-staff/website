@@ -6,13 +6,13 @@
           img(src="/public/img/logo.svg")
           | {web.lab}
       .left
-        a(href="#main-menu"
+        a(onclick="toggleMenu()"
           role="button"
           aria-expanded="false"
           aria-controls="main-menu"
           aria-label="Open main menu").menu-toggle
           i.fa.fa-bars
-        .main-menu#main-menu(role="navigation"
+        .main-menu#mainmenu(role="navigation"
          aria-expanded="false"
          aria-label="Main menu")
           a.link(href="/about") about
@@ -20,7 +20,7 @@
           a.link(href="/team") team
           a.link(href="/winners") winners
           a.link(href="/FAQ") FAQ
-          a(href="#main-menu-toggle"
+          a(onclick="toggleMenu()"
           role="button"
           aria-expanded="false"
           aria-controls="main-menu"

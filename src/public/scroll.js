@@ -9,6 +9,12 @@ function clearSelect() {
   }
 }
 
+function toggleMenu() {
+  let menu = document.getElementById("mainmenu");
+
+  menu.classList.toggle("open");
+}
+
 // inspired by codyhouse.co
 function updateProgress() {
   let articles = document.getElementsByTagName("article");
