@@ -18,6 +18,18 @@
     "level": "silver"
   },
   {
+    "name": "Palantir",
+    "path": "palantir.png",
+    "link": "https://palantir.com/",
+    "level": "silver"
+  },
+  {
+    "name": "Next Jump",
+    "path": "nextjump.png",
+    "link": "http://www.nextjump.com/",
+    "level": "silver"
+  },
+  {
     "name": "Bloomberg",
     "path": "bloomberg.png",
     "link": "https://www.bloomberg.com/",

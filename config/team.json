@@ -9,8 +9,14 @@
     {
       "firstName": "shannen",
       "lastName": "wu",
-      "position": "academic chair",
+      "position": "co-academic chair",
       "img": "shannen.png"
+    },
+    {
+      "firstName": "alex",
+      "lastName": "chen",
+      "img": "alex.png",
+      "position": "co-academic chair"
     },
     {
       "firstName": "zachary",
@@ -57,15 +63,9 @@
       "img": "slava.png"
     },
     {
-      "firstName": "Budmonde",
-      "lastName": "Duinkharjav",
+      "firstName": "budmonde",
+      "lastName": "duinkharjav",
       "img": "budmonde.png",
-      "year": "2018"
-    },
-    {
-      "firstName": "Alex",
-      "lastName": "Chen",
-      "img": "alex.png",
       "year": "2018"
     },
     {
@@ -162,6 +162,12 @@
       "firstName": "jeffrey",
       "lastName": "sun",
       "img": "jeffrey.jpg",
+      "year": "2015"
+    },
+    {
+      "firstName": "charles",
+      "lastName": "liu",
+      "img": "cliu.png",
       "year": "2015"
     },
     {
