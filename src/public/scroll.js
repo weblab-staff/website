@@ -48,6 +48,7 @@ function updateNavSolid() {
 }
 
 window.onload = function() {
+  updateNavSolid();
   updateProgress();
 };
 

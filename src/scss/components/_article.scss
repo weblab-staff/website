@@ -73,3 +73,8 @@ article {
 article + article {
   border-top: 1px solid $primary-accent;
 }
+
+.article.mark {
+  height: 0;
+  transform: translateY(-80px);
+}
