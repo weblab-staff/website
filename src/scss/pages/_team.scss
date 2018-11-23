@@ -72,3 +72,15 @@
     }
   }
 }
+
+@media screen and (max-width: 730px) {
+  .team .staff.grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .team .staff.grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

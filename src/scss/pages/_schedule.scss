@@ -160,3 +160,9 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 730px) {
+  .schedule .main {
+    padding: 0 15px;
+  }
+}
