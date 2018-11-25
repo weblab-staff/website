@@ -45,35 +45,35 @@ include articles/milestones.pug
   NOTE: `ARTICLE` ids attached to `.article.mark` are crucial to linking in the sidebar, also make sure to add corresponding li objects to `sidebar()` above
 mixin articles()
   article.section
-    .article.mark#what
+    articlemark#what
     h1 what is web.lab
     include:markdown-it(html=true) articles/about.md
   article.section
-    .article.mark#transition
+    articlemark#transition
     h1 why we transitioned from 6.148
     include:markdown-it(html=true) articles/transition.md
   article.section
-    .article.mark#class
+    articlemark#class
     h1 class structure
     include:markdown-it(html=true) articles/structure.md
   article.section
-    .article.mark#contest
+    articlemark#contest
     h1 what is the contest
     include:markdown-it(html=true) articles/contest.md
   article.section
-    .article.mark#eligible
+    articlemark#eligible
     h1 who is eligible
     include:markdown-it(html=true) articles/who_is_eligible.md
   article.section
-    .article.mark#milestones
+    articlemark#milestones
     h1 milestones
     +milestones(submissions)
   article.section
-    .article.mark#rules
+    articlemark#rules
     +rules_article
   article.section
-    .article.mark#prizes
+    articlemark#prizes
     include:markdown-it articles/prizes.md
   article.section
-    .article.mark#judging
+    articlemark#judging
     +judging_article

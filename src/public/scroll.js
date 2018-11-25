@@ -17,7 +17,7 @@ function toggleMenu() {
 
 // inspired by codyhouse.co
 function updateProgress() {
-  let articles = document.getElementsByTagName("article");
+  let articles = document.getElementsByTagName("articlemark");
   let progress = false;
 
   for (let article of articles) {
