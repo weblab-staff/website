@@ -166,3 +166,35 @@
     padding: 0 15px;
   }
 }
+
+@media screen and (max-width: 730px) {
+  .schedule .main {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .filters.box{
+    display: block !important;
+  }
+  .switch {
+    margin: 0 0 0 0 !important;
+    width: 50% !important;
+    box-sizing: border-box;
+    display: inline-block;
+  }  
+
+  .resources {
+    display: none;
+  }
+  .lec,
+  .oh,
+  .event,
+  .milestone {
+    grid-template-columns: 1.2fr 3fr 1fr !important;
+  }
+  #export-btn{
+    display: none;
+  }
+}
+
