@@ -24,7 +24,7 @@ This year, we are excited to announce that MIT's Office of Digital Learning (ODL
 
 **Prize: $750**
 
-Awarded to the team that, as determined by the staff, created a site with the most unique, interesting, and compelling concept. This site would solve an interesting problem that doesn’t have an established solution or address one of the competition themes in a creative way.
+Awarded to the team that, as determined by the staff, created a site with the most unique, interesting, and compelling concept. This site would solve an interesting problem that doesn't have an established solution or address one of the competition themes in a creative way.
 
 ### Most Responsive UI Design
 
