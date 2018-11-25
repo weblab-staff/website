@@ -40,14 +40,11 @@ view at `localhost:8080`
 
 ## deploying code
 
-to generate static code, and set up on athena locker
+to deploy to the web.lab athena locally (no need to ssh manually!)
 
-clone the repo anywhere, and then:
-
-```
-$ gulp
-$ ln -s $PWD/build /path/to/serve/to
-```
+- clone the repo locally
+- to rebuild/update all files on the website, run `./deploy`
+- to update only text files (.html, .css, .js), run `./deploy --text`
 
 ## yearly site updates
 
