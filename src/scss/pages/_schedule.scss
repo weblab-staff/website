@@ -174,16 +174,16 @@
 }
 
 @media screen and (max-width: 540px) {
-  .filters.box{
+  .filters.box {
     display: block !important;
     width: 100%;
   }
   .switch {
-    margin: 0 0 0 0 !important;
-    width: 50% !important;
+    margin: 0 0 5px 5px !important;
+    width: calc(50% - 5px) !important;
     box-sizing: border-box;
     display: inline-block;
-  }  
+  }
 
   .resources {
     display: none;
@@ -194,8 +194,7 @@
   .milestone {
     grid-template-columns: 1fr 2fr 1fr !important;
   }
-  #export-btn{
+  #export-btn {
     display: none;
   }
 }
-
