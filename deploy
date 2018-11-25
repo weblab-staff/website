@@ -18,7 +18,7 @@ fi
 gulp
 read -p "Athena username: " NAME
 
-if [ -z $MODE ]; then
+if [ $MODE = 0 ]; then
     rsync -rvP build/* $NAME@athena.dialup.mit.edu:$TARGET_DIR
 else
     rsync -rvP --include '*/' --include '*.html' --include '*.css' --include '*.js' --exclude '*'  build/* $NAME@athena.dialup.mit.edu:$TARGET_DIR
