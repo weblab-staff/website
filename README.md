@@ -1,4 +1,4 @@
-# web.lab splash page generator
+# web.lab website
 
 ## table of contents
 
@@ -40,7 +40,7 @@ view at `localhost:8080`
 
 ## deploying code
 
-to deploy to the web.lab athena locally (no need to ssh manually!)
+to deploy to the web.lab athena locker (no need to ssh manually!)
 
 - clone the repo locally
 - to rebuild/update all files on the website, run `./deploy`

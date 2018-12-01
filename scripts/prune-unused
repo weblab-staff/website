@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+echo "Scanning for unused resources in ./src/public/img"
+for f in $(find src/public/img -type f); do
+    if [ -z  "$(grep -r ${f##*/} src config)" ]; then
+        echo "Removing $f"
+        rm -f $f
+    fi
+done
