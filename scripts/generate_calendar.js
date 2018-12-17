@@ -37,6 +37,8 @@ var exports = {
           let output = {};
 
           for (ev of res.items) {
+            if (ev.status === 'cancelled') continue; // ignore these
+
             let entry = { // individual calendar entry
               name: ev.summary,
               type: 'lec',
