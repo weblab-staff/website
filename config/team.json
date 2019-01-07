@@ -187,6 +187,48 @@
       "lastName": "chang",
       "img": "stephchang.jpg",
       "year": "before2015"
+    },
+    {
+      "firstName": "mark",
+      "lastName": "zhang",
+      "img": "mazhang.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "charles",
+      "lastName": "liu",
+      "img": "cliu.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "joe",
+      "lastName": "laurendi",
+      "img": "jlaurend.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "kenny",
+      "lastName": "lam",
+      "img": "kennylam.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "victor",
+      "lastName": "costan",
+      "img": "costan.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "adrian",
+      "lastName": "miguel",
+      "img": "atmiguel.jpg",
+      "year": "before2015"
+    },
+    {
+      "firstName": "elena",
+      "lastName": "tatarchenko",
+      "img": "elena_11.jpg",
+      "year": "before2015"
     }
   ]
 }
