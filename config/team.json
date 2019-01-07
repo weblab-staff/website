@@ -229,6 +229,18 @@
       "lastName": "tatarchenko",
       "img": "elena_11.jpg",
       "year": "before2015"
+    },
+    {
+      "firstName": "rachel",
+      "lastName": "fong",
+      "img": "rachel_fong.png",
+      "year": "before2015"
+    },
+    {
+      "firstName": "lydia",
+      "lastName": "chilton",
+      "img": "lydia_chilton.png",
+      "year": "before2015"
     }
   ]
 }
