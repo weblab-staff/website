@@ -1,0 +1,174 @@
+//- Content on resources.pug
+
+//- About this page
+mixin header()
+  h1 resources
+  p.slug
+    | a list compilation to various useful guides and resources
+
+//- Sidebar generator
+  NOTE: ids matching articles are crucial `ARTICLE_mark`
+mixin sidebar()
+  ul#sidebar
+    li.head.select#head_mark resources
+    li#inclass_mark
+      a(href="#inclass") ask staff
+    li#guides_mark
+      a(href="#guides") guides + tutorials
+    li#catbook_mark
+      a(href="#catbook") catbook workshops
+    li#texteditors_mark
+      a(href="#texteditors") text editors
+    li#hosting_mark
+      a(href="#hosting") hosting options
+    li#frontend_mark
+      a(href="#frontend") frontend
+    li#frameworks_mark
+      a(href="#frameworks") js frameworks
+    li#javascript_mark
+      a(href="#javascript") fun libraries
+    li#privacypolicy_mark
+      a(href="#privacypolicy") sample privacy policy
+
+//- Call article sections here
+  NOTE: `ARTICLE` ids attached to `.article.mark` are crucial to linking in the sidebar, also make sure to add corresponding li objects to `sidebar()` above
+mixin articles()
+  article.section
+    articlemark.mark#inclass
+    :markdown-it()
+      ## ask staff
+      
+      Staff and TAs will be around to answer questions! Come to office hours, listed in [schedule](https://weblab.mit.edu/schedule), find us after lecture, or submit questions to the [Piazza](https://piazza.com/class/jpwuh5je670578).
+      
+  article.section
+    articlemark.mark#guides
+    :markdown-it()
+      ## guides and tutorials
+      
+      - [Mozilla Beginners' Guide](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+      - [CodeAcademy Tutorials](https://www.codecademy.com/)
+      - [Mozilla Guides, Tutorials and Documentation](http://developer.mozilla.org/en-US/)
+      - [W3Schools Documentation](https://www.w3schools.com/)
+      - [A deeper dive into Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+  article.section
+    articlemark.mark#catbook
+    :markdown-it()
+      ## catbook workshop source code
+      
+      - [Complete Catbook App](https://github.com/mit6148-workshops/catbook)
+      - [Catbook Step 0](https://github.com/mit6148-workshops/catbook-workshop0)
+      - [Catbook Step 1](https://github.com/mit6148-workshops/catbook-workshop1)
+      - [Catbook Step 2](https://github.com/mit6148-workshops/catbook-workshop2)
+      - [Catbook Step 3](https://github.com/mit6148-workshops/catbook-workshop3)
+      - [Catbook Step 4](https://github.com/mit6148-workshops/catbook-workshop4)
+  article.section
+    articlemark.mark#texteditors
+    :markdown-it()
+      ## text editors
+
+      - [VSCode](https://code.visualstudio.com/)
+      - [Sublime Text](http://www.sublimetext.com/)
+        - For add-ons, install [Sublime Package Control](https://sublime.wbond.net/installation#st2)
+        - To edit files via SFTP/FTP (e.g. files on Athena), install [Sublime SFTP](http://wbond.net/sublime_packages/sftp)
+      - [Atom](https://atom.io/)
+      - [Komodo IDE](http://komodoide.com/)
+      - [WebStorm](https://www.jetbrains.com/webstorm/)
+  
+  article.section
+    articlemark.mark#hosting
+    :markdown-it()
+      ## (free) hosting options
+
+      - [Heroku](https://www.heroku.com/)
+        - [Ruby on Rails](https://devcenter.heroku.com/articles/getting-started-with-rails4#deploy-your-application-to-heroku)
+        - [Node.JS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+        - [Django](https://devcenter.heroku.com/articles/getting-started-with-django)
+
+  article.section
+    articlemark.mark#frontend
+    :markdown-it()
+      ## frontend
+
+      - Frameworks
+        - [Foundation](http://foundation.zurb.com/)
+        - [Bootstrap](http://getbootstrap.com/)
+        - [Flat UI](http://designmodo.github.io/Flat-UI/)
+        - [Semantic UI](http://semantic-ui.com/)
+      - Icons
+        - [flaticon](http://www.flaticon.com/)
+        - [Material Icons](https://material.io/icons/)
+        - [Glyphicons](http://getbootstrap.com/components/)
+        - [Font Awesome](http://fontawesome.io/)
+        - [Shareicon](https://www.shareicon.net/)
+      - Fonts
+        - [Google Fonts](https://fonts.google.com/)
+
+  article.section
+    articlemark.mark#frameworks
+    :markdown-it()
+      ## javascript frameworks
+
+      - [express](https://www.npmjs.com/package/express), for node.JS
+      - [AngularJS](https://angular.io/)
+      - [BackboneJS](http://backbonejs.org/)
+        - [Marionette](http://marionettejs.com/), to augment your BackboneJS experience
+      - [ReactJS](http://facebook.github.io/react/)
+      - [KnockoutJS](http://knockoutjs.com/)
+      - [EmberJS](http://emberjs.com/)
+
+  article.section
+    articlemark.mark#javascript
+    :markdown-it()
+      ## fun/useful javascript libraries
+
+      - Node.JS Modules
+        - [Mongoose](http://mongoosejs.com/), mongodb object modeling for node.js
+        - [Nodemailer](http://adilapapaya.com/docs/nodemailer/), send e-mails with node.js
+        - [Passport](http://passportjs.org/), authentication middleware
+        - [Socket.io](http://socket.io/), enables real-time bidirectional event-based communication
+        - [bcrypt](https://www.npmjs.com/package/bcrypt), making passwords even more secure
+        - [async](https://github.com/caolan/async), utility module for working with asynchronous JavaScript
+      - Miscellaneous
+        - [d3](http://d3js.org/), a JavaScript library for manipulating documents based on data
+          - [Plottable](http://plottablejs.org/), a JavaScript charting library built on top of d3
+        - [q](https://github.com/kriskowal/q), tool for making and composing asynchronous promises in JavaScript
+        - [arbor.js](http://arborjs.org/), a graph visualization library
+        - [typeahead.js](https://github.com/twitter/typeahead.js/), autocomplete search functionality from Twitter
+        - [KeyboardJS](http://robertwhurst.github.io/KeyboardJS/), library for binding keyboard combinations
+        - [30 Seconds of code](https://30secondsofcode.org/), a utility library with optimized functions
+        - [Mousetrap](http://craig.is/killing/mice), another library for binding keyboard combinations
+        - [Quill](http://quilljs.com/), a rich text editor
+        - [Numeral.js](http://numeraljs.com/), a library for formatting and manipulating numbers
+        - [interact.js](http://interactjs.io/), JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers
+        - [Sortable](http://rubaxa.github.io/Sortable/), minimalist JavaScript library for modern browsers and touch devices that makes manipulating lists so easy
+        - [RequireJS](http://requirejs.org/), an asynchronous file and module loader
+        - [Underscore](http://underscorejs.org/), a utility library
+        - [Lo-Dash](https://lodash.com/), for those who want more from underscore
+        - [AmplifyJS](http://amplifyjs.com/), solves a set of problems (such as cross browser local storage)
+        - [LeafletJS](http://leafletjs.com/), an Open-Source JavaScript Library for Mobile-Friendly Interactive Maps
+    
+  article.section
+    articlemark.mark#privacypolicy
+    :markdown-it()
+      ## sample privacy policy
+      
+      This privacy notice discloses the privacy practices for all websites in the web.lab class. This privacy notice applies solely to information collected by this website. It will notify you of the following:
+
+      1. What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.
+      2. What choices are available to you regarding the use of your data.
+      3. The security procedures in place to protect the misuse of your information.
+      4. How you can correct any inaccuracies in the information.
+      
+      #### Information Collection, Use, and Sharing
+      
+      We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.
+
+      We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
+      Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.
+      
+      #### Your Access to and Control Over Information
+      
+      You may opt out of any future contacts from us at any time.
+      We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline. If you feel that we are not abiding by this privacy policy, you should contact us immediately via email at weblab-staff@mit.edu 
+
+  
