@@ -2,15 +2,19 @@
   "calendarId": "r29uij251idu376bifugabkhoo@group.calendar.google.com",
   "googleApiKey": "AIzaSyBWw7tnK1X91Fuv67TqYtc_fRCIo8FWW4Y",
   "dates": {
-    "startDev": "Monday, January 6, 2018 at 11AM",
-    "finalSubmission": "11:59 AM (that's noon!) on Tuesday 1/30/18",
-    "semifinalist": "Wednesday 1/31/18 from approximately 8:30 AM to 4:00 PM",
-    "luncheon": "12 PM - 2 PM on Friday 2/2/2018"
+    "startDev": "Monday, January 7, 2019 at 11AM",
+    "finalSubmission": "11:59 AM (that's noon!) on Tuesday 1/29/19",
+    "semifinalist": "Wednesday 1/30/19 from approximately 8:30 AM to 4:00 PM",
+    "luncheon": "12 PM - 2 PM on Friday 2/1/2019"
   },
   "submissionLinks": {
-    "milestone0": "https://docs.google.com/forms/d/e/1FAIpQLScBXeUmWog7DInUwoHa-DdBU9Cqd_bgxru25S69cO2_WINWCA/viewform",
-    "milestone1": "https://docs.google.com/spreadsheets/d/1L0qphQjlW9_LVy1Yk1646SPwwomRHQ0MnxN1zeWZvxM/edit#gid=0",
-    "milestone2": "https://docs.google.com/forms/d/e/1FAIpQLScNJOUPLVXcZZEy42PnQH1_svCIWQl_Cklco0-fJWQSHZAGew/viewform",
-    "final": "https://docs.google.com/forms/d/e/1FAIpQLScBXeUmWog7DInUwoHa-DdBU9Cqd_bgxru25S69cO2_WINWCA/viewform"
+    "milestone0":
+      "https://docs.google.com/forms/d/e/1FAIpQLScBXeUmWog7DInUwoHa-DdBU9Cqd_bgxru25S69cO2_WINWCA/viewform",
+    "milestone1":
+      "https://docs.google.com/spreadsheets/d/1L0qphQjlW9_LVy1Yk1646SPwwomRHQ0MnxN1zeWZvxM/edit#gid=0",
+    "milestone2":
+      "https://docs.google.com/forms/d/e/1FAIpQLScNJOUPLVXcZZEy42PnQH1_svCIWQl_Cklco0-fJWQSHZAGew/viewform",
+    "final":
+      "https://docs.google.com/forms/d/e/1FAIpQLScBXeUmWog7DInUwoHa-DdBU9Cqd_bgxru25S69cO2_WINWCA/viewform"
   }
 }
