@@ -1,0 +1,18 @@
+extends components/layout
+
+block config
+  - var page_title = "Resources"
+
+block content  
+  include content/resources.pug
+  script(src='/public/scroll.js')
+  .resources.header.container
+    .contained
+      +header
+
+  .sidebar.container
+    aside.sidebar
+      .content
+        +sidebar
+    .main
+      +articles
