@@ -4,6 +4,14 @@ set -e
 
 TARGET_DIR="/mit/6.148/web_scripts"
 
+echo "Starting deploy..."
+git fetch
+if [ ! -z "$(git diff origin/HEAD)" ]; then
+    echo "Error: Branch differs from origin/HEAD"
+    echo "Have you pulled recently?"
+    exit 1
+fi
+
 if [ -z $1 ]; then
     echo "Syncing all files"
     MODE=0
