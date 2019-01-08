@@ -15,6 +15,8 @@ mixin sidebar()
       a(href="#inclass") ask staff
     li#guides_mark
       a(href="#guides") guides + tutorials
+    //- li#cheartsheet_mark
+      a(href="#cheatsheet") cheatsheets
     li#catbook_mark
       a(href="#catbook") catbook workshops
     li#texteditors_mark
@@ -49,7 +51,14 @@ mixin articles()
       - [CodeAcademy Tutorials](https://www.codecademy.com/)
       - [Mozilla Guides, Tutorials and Documentation](http://developer.mozilla.org/en-US/)
       - [W3Schools Documentation](https://www.w3schools.com/)
+      - [Git Commands Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
       - [A deeper dive into Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+
+  //- article.section
+    articlemark.mark#cheatsheet
+    :markdown-it()
+      ## cheatsheets
+
   article.section
     articlemark.mark#catbook
     :markdown-it()
@@ -77,12 +86,19 @@ mixin articles()
   article.section
     articlemark.mark#hosting
     :markdown-it()
-      ## (free) hosting options
+      ## hosting options
+      
+      - Free Hosting
+        - [Heroku](https://www.heroku.com/)
+          - [Ruby on Rails](https://devcenter.heroku.com/articles/getting-started-with-rails4#deploy-your-application-to-heroku)
+          - [Node.JS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+          - [Django](https://devcenter.heroku.com/articles/getting-started-with-django)
+        - [Now](https://zeit.co/now)
+          - [Docs](https://zeit.co/docs/v2/deployments/basics/)
 
-      - [Heroku](https://www.heroku.com/)
-        - [Ruby on Rails](https://devcenter.heroku.com/articles/getting-started-with-rails4#deploy-your-application-to-heroku)
-        - [Node.JS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
-        - [Django](https://devcenter.heroku.com/articles/getting-started-with-django)
+      - Paid Hosting
+        - [DigitalOcean](https://www.digitalocean.com/)
+        - [Amazon Web Services](https://aws.amazon.com/)
 
   article.section
     articlemark.mark#frontend
@@ -95,6 +111,7 @@ mixin articles()
         - [Flat UI](http://designmodo.github.io/Flat-UI/)
         - [Semantic UI](http://semantic-ui.com/)
       - Icons
+        - [CSS Icons](https://cssicon.space/#/)
         - [flaticon](http://www.flaticon.com/)
         - [Material Icons](https://material.io/icons/)
         - [Glyphicons](http://getbootstrap.com/components/)
@@ -102,6 +119,24 @@ mixin articles()
         - [Shareicon](https://www.shareicon.net/)
       - Fonts
         - [Google Fonts](https://fonts.google.com/)
+        - [Font Pairing Inspiration](http://typ.io/)
+      - Colors
+        - [Coolors Palette Generator](https://coolors.co/app)
+        - [Material Design Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=C2185B&secondary.color=C6FF00)
+        - [Flat UI Colors](https://flatuicolors.com/)
+        - [Adobe Color Wheel](https://color.adobe.com/create/color-wheel/)
+      - Design Systems
+        - [Material Design](https://material.io/design/)
+        - [Flat UI](https://designmodo.github.io/Flat-UI/)
+        - [Brutalist Web Design](https://brutalist-web.design/)
+        - [Tips for Designing for Mobile First](https://www.sitepoint.com/7-best-practices-designing-mobile-user-experience/)
+      - Get Inspired
+        - [Little UI Details that Make a Difference](https://twitter.com/i/moments/880688233641848832)
+        - [How to Make Shapes with CSS](https://css-tricks.com/the-shapes-of-css/)
+        - [Awwwards Sites](https://www.awwwards.com/websites/)
+        - [Dribbble Creative Ideas](https://dribbble.com/)
+        - [CSS Gooey Animations](https://css-tricks.com/gooey-effect/)
+
 
   article.section
     articlemark.mark#frameworks
