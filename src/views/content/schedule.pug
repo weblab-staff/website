@@ -6,14 +6,14 @@ mixin header()
 
 //- Detailed schedule information set here
 -
-  var start = 1 //- Start day (-1 = Sun, 0 = Mon, ...)
+  var start = 2 //- Start day (0 = Sun, 1 = Mon, ...)
   const calendar = require('./src/views/content/calendar.json');
 
   // TODO: Check start and end date info
-  var weeks = [[7 - start, 13 - start], 
-              [14 - start, 20 - start], 
-              [21 - start, 27 - start], 
-              [28 - start, 34 - start - 31]]
+  var weeks = [[8 - start, 14 - start], 
+              [15 - start, 21 - start], 
+              [22 - start, 28 - start], 
+              [29 - start, 35 - start - 31]]
 
 //- Sidebar generator
   Does not need to be edited
