@@ -15,7 +15,7 @@ mixin sidebar()
       a(href="#inclass") ask staff
     li#guides_mark
       a(href="#guides") guides + tutorials
-    //- li#cheartsheet_mark
+    li#cheartsheet_mark
       a(href="#cheatsheet") cheatsheets
     li#catbook_mark
       a(href="#catbook") catbook workshops
@@ -52,13 +52,15 @@ mixin articles()
       - [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
       - [Mozilla Guides, Tutorials and Documentation](http://developer.mozilla.org/en-US/)
       - [W3Schools Documentation](https://www.w3schools.com/)
-      - [Git Commands Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
       - [A deeper dive into Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 
-  //- article.section
+  article.section
     articlemark.mark#cheatsheet
     :markdown-it()
       ## cheatsheets
+
+      - [Command Line Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/)
+      - [Git Commands Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
   article.section
     articlemark.mark#catbook
@@ -71,6 +73,7 @@ mixin articles()
       - [Catbook Step 2](https://github.com/mit6148-workshops/catbook-workshop2)
       - [Catbook Step 3](https://github.com/mit6148-workshops/catbook-workshop3)
       - [Catbook Step 4](https://github.com/mit6148-workshops/catbook-workshop4)
+
   article.section
     articlemark.mark#texteditors
     :markdown-it()
