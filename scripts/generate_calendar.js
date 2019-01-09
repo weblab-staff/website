@@ -72,6 +72,7 @@ var exports = {
 
             if (ev.description) {
               for (line of ev.description.split('\n')) {
+                if (line === "") continue;
                 let split = line.split(':');
                 if (split.length == 1) {
                   entry.who = line.trim(); // assume line without colon is the lecturer
