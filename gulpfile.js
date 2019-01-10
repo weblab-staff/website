@@ -51,6 +51,7 @@ gulp.task("calendar", async () => {
 
 gulp.task("build", ["img", "sass", "pug", "fonts", "favicon"], function(cb) {
   pump([gulp.src("src/public/*.js"), gulp.dest("build/public/")], cb);
+  pump([gulp.src("src/public/*.pdf"), gulp.dest("build/public/")], cb);
 });
 
 gulp.task("serve", function() {
