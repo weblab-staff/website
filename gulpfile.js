@@ -14,6 +14,10 @@ gulp.task("fonts", function(cb) {
   pump([gulp.src("src/public/fonts/*"), gulp.dest("build/public/fonts")], cb);
 });
 
+gulp.task("pdfs", function(cb) {
+  pump([gulp.src("src/public/*.pdf"), gulp.dest("build/public/")], cb);
+});
+
 gulp.task("favicon", function(cb) {
   pump([gulp.src("src/favicon.ico"), gulp.dest("build")], cb);
 });
@@ -49,9 +53,8 @@ gulp.task("calendar", async () => {
   await calendar.generate();
 });
 
-gulp.task("build", ["img", "sass", "pug", "fonts", "favicon"], function(cb) {
+gulp.task("build", ["img", "sass", "pug", "fonts", "favicon", "pdfs"], function(cb) {
   pump([gulp.src("src/public/*.js"), gulp.dest("build/public/")], cb);
-  pump([gulp.src("src/public/*.pdf"), gulp.dest("build/public/")], cb);
 });
 
 gulp.task("serve", function() {
