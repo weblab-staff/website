@@ -44,11 +44,11 @@ mixin schedule()
     if thisday == weeks[0][0]
       #weekone
     else if thisday == weeks[1][0]
-      article#weektwo
+      articlemark.mark#weektwo
     else if thisday == weeks[2][0]
-      article#weekthree
+      articlemark.mark#weekthree
     else if thisday == weeks[3][0]
-      article#weekfour
+      articlemark.mark#weekfour
 
     if thisday in calendar
       - var types = ""

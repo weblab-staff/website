@@ -52,7 +52,7 @@ function checkFilterMatch(day) {
   // Only display relevant events
   let nodes = Array.prototype.slice.call(day.childNodes);
   for (let node of nodes) {
-    console.log(node);
+    // console.log(node);
     node.style.display = "none";
     for (let filter of FILTERS) {
       if (node.classList.contains(filter)) {
