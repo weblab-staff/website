@@ -53,6 +53,12 @@
       "lastName": "neogy",
       "position": "historian",
       "img": "rupayan.png"
+    },
+    { 
+      "firstName": "emily",
+      "lastName": "hu",
+      "position": "teaching assistant",
+      "img": "emilyhu.png"
     }
   ],
   "alums": [
