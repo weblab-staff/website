@@ -48,7 +48,7 @@ Originality: Does your application solve the problem in a way that hasn't been d
 
 The final submission will be a form, to be posted to the Milestones page at a later date. This form will close at exactly 11:59 AM (that's noon!) on Tuesday 1/30/18.
 
-After the submission form closes, the staff will identify semifinalists. We expect to have around 12-18 semifinalists (for the Main Division) depending on the quality of the submissions. Results will be announced by 8:00 PM of the same day.
+After the submission form closes, the staff will identify semifinalists. We expect to have around 10-15 semifinalists depending on the quality of the submissions. Results will be announced by 8:00 PM of the same day.
 
 Semifinalists will have a 15 minute time slot on Wednesday 1/31/18 from approximately 8:30 AM to 4:00 PM to give a 5-minute presentation to the judges and answer questions about their site. We recommend that your presentation explain:
 

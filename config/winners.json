@@ -10,40 +10,40 @@
             "project": "Keyframes",
             "creators": ["Shreyas Kapur"],
             "descript": "Create beautiful, compelling animated presentations right on the web. Think Adobe After Effects, a powerful animation software, inside the browser!",
-            "img": "https://imgur.com/3lqCXeR",
-            "link": "https://keyframes.tv"
+            "img": "https://i.imgur.com/3lqCXeR.png",
+            "link": "keyframes.tv"
           },
           {
             "place": "2nd Place",
             "project": "Dilemma Llama",
             "creators": ["Zoe Allen", "Artemisia Luk", "Xiaoqing Zhang"],
             "descript": "Dilemma Llama helps people crowdsource opinions on hard dilemmas. Users post dilemmas, and other users respond with arguments for either 'Yes' or 'No.'",
-            "img": "https://imgur.com/zSCy9Qk",
-            "link": "http://dilemma-llama.herokuapp.com"
+            "img": "https://i.imgur.com/zSCy9Qk.png",
+            "link": "dilemma-llama.herokuapp.com"
           },
           {
             "place": "3rd Place",
             "project": "Sound Space",
             "creators": ["Matthew Farejowicz", "Joonho Ko"],
             "descript": "Play songs with your friends! In space! It's like Patatap but social and collaborative.",
-            "img": "https://imgur.com/xxnGpGn",
-            "link": "http://sound-space.herokuapp.com/"
+            "img": "https://i.imgur.com/xxnGpGn.png",
+            "link": "sound-space.herokuapp.com/"
           },
           {
             "place": "co-4th Place",
             "project": "Keybeats",
             "creators": ["Bryan Chen", "Elizabeth Zhou", "Jodi Huang"],
             "descript": "A rhythm game for music lovers of all kinds! Welcomes casual players as well as providing incentive (stars) for those who want to better their skills!",
-            "img": "https://imgur.com/X3W6JcP",
-            "link": "http://keybeats.herokuapp.com"
+            "img": "https://i.imgur.com/X3W6JcP.png",
+            "link": "keybeats.herokuapp.com"
           },
           {
             "place": "co-4th Place",
             "project": "Routify",
             "creators": ["Ashika Verma"],
             "descript": "Routify allows users to game their productivity by getting points and gold when the user finishes something they need to do.",
-            "img": "https://imgur.com/pYw0NL2",
-            "link": "https://routify.herokuapp.com/"
+            "img": "https://i.imgur.com/pYw0NL2.png",
+            "link": "routify.herokuapp.com/"
           }
         ],
         "honorableMentions": [
@@ -51,44 +51,44 @@
             "project": "Diurnalis",
             "creators": ["Kathryn Jin", "Janice Yang", "Justin Park"],
             "descript": "One question per day, 365 days per year. Dive into a universe where you can record your thoughts, explore others’ responses, and reflect on your past self.",
-            "img": "https://imgur.com/kVgUPnp",
-            "link": "http://diurnalis.herokuapp.com/"
+            "img": "https://i.imgur.com/kVgUPnp.png",
+            "link": "diurnalis.herokuapp.com/"
           },
           {
             "project": "Ghost",
             "creators": ["Lillian Bu", "Rachel Kwak", "Calvin Phung"],
             "descript": "Take turns adding letters to the end of the string - avoid spelling a complete word, or you'll become a ghost. Ghost all your friends to win!",
-            "img": "https://imgur.com/vOcNCYT",
-            "link": "http://ghostfriends.herokuapp.com/"
+            "img": "https://i.imgur.com/vOcNCYT.png",
+            "link": "ghostfriends.herokuapp.com/"
           }
         ],
         "semifinalists": [
           {
             "project": "Lyra",
             "creators": ["Kevin Frans", "Jeremy Ma", "Michael Nguyen"],
-            "descript": "explore new songs with others in an open world. queue music to shared nodes to create collaborative playlists. add favorites to your personal collection!, connect with friends, and enjoy a delicious meal in good company.",
-            "img": "https://imgur.com/5sqLlzu",
-            "link": "https://lyra.ttp.codes"
+            "descript": "explore new songs with others in an open world. queue music to shared nodes to create collaborative playlists. add favorites to your personal collection!",
+            "img": "https://i.imgur.com/5sqLlzu.png",
+            "link": "lyra.ttp.codes"
           },
           {
             "project": "HotTake",
             "creators": ["Taylor Burke", "Shirley Lei", "Emily Yin"],
             "descript": "A modern take on classic card games that allow close friends to continually play games on and off.",
-            "img": "https://imgur.com/LUCL8Gm",
-            "link": "http://hottake.herokuapp.com/"
+            "img": "https://i.imgur.com/LUCL8Gm.png",
+            "link": "hottake.herokuapp.com/"
           },
           {
             "project": "News Racer",
             "creators": ["Tammam Mustafa", "Yunxing Liao", "Fadi Atieh"],
             "descript": "We built an in-browser game that allows you to type race against other people or on your own. Typing content is fresh, daily news.",
-            "img": "https://imgur.com/n0ROFH9",
-            "link": "https://newsracer.herokuapp.com/"
+            "img": "https://i.imgur.com/n0ROFH9.png",
+            "link": "newsracer.herokuapp.com/"
           },
           {
             "project": "SnapStack",
             "creators": ["Chris Chang", "Nikhil Singhal", "Melody Phu"],
             "descript": "SnapStack is a social judge-based card game where players respond to prompts by making memes out of each other, using images from social media profiles.",
-            "img": "https://imgur.com/TTLwZcD",
+            "img": "https://i.imgur.com/TTLwZcD.png",
             "link": "snap-stack.herokuapp.com"
           }
         ]
