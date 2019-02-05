@@ -16,7 +16,7 @@
           {
             "place": "2nd Place",
             "project": "Dilemma Llama",
-            "creators": ["Zoe Allen", "Artemisia Luk", "Vivian Zhang"],
+            "creators": ["Zoe Allen", "Artemisia Luk", "Xiaoqing Zhang"],
             "descript": "Dilemma Llama helps people crowdsource opinions on hard dilemmas. Users post dilemmas, and other users respond with arguments for either 'Yes' or 'No.'",
             "img": "https://imgur.com/zSCy9Qk",
             "link": "http://dilemma-llama.herokuapp.com"
