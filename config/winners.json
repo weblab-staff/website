@@ -89,7 +89,7 @@
             "creators": ["Chris Chang", "Nikhil Singhal", "Melody Phu"],
             "descript": "SnapStack is a social judge-based card game where players respond to prompts by making memes out of each other, using images from social media profiles.",
             "img": "https://i.imgur.com/TTLwZcD.png",
-            "link": "snap-stack.herokuapp.com"
+            "link": "snapstack.appspot.com"
           }
         ]
       }
