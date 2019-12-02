@@ -2,19 +2,15 @@
   "calendarId": "r29uij251idu376bifugabkhoo@group.calendar.google.com",
   "googleApiKey": "AIzaSyBWw7tnK1X91Fuv67TqYtc_fRCIo8FWW4Y",
   "dates": {
-    "startDev": "Monday, January 7, 2019 at 11AM",
-    "finalSubmission": "11:59 AM (that's noon!) on Tuesday 1/29/19",
-    "semifinalist": "Wednesday 1/30/19 from approximately 8:30 AM to 4:00 PM",
-    "luncheon": "12 PM - 2 PM on Friday 2/1/2019"
+    "startDev": "Monday, January 6, 2020 at 11AM",
+    "finalSubmission": "11:59 AM (that's noon!) on Wednesday 1/29/2020",
+    "semifinalist": "Thursday 1/30/2020 from approximately 8:30 AM to 4:00 PM",
+    "luncheon": "12 PM - 2 PM on Friday 1/31/2020"
   },
   "submissionLinks": {
-    "milestone0":
-      "http://weblab.to/milestone0",
-    "milestone1":
-      "http://weblab.to/milestone1",
-    "milestone2":
-      "http://weblab.to/milestone2",
-    "final":
-      "http://weblab.to/final"
+    "milestone0": "http://weblab.to/milestone0",
+    "milestone1": "http://weblab.to/milestone1",
+    "milestone2": "http://weblab.to/milestone2",
+    "final": "http://weblab.to/final"
   }
 }
