@@ -83,9 +83,17 @@ var exports = {
                   if (key == "type") {
                     entry.type = val; // can always explicitly set type
                   } else {
+                    // replace <a href="some_link"></a> with some_link
+                    let link = split.slice(1).join(':').trim();
+                    const prefix = "href=\"";
+                    const linkIndex = link.indexOf(prefix);
+                    if(linkIndex >= 0) {
+                      link = link.substring(linkIndex + prefix.length);
+                      link = link.substring(0, link.indexOf("\""));
+                    }
                     entry.links.push({
                       type: key.split(" ")[0],
-                      link: split.slice(1).join(':').trim()
+                      link: link
                     });
                   }
                 }
