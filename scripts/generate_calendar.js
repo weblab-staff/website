@@ -71,7 +71,7 @@ var exports = {
             }
 
             if (ev.description) {
-              for (line of ev.description.split('\n')) {
+              for (line of ev.description.split("<br>").join("\n").split('\n')) {
                 if (line === "") continue;
                 let split = line.split(':');
                 if (split.length == 1) {
