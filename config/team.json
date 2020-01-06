@@ -1,16 +1,16 @@
 {
   "current": [
     {
-      "firstName": "jessica",
-      "lastName": "tang",
-      "position": "co-president",
-      "img": "jessica.png"
-    },
-    {
       "firstName": "shannen",
       "lastName": "wu",
       "position": "co-president",
       "img": "shannen.JPG"
+    },
+    {
+      "firstName": "jessica",
+      "lastName": "tang",
+      "position": "co-president",
+      "img": "jessica.png"
     },
     {
       "firstName": "nikhil",
