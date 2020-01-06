@@ -1,16 +1,22 @@
 {
   "current": [
     {
-      "firstName": "aaron",
-      "lastName": "sipser",
-      "position": "president",
-      "img": "aaron.png"
+      "firstName": "jessica",
+      "lastName": "tang",
+      "position": "co-president",
+      "img": "jessica.png"
     },
     {
       "firstName": "shannen",
       "lastName": "wu",
-      "position": "co-academic chair",
-      "img": "shannen.png"
+      "position": "co-president",
+      "img": "shannen.JPG"
+    },
+    {
+      "firstName": "nikhil",
+      "lastName": "singhal",
+      "img": "nik.jpg",
+      "position": "co-academic chair"
     },
     {
       "firstName": "alex",
@@ -19,22 +25,22 @@
       "position": "co-academic chair"
     },
     {
-      "firstName": "zachary",
-      "lastName": "collins",
+      "firstName": "matt",
+      "lastName": "farejowicz",
       "position": "treasurer",
-      "img": "zach.png"
+      "img": "matt.jpeg"
     },
     {
-      "firstName": "andrew",
-      "lastName": "chen",
+      "firstName": "aaron",
+      "lastName": "sipser",
       "position": "sponsor chair",
-      "img": "andrew.png"
+      "img": "aaron.png"
     },
     {
-      "firstName": "jessica",
-      "lastName": "tang",
-      "position": "publicity chair",
-      "img": "jessica.png"
+      "firstName": "clare",
+      "lastName": "liu",
+      "position": "pub chair",
+      "img": "crate.png"
     },
     {
       "firstName": "cory",
@@ -43,25 +49,55 @@
       "img": "cory.png"
     },
     {
+      "firstName": "kye",
+      "lastName": "burchard",
+      "position": "operations chair",
+      "img": "kye.jpg"
+    },
+    {
+      "firstName": "noah",
+      "lastName": "raby",
+      "position": "teaching assistant",
+      "img": "noah.jpg"
+    },
+    {
+      "firstName": "johan",
+      "lastName": "cervantes",
+      "position": "teaching assistant",
+      "img": "johan.jpg"
+    }
+  ],
+  "alums": [
+    {
+      "firstName": "zachary",
+      "lastName": "collins",
+      "year": "2019",
+      "img": "zach.png"
+    },
+    {
+      "firstName": "andrew",
+      "lastName": "chen",
+      "year": "2019",
+      "img": "andrew.png"
+    },
+    {
       "firstName": "cynthia",
       "lastName": "liu",
-      "position": "operations chair",
+      "year": "2019",
       "img": "cynthia.png"
     },
     {
       "firstName": "rupayan",
       "lastName": "neogy",
-      "position": "historian",
+      "year": "2019",
       "img": "rupayan.png"
     },
-    { 
+    {
       "firstName": "emily",
       "lastName": "hu",
-      "position": "teaching assistant",
+      "year": "2019",
       "img": "emilyhu.png"
-    }
-  ],
-  "alums": [
+    },
     {
       "firstName": "slava",
       "lastName": "kim",
