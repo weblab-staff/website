@@ -106,7 +106,7 @@
     .event,
     .milestone {
       display: grid;
-      grid-template-columns: 1fr 3fr 1fr 1fr;
+      grid-template-columns: 1fr 3fr 2fr;
       grid-gap: 20px;
       padding: 16px 0px;
       border-top: 1px solid rgba($primary-text, 0.5);
@@ -114,6 +114,11 @@
       .time,
       .room {
         color: rgba($primary-text, 0.5);
+      }
+      .room-res-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
       }
       .lecturer {
         font-size: 0.8em;
@@ -185,9 +190,11 @@
     display: inline-block;
   }
 
-  .resources {
-    display: none;
+  .room-res-container {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
   }
+
   .lec,
   .oh,
   .event,

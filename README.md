@@ -26,6 +26,8 @@ more detailed documentation about the site organization:
 
 download all dependencies including dev
 
+note: currently, node v10.x is needed for gulp to work properly
+
 ```
 $ npm install
 ```
