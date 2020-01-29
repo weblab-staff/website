@@ -14,11 +14,6 @@ In addition, teams may be awarded special prizes at the discretion of the staff.
 
 You can indicate whether you would like to be considered for any of these special prizes during the final submission.
 
-### Most Valuable for MIT
-
-**Prize: $750**
-
-This year, we are excited to announce that MIT's Office of Digital Learning (ODL) will be awarding a special prize! To qualify for the Most Valuable for MIT award, the team will need to build a project that is targeted toward only MIT students or faculty. A project that can be used by anyone including MIT students, but that is not targeted toward MIT students, will not be eligible for this award. The judges will determine the winner of this award based on both the idea and the finished product.
 
 ### Most Unique Concept
 

@@ -6,3 +6,5 @@ build
 *.html
 src/views/content/calendar.json
 *.swp
+*~
+.*.un~
