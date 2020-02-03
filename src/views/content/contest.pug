@@ -18,10 +18,10 @@ mixin rules_article()
       #ruletwo.details
         p 
           strong Dynamically-generated, database-backed pages.
-          | Your site must contain pages that are produced dynamically by some server-side application (e.g. Node.js, Ruby on Rails, PHP or Python scripts) using the results of queries to some database or other data service.
+          | Your site must contain pages that are produced dynamically by some server-side application (e.g. Node.js, Ruby on Rails, PHP or Python scripts) using the results of queries to some database or other data service. You should use MongoDB -- what we teach in class -- or if you would like to use something else, please confirm with staff first.
         p 
           strong Personalized experience based on user accounts. 
-          | Your site must have a sign-in feature. You may implement your own username/password login system or use an existing system (e.g. Facebook or Google login). The content and/or UI of the website should reflect whether a user is logged in. You are not required to implement account management (e.g. password recovery). Note: If your site uses MIT certificates, you must implement an alternative form of authentication for our non-MIT judges.
+          | Your site must have a sign-in feature. You may implement your own username/password login system or use an existing system (e.g. Facebook or Google login). The content and/or UI of the website should reflect whether a user is logged in and display some non-trivial user-specific content. You are not required to implement account management (e.g. password recovery). Note: If your site uses MIT certificates, you must implement an alternative form of authentication for our non-MIT judges.
         p 
           strong Original design and implementation. 
           | Your site's high-level design and the implementation of key features must be original. You may use Web application frameworks like Express.js or Ruby on Rails and frontend frameworks like Bootstrap and Backbone. You may use open-source components as long as the top-level design is original and your site's main functionality is not simply a wrapper around the component. You may not customize a CMS system such as Wordpress for your site.
@@ -55,23 +55,15 @@ mixin rules_article()
 
     .num 05.
     .rule
-      | This is a team project. As such, team members should contribute an appropriate amount to receive individual credit for the course.
-    
-    .num 06.
-    .rule
-      | Use MongoDB -- what we teach in class -- or if you would like to use something else, please confirm with staff first
-
-    .num 07.
-    .rule
       | Teams must use version control and host source code on 
       a(href="http://github.com/") Github
       |. Our staff will create repositories for every team as well as teach how to use Github.
     
-    .num 08.
+    .num 06.
     .rule
       | Your site must work in either Chrome or Firefox. Teams will be able to specify browser of choice.
     
-    .num 09.
+    .num 07.
     .rule
       | Teams must comply with US laws and MIT academic policy and integrity policies. You can read 
       span.link(onclick="showDetail('rulefive')") more details about these policies
@@ -86,7 +78,7 @@ mixin rules_article()
           strong Straight-forward evil. 
           | Do not spam or host malware. Do not encourage or assist users in breaking non-disclosure agreements or infringing copyright. Your site must not provide a haven for discussion or sharing of topics violating relevant local, state, and Federal laws, including copyright law. Do not abuse MIT's infrastructure or databases. Do not interfere with other contestants' development process.
 
-    .num 10.
+    .num 08.
     .rule
       | Past competitors who were in a team who have won more than $2000 in their 6.148 (formerly 6.470) career are not eligible to compete. Special prizes do not count towards this restriction. If in doubt, please contact the staff.
 
