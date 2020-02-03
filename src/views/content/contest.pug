@@ -2,7 +2,7 @@
 
 //- Article: Contest Rules
 mixin rules_article()
-  h1 contest rules
+  h1 rules
   .bullet.grid
     .num 01.
     .rule 
@@ -52,18 +52,26 @@ mixin rules_article()
         p 
           strong Asynchronous viewing/modification of data. 
           | After your application is loaded, future additions, modifications, or deletions are done asynchronously (without a new page load). A "single-page app" that contains significant functionality implemented via asynchronous calls to your server would satisfy this requirement.
-    
+
     .num 05.
+    .rule
+      | This is a team project. As such, team members should contribute an appropriate amount to receive individual credit for the course.
+    
+    .num 06.
+    .rule
+      | Use MongoDB -- what we teach in class -- or if you would like to use something else, please confirm with staff first
+
+    .num 07.
     .rule
       | Teams must use version control and host source code on 
       a(href="http://github.com/") Github
       |. Our staff will create repositories for every team as well as teach how to use Github.
     
-    .num 06.
+    .num 08.
     .rule
       | Your site must work in either Chrome or Firefox. Teams will be able to specify browser of choice.
     
-    .num 07.
+    .num 09.
     .rule
       | Teams must comply with US laws and MIT academic policy and integrity policies. You can read 
       span.link(onclick="showDetail('rulefive')") more details about these policies
@@ -78,7 +86,7 @@ mixin rules_article()
           strong Straight-forward evil. 
           | Do not spam or host malware. Do not encourage or assist users in breaking non-disclosure agreements or infringing copyright. Your site must not provide a haven for discussion or sharing of topics violating relevant local, state, and Federal laws, including copyright law. Do not abuse MIT's infrastructure or databases. Do not interfere with other contestants' development process.
 
-    .num 08.
+    .num 10.
     .rule
       | Past competitors who were in a team who have won more than $2000 in their 6.148 (formerly 6.470) career are not eligible to compete. Special prizes do not count towards this restriction. If in doubt, please contact the staff.
 
