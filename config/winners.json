@@ -1,5 +1,100 @@
 [
   {
+    "head": "2020. craft your own _",
+    "divisions": [
+      {
+        "name": "main division",
+        "winners": [
+          {
+            "place": "1st Place",
+            "project": "The Tavern",
+            "creators": ["Yodahe Alemu", "Joshua Verdejo", "Niko Sendek"],
+            "descript": "We created a comprehensive, immersive, and collaborative storytelling app, utilizing modern technology to breathe new life into the classic text adventure.",
+            "img": "https://i.imgur.com/S0mQgUB.png",
+            "link": "thetavern.herokuapp.com/"
+          },
+          {
+            "place": "2nd Place",
+            "project": "UTrain",
+            "creators": ["Steven Diaz", "Roberto Ramirez"],
+            "descript": "An easy and fun way to train your machine learning models through the web. No Tensors. No Torches. All you.",
+            "img": "https://i.imgur.com/EGf14bM.png",
+            "link": "utrain.herokuapp.com/"
+          },
+          {
+            "place": "3rd Place",
+            "project": "day.ly",
+            "creators": ["Amy Lei", "Hui Min Wu", "Ivy Mao"],
+            "descript": " Day.ly streamlines bullet journaling online. It has a daily autosaving notebook, trackable, customizable widgets, collections, and custom themes.",
+            "img": "https://i.imgur.com/XbYfNTF.png",
+            "link": "day-ly.herokuapp.com/"
+          },
+          {
+            "place": "4th Place",
+            "project": "em7",
+            "creators": ["Dylan Liu", "Carl Joshua Quines", "Emma Qin"],
+            "descript": "em7 allows users who are interested in music but don't have much music theory background a platform to create and share their own melodies and harmonies.",
+            "img": "https://i.imgur.com/dRaPJwu.png",
+            "link": "em7.herokuapp.com/"
+          }
+        ],
+        "honorableMentions": [
+          {
+            "project": "Voxualizer",
+            "creators": ["Matthew Leonard", "Prithvi Undavalli"],
+            "descript": "This is a website that lets you build a 3D music visualizer out of voxels that respond to the music you play.",
+            "img": "https://i.imgur.com/isigT94.png",
+            "link": "craft-your-own-visualizer.herokuapp.com/"
+          },
+          {
+            "project": "QuPong",
+            "creators": ["Tareq El Dandachi"],
+            "descript": "Create open source quantum circuits, simulate them and compete with your friends by playing pong. Easy way to teach people new to quantum how it all works.",
+            "img": "https://i.imgur.com/q8LHXIs.png",
+            "link": "qupong.herokuapp.com/"
+          }
+        ],
+        "semifinalists": [
+          {
+            "project": "pop'n",
+            "creators": ["Jocelyn Shen", "Shirley Cao", "Julia Jia"],
+            "descript": "pop'n is a cultural enrichment game to satisfy curiosity about places around the world through online polls and data visualizations. let's get pop'n!",
+            "img": "https://i.imgur.com/6M0X9fw.png",
+            "link": "pop-n.herokuapp.com/"
+          },
+          {
+            "project": "colorfly",
+            "creators": ["Benjamin Bartschi", "Emily Huang", "Anna Landler"],
+            "descript": "colorfly makes creating unique art easy for users through generative designs. Download, share, and track progress!",
+            "img": "https://i.imgur.com/08wu3zL.png",
+            "link": "colorfly.herokuapp.com/"
+          },
+          {
+            "project": "Study Garden",
+            "creators": ["Eileen Tan-Aristy", "Tommy Adebiyi", "Jennifer Wang"],
+            "descript": "Study Garden allows students to keep track of their study sessions in the form of flowers that grow as they study. ",
+            "img": "https://i.imgur.com/802gjim.png",
+            "link": "study-garden.herokuapp.com/"
+          },
+          {
+            "project": "Stanza",
+            "creators": ["Amy Vogel", "Wendy Trattner"],
+            "descript": "Craft your own computer-generated poetry. Choose a corpus and a poem structure, and watch the magic happen! ",
+            "img": "https://i.imgur.com/pa1FcP3.png",
+            "link": "stanza-poetry.herokuapp.com/"
+          },
+          {
+            "project": "h2gro",
+            "creators": ["Jude He"],
+            "descript": "A game where you can log water drinking and use it to water a virtual garden. Plants are dynamically generated & you can cross breed them to make new ones.",
+            "img": "https://i.imgur.com/iVCgJYo.png",
+            "link": "h2gro.herokuapp.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "head": "2019. press any key to start",
     "divisions": [
       {
