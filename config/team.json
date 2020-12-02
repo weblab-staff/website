@@ -7,67 +7,109 @@
       "img": "shannen.JPG"
     },
     {
-      "firstName": "jessica",
-      "lastName": "tang",
-      "position": "co-president",
-      "img": "jessica.png"
-    },
-    {
       "firstName": "nikhil",
       "lastName": "singhal",
-      "img": "nik.jpg",
+      "position": "co-president",
+      "img": "nik.jpg"
+    },
+    {
+      "firstName": "daniel",
+      "lastName": "sun",
+      "img": "dansun.jpg",
       "position": "co-academic chair"
-    },
-    {
-      "firstName": "alex",
-      "lastName": "chen",
-      "img": "alex.png",
-      "position": "co-academic chair"
-    },
-    {
-      "firstName": "matt",
-      "lastName": "farejowicz",
-      "position": "treasurer",
-      "img": "matt.jpeg"
-    },
-    {
-      "firstName": "aaron",
-      "lastName": "sipser",
-      "position": "sponsor chair",
-      "img": "aaron.png"
-    },
-    {
-      "firstName": "clare",
-      "lastName": "liu",
-      "position": "pub chair",
-      "img": "crate.png"
-    },
-    {
-      "firstName": "cory",
-      "lastName": "lynch",
-      "position": "tech chair",
-      "img": "cory.png"
-    },
-    {
-      "firstName": "kye",
-      "lastName": "burchard",
-      "position": "operations chair",
-      "img": "kye.jpg"
-    },
-    {
-      "firstName": "noah",
-      "lastName": "raby",
-      "position": "teaching assistant",
-      "img": "noah.jpg"
     },
     {
       "firstName": "johan",
       "lastName": "cervantes",
+      "img": "johan.jpg",
+      "position": "co-academic chair"
+    },
+    {
+      "firstName": "tommy",
+      "lastName": "adebiyi",
+      "position": "treasurer",
+      "img": "tommy.jpg"
+    },
+    {
+      "firstName": "nicholas",
+      "lastName": "salinas",
+      "position": "sponsor chair",
+      "img": "nico.jpg"
+    },
+    {
+      "firstName": "jessica",
+      "lastName": "yin",
+      "position": "pub chair",
+      "img": "jessica.jpg"
+    },
+    {
+      "firstName": "noah",
+      "lastName": "raby",
+      "position": "tech chair",
+      "img": "noah.jpg"
+    },
+    {
+      "firstName": "kye",
+      "lastName": "burchard",
+      "position": "co-operations chair",
+      "img": "kye.jpg"
+    },
+    {
+      "firstName": "claire",
+      "lastName": "cheng",
+      "position": "co-operations chair",
+      "img": "claire.JPG"
+    },
+    {
+      "firstName": "akshaj",
+      "lastName": "kadaveru",
       "position": "teaching assistant",
-      "img": "johan.jpg"
+      "img": "akshaj.jpeg"
+    },
+    {
+      "firstName": "justin",
+      "lastName": "park",
+      "position": "teaching assistant",
+      "img": "justin.jpg"
     }
   ],
   "alums": [
+    {
+      "firstName": "aaron",
+      "lastName": "sipser",
+      "year": "2020",
+      "img": "aaron.png"
+    },
+    {
+      "firstName": "alex",
+      "lastName": "cheng",
+      "year": "2020",
+      "img": "alex.png"
+    },
+    {
+      "firstName": "cory",
+      "lastName": "lynch",
+      "year": "2020",
+      "img": "cory.png"
+    },
+    {
+      "firstName": "clare",
+      "lastName": "liu",
+      "year": "2020",
+      "img": "crate.png"
+    },
+    {
+      "firstName": "jessica",
+      "lastName": "tang",
+      "year": "2020",
+      "img": "jessica.png"
+    },
+    {
+      "firstName": "matt",
+      "lastName": "farejowicz",
+      "year": "2020",
+      "img": "matt.jpeg"
+    },
     {
       "firstName": "zachary",
       "lastName": "collins",
