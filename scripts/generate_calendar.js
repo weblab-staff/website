@@ -35,7 +35,6 @@ var exports = {
         resp.on('end', () => {
           let res = JSON.parse(data);
           let output = {};
-
           for (ev of res.items) {
             if (ev.status === 'cancelled') continue; // ignore these
 
@@ -107,7 +106,6 @@ var exports = {
               output[day] = [entry];
             }
           }
-
           fs.writeFileSync(__dirname + '/../src/views/content/calendar.json', JSON.stringify(output));
           resolve()
         });
