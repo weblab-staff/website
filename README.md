@@ -122,6 +122,8 @@ if no type is explicitly provided, the website will infer based on the title (e.
 
 to make an event with an instantaneous time (e.g. milestone due at 11:59am), set the calendar entry to start and end at the same time (e.g. 11:59am - 11:59am)
 
+Note: 
+The calendar script assumes that the system time is EST. If the schedule page does not seem right, make sure to change your system time to EST while running gulp.
 ## editing content
 
 content files for editing are all contained in `src/views/content/`. you do not need to touch any of the pug files at the top level of `src/views/`. you will be updating the content of the mixins in these files. this section is split up into pages and what can be updated/how to update components on each page.
