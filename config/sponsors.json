@@ -9,7 +9,7 @@
     "name": "MIT Open Learning",
     "path": "open-learning.png",
     "link": "https://openlearning.mit.edu/",
-    "level": "silver"
+    "level": "gold"
   },
   {
     "name": "Facebook",
@@ -21,24 +21,12 @@
     "name": "Palantir",
     "path": "palantir.png",
     "link": "https://palantir.com/",
-    "level": "silver"
-  },
-  {
-    "name": "Next Jump",
-    "path": "nextjump.png",
-    "link": "http://www.nextjump.com/",
-    "level": "platinum"
+    "level": "gold"
   },
   {
     "name": "Bloomberg",
     "path": "bloomberg.png",
     "link": "https://www.bloomberg.com/",
-    "level": "silver"
-  },
-  {
-    "name": "Oracle",
-    "path": "oracle.png",
-    "link": "https://www.oracle.com/",
-    "level": "silver"
+    "level": "gold"
   }
 ]
