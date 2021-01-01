@@ -1,44 +1,37 @@
-[
-  {
-    "name": "Appian",
-    "path": "appian.png",
-    "link": "https://appian.com/",
-    "level": "gold"
-  },
-  {
-    "name": "MIT Open Learning",
-    "path": "open-learning.png",
-    "link": "https://openlearning.mit.edu/",
-    "level": "silver"
-  },
-  {
-    "name": "Facebook",
-    "path": "facebook.png",
-    "link": "https://facebook.com/",
-    "level": "gold"
-  },
-  {
-    "name": "Palantir",
-    "path": "palantir.png",
-    "link": "https://palantir.com/",
-    "level": "silver"
-  },
-  {
-    "name": "Next Jump",
-    "path": "nextjump.png",
-    "link": "http://www.nextjump.com/",
-    "level": "platinum"
-  },
-  {
-    "name": "Bloomberg",
-    "path": "bloomberg.png",
-    "link": "https://www.bloomberg.com/",
-    "level": "silver"
-  },
-  {
-    "name": "Oracle",
-    "path": "oracle.png",
-    "link": "https://www.oracle.com/",
-    "level": "silver"
-  }
+[{
+        "name": "Appian",
+        "path": "appian.png",
+        "link": "https://appian.com/",
+        "level": "gold"
+    },
+    {
+        "name": "MIT Open Learning",
+        "path": "open-learning.png",
+        "link": "https://openlearning.mit.edu/",
+        "level": "gold"
+    },
+    {
+        "name": "Facebook",
+        "path": "facebook.png",
+        "link": "https://facebook.com/",
+        "level": "gold"
+    },
+    {
+        "name": "Palantir",
+        "path": "palantir.png",
+        "link": "https://palantir.com/",
+        "level": "gold"
+    },
+    {
+        "name": "Bloomberg",
+        "path": "bloomberg.png",
+        "link": "https://www.bloomberg.com/",
+        "level": "gold"
+    },
+    {
+        "name": "Gather",
+        "path": "gather.png",
+        "link": "https://gather.town/",
+        "level": "gold"
+    }
 ]
