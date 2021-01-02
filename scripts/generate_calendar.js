@@ -3,6 +3,7 @@ const config = require('../config');
 const fs = require('fs');
 
 function getTime (date) {
+  date = new Date(date.toLocaleString("en-US", {timeZone: "America/New_York"}))
   let h = date.getHours();
   let m = date.getMinutes();
 
