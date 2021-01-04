@@ -28,6 +28,12 @@
       img {
         width: 100%;
       }
+
+      .landing.info div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
 
     a {
