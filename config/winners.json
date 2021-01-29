@@ -17,7 +17,7 @@
             "place": "2nd Place",
             "project": "Soro Soke",
             "creators": ["Bilikisu Ayeni"],
-            "descript": "You choose a category and get a randomly assigned related prompt to talk about. SoroSoke listens to you speak and gives you feedback on the time used, speed, numbers of pauses, duration of total pauses, and if applicable commonly repeated words and alternatives for those words.",
+            "descript": "SoroSoke listens to you speak and gives you feedback on a variety of common speaking metrics, showing you how to improve.",
             "img": "https://imgur.com/FEGqV3B.png",
             "link": "https://soro-soke.herokuapp.com/"
           },
@@ -42,14 +42,14 @@
           {
             "project": "Plasmablaster",
             "creators": ["Ryan Kim", "Shashvat Srivastava", "Helen Lu"],
-            "descript": "We hope you’re BLASTED away by our awesome multiplayer game of virtual laser tag! Create your own custom maps to battle on and step up your game with extraordinary power ups, while dodging lasers with your webcam using ML-powered posenets.",
+            "descript": "Create custom maps to battle on and step up your laser tag game with extraordinary power ups, while dodging using ML-powered posenets.",
             "img": "https://imgur.com/sVQn8GS.png",
             "link": "https://plasmablaster.herokuapp.com/"
           },
           {
             "project": "WeWorld",
             "creators": ["Kyaw Hpone Myint", "Dina Sharon"],
-            "descript": "WeWorld enables users to learn a language through tagged photos. Users upload photos and add tags and captions to view their pictures and experiences through the lens of a new language.",
+            "descript": "WeWorld users upload photos and add tags and captions to view their pictures and experiences through the lens of a new language.",
             "img": "https://imgur.com/ZeXxvB6.png",
             "link": "https://weworld.herokuapp.com/"
           }
