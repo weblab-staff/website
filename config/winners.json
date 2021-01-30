@@ -71,7 +71,7 @@
           },
           {
             "project": "Personify",
-            "creators": ["Meenakashi Singh", "Tina Lu", "Kelly Lam"],
+            "creators": ["Meenakshi Singh", "Tina Lu", "Kelly Lam"],
             "descript": "Personify is a Spotify Playlist Generator that creates a playlist based on an input message, specified genres, and algorithm choice.",
             "img": "https://imgur.com/pyUDg6b.png",
             "link": "per-sonify.herokuapp.com/"
