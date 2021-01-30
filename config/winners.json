@@ -9,9 +9,9 @@
             "place": "1st Place",
             "project": "Dash Tag",
             "creators": ["Nicholas Tsao", "Michael Han", "Anugrah Chemparathy"],
-            "descript": "A fast-paced, fun, multiplayer game of online tag. Every move causes you to slide in a direction uncontrollably until you hit an obstacle, so be careful where you go!",
+            "descript": "A multiplayer game of online tag. Every move causes you to slide in a direction until you hit an obstacle, so be careful!",
             "img": "https://imgur.com/fAlT0vE.png",
-            "link": "https://dash-tag.herokuapp.com/"
+            "link": "dash-tag.herokuapp.com/"
           },
           {
             "place": "2nd Place",
@@ -19,7 +19,7 @@
             "creators": ["Bilikisu Ayeni"],
             "descript": "SoroSoke listens to you speak and gives you feedback on a variety of common speaking metrics, showing you how to improve.",
             "img": "https://imgur.com/FEGqV3B.png",
-            "link": "https://soro-soke.herokuapp.com/"
+            "link": "soro-soke.herokuapp.com/"
           },
           {
             "place": "3rd Place",
@@ -27,7 +27,7 @@
             "creators": ["Kevin Chen", "Amy Zhong"],
             "descript": "Musicards is a fun way to find new music and share your favorite songs with others! Log in with Spotify, make requests, trade songs, and build your deck :)",
             "img": "https://imgur.com/sc599ZW.png",
-            "link": "https://musicards-mit.herokuapp.com/"
+            "link": "musicards-mit.herokuapp.com/"
           },
           {
             "place": "4th Place",
@@ -35,7 +35,7 @@
             "creators": ["Jessica Xu", "Sarah Wang"],
             "descript": "The Write Pet encourages reflection. Adopt a pet and journal consistently to raise your pet’s happiness. Take care of yourself by taking care of your pet!",
             "img": "https://imgur.com/e2VYqeC.png",
-            "link": "https://the-write-pet.herokuapp.com/"
+            "link": "the-write-pet.herokuapp.com/"
           }
         ],
         "honorableMentions": [
@@ -44,14 +44,14 @@
             "creators": ["Ryan Kim", "Shashvat Srivastava", "Helen Lu"],
             "descript": "Create custom maps to battle on and step up your laser tag game with extraordinary power ups, while dodging using ML-powered posenets.",
             "img": "https://imgur.com/sVQn8GS.png",
-            "link": "https://plasmablaster.herokuapp.com/"
+            "link": "plasmablaster.herokuapp.com/"
           },
           {
             "project": "WeWorld",
             "creators": ["Kyaw Hpone Myint", "Dina Sharon"],
             "descript": "WeWorld users upload photos and add tags and captions to view their pictures and experiences through the lens of a new language.",
             "img": "https://imgur.com/ZeXxvB6.png",
-            "link": "https://weworld.herokuapp.com/"
+            "link": "weworld.herokuapp.com/"
           }
         ],
         "semifinalists": [
@@ -60,28 +60,28 @@
             "creators": ["Adam Janicki", "Henry Wang"],
             "descript": "Fanvision is a platform for NBA fans who want to predict game outcomes without betting money. Users compete to top the daily podium and season standings.",
             "img": "https://imgur.com/BQHhBn8.png",
-            "link": "https://fanvision.herokuapp.com/"
+            "link": "fanvision.herokuapp.com/"
           },
           {
             "project": "Remembomb",
             "creators": ["Kalyn Bowen"],
             "descript": "RememBomb is a card matching and social deduction game for 5+ players (more the merrier)! Keep your eyes focused on the board at all times.",
             "img": "https://imgur.com/lyV13fN.png",
-            "link": "https://remembomb.herokuapp.com/"
+            "link": "remembomb.herokuapp.com/"
           },
           {
             "project": "Personify",
             "creators": ["Meenakashi Singh", "Tina Lu", "Kelly Lam"],
             "descript": "Personify is a Spotify Playlist Generator that creates a playlist based on an input message, specified genres, and algorithm choice.",
             "img": "https://imgur.com/pyUDg6b.png",
-            "link": "https://per-sonify.herokuapp.com/"
+            "link": "per-sonify.herokuapp.com/"
           },
           {
             "project": "A4A",
             "creators": ["Dejon Kurti", "Hassan Mohiuddin", "Haoran Wen"],
             "descript": "A4A is a site designed to help MIT students get their questions answered in a quick, informative, and easy fashion.",
             "img": "https://imgur.com/XJN5nI9.png",
-            "link": "https://a4a.herokuapp.com"
+            "link": "a4a.herokuapp.com"
           }
         ]
       }
