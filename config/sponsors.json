@@ -2,25 +2,25 @@
         "name": "Appian",
         "path": "appian.png",
         "link": "https://appian.com/",
-        "level": "gold"
+        "level": "silver"
     },
     {
         "name": "MIT Open Learning",
         "path": "open-learning.png",
         "link": "https://openlearning.mit.edu/",
-        "level": "gold"
+        "level": "silver"
     },
     {
-        "name": "Facebook",
-        "path": "facebook.png",
-        "link": "https://facebook.com/",
-        "level": "gold"
+        "name": "Ramp",
+        "path": "ramp.png",
+        "link": "https://ramp.com/",
+        "level": "silver"
     },
     {
-        "name": "Palantir",
-        "path": "palantir.png",
-        "link": "https://palantir.com/",
-        "level": "gold"
+        "name": "Cresicor",
+        "path": "cresicor.png",
+        "link": "https://cresicor.ai/",
+        "level": "silver"
     },
     {
         "name": "Bloomberg",
@@ -32,6 +32,18 @@
         "name": "Gather",
         "path": "gather.png",
         "link": "https://gather.town/",
+        "level": "silver"
+    },
+    {
+        "name": "Next Jump",
+        "path": "nextjump.png",
+        "link": "https://nextjump.com/",
+        "level": "gold"
+    },
+    {
+        "name": "Meta",
+        "path": "meta.png",
+        "link": "https://meta.com/",
         "level": "gold"
     }
 ]
