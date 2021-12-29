@@ -214,7 +214,8 @@
   &.grid {
     .platinum,
     .gold,
-    .silver {
+    .silver,
+    .other {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
