@@ -30,7 +30,7 @@ mixin past_winners()
                   .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
-                    a(href= "http://" + winner.link)= winner.link
+                    a(href= "https://" + winner.link)= winner.link
             each winner in division.honorableMentions
               .single.project
                 .img(style='background-image: url("' + winner.img + '")')
@@ -40,7 +40,7 @@ mixin past_winners()
                   .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
-                    a(href= "http://" + winner.link)= winner.link
+                    a(href= "https://" + winner.link)= winner.link
             each winner in division.semifinalists
               .single.project
                 .img(style='background-image: url("' + winner.img + '")')
@@ -50,4 +50,4 @@ mixin past_winners()
                   .creators= "by " + winner.creators.join(", ")
                   .descript= winner.descript
                   .link
-                    a(href= "http://" + winner.link)= winner.link
+                    a(href= "https://" + winner.link)= winner.link
