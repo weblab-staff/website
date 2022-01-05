@@ -47,4 +47,24 @@ Awarded to the team that, as determined by the staff, implemented the most impre
 
 Awarded to the team (among all submissions) that receives the most Facebook likes. Votes will open when semifinalists are announced and will close during the awards ceremony.
 
+## Sponsor Prizes
+
+### MIT Open Learning Canvas Prize
+
+**Prize: $500**
+
+Awarded to the team that creates a project that can best be integrated with the Canvas API.
+
+### Gather Innovation Prize
+
+**Prize: $1,500**
+
+Gather’s mission is creating opportunity and connection for people, no matter where they are. We’ll award the Gather Innovation Prize to the project that we feel best embodies our mission!
+
+### Next Jump Human Innovation Prize
+
+**Prize: $1,000**
+
+Next Jump is a deliberately developmental organization focused on enhancing the performance of teams and leaders by improving judgement, decision making, self-awareness. An organization or team’s most important asset is their people. Next Jump is sponsoring a $1,000 prize for the team that creates the most innovative human capital tool to enhance performance and decision making.
+
 Good luck!
