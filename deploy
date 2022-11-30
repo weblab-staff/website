@@ -23,7 +23,7 @@ else
     exit 1
 fi
 
-gulp
+npm run gulp-build
 read -p "Athena username: " NAME
 
 if [ $MODE = 0 ]; then

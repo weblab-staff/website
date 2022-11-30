@@ -1,16 +1,16 @@
 {
-  "calendarId": "9qf6vtl7b9omuqi98usg4g5np8@group.calendar.google.com",
+  "calendarId": "61b97ada9cacac7b1463febff25ef18052f6c023e00e8047e170dd69bbc16b96@group.calendar.google.com",
   "googleApiKey": "AIzaSyBWw7tnK1X91Fuv67TqYtc_fRCIo8FWW4Y",
   "dates": {
-    "startDev": "Monday, January 3, 2022 at 1PM",
-    "finalSubmission": "11:59 AM (that's noon!) on Wednesday 1/26/2022",
-    "semifinalist": "Thursday 1/27/2022 from approximately 8:30 AM to 4:00 PM",
-    "luncheon": "12 PM - 2 PM on Friday 1/28/2022"
+    "startDev": "Monday, January 9, 2023 at 1PM",
+    "finalSubmission": "11:59 AM (that's noon!) on Wednesday 2/1/2023",
+    "semifinalist": "Thursday 2/2/2023 from approximately 8:30 AM to 4:00 PM",
+    "luncheon": "12 PM - 2 PM on Friday 2/3/2023"
   },
   "submissionLinks": {
-    "milestone0": "http://weblab.to/milestone0",
-    "milestone1": "http://weblab.to/milestone1",
-    "milestone2": "http://weblab.to/milestone2",
-    "final": "http://weblab.to/final"
+    "milestone0": "http://weblab.is/milestone0",
+    "milestone1": "http://weblab.is/milestone1",
+    "milestone2": "http://weblab.is/milestone2",
+    "final": "http://weblab.is/final"
   }
 }
