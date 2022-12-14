@@ -56,7 +56,10 @@ mixin schedule()
         if !types.includes(ev.type) && ev.type != "block"
           - types += `${ev.type} `
       .day(class= types)
-        h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
+        if thisday <= 31
+          h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
+        else
+          h3.date #{oftheweek[(thisday + start - 1) % 7]}, february #{thisday - 30}
         for event in calendar[thisday]
           if event.type == "block"
             .block= event.name
@@ -75,7 +78,7 @@ mixin event_details(event)
       .lecturer Lecturer: #{event.who}
   .room= event.where
   if event.links
-    .resources
+    .resourcesOffice Hours
       for resource in event.links
         a(href=resource.link)
           if resource.type == "youtube"
