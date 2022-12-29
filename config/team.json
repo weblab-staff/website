@@ -1,70 +1,22 @@
 {
   "current": [
     {
-      "firstName": "nikhil",
-      "lastName": "singhal",
-      "position": "eternally staff",
-      "img": "nik.jpg"
+      "firstName": "nicholas",
+      "lastName": "tsao",
+      "position": "president",
+      "img": "nicholas.jpg"
     },
     {
-      "firstName": "claire",
-      "lastName": "cheng",
-      "position": "co-president",
-      "img": "claire.JPG"
-    },
-    {
-      "firstName": "daniel",
-      "lastName": "sun",
-      "img": "dansun.jpg",
-      "position": "co-president"
+      "firstName": "shashvat",
+      "lastName": "srivastava",
+      "position": "tech chair",
+      "img": "shash.jpg"
     },
     {
       "firstName": "helen",
       "lastName": "lu",
       "img": "helen.jpg",
-      "position": "co-academic chair"
-    },
-    {
-      "firstName": "akshaj",
-      "lastName": "kadaveru",
-      "position": "co-academic chair",
-      "img": "akshaj.jpeg"
-    },
-    {
-      "firstName": "albert",
-      "lastName": "xing",
-      "position": "treasurer",
-      "img": "albert.jpg"
-    },
-    {
-      "firstName": "mufaro",
-      "lastName": "makiwa",
-      "position": "sponsor chair",
-      "img": "mufaro.JPG"
-    },
-    {
-      "firstName": "nicholas",
-      "lastName": "tsao",
-      "position": "pub chair",
-      "img": "nicholas.jpg"
-    },
-    {
-      "firstName": "noah",
-      "lastName": "raby",
-      "position": "tech chair",
-      "img": "noah.jpg"
-    },
-    {
-      "firstName": "thanh",
-      "lastName": "nguyen",
-      "position": "historian",
-      "img": "thanh.jpg"
-    },
-    {
-      "firstName": "kevin",
-      "lastName": "chen",
-      "position": "operations chair",
-      "img": "kevin.jpg"
+      "position": "eternally staff"
     },
     {
       "firstName": "vincent",
@@ -73,13 +25,109 @@
       "img": "vincent.jpg"
     },
     {
-      "firstName": "allen",
-      "lastName": "ding",
-      "position": "teaching assistant",
-      "img": "allen.jpg"
+      "firstName": "philena",
+      "lastName": "liu",
+      "position": "treasurer",
+      "img": "philena.jpg"
+    },
+    {
+      "firstName": "leo",
+      "lastName": "martinez",
+      "position": "pub chair",
+      "img": "leo.jpg"
+    },
+    {
+      "firstName": "jacky",
+      "lastName": "luong",
+      "position": "ops chair",
+      "img": "jacky.jpg"
+    },
+    {
+      "firstName": "kenneth",
+      "lastName": "choi",
+      "position": "co-academic chair",
+      "img": "kenny.jpg"
+    },
+    {
+      "firstName": "qiong",
+      "lastName": "zhou huong",
+      "position": "co-academic chair",
+      "img": "qiong.jpg"
+    },
+    {
+      "firstName": "william",
+      "lastName": "qs xu",
+      "position": "sponsor chair",
+      "img": "william.jpg"
+    },
+    {
+      "firstName": "dylan",
+      "lastName": "walker",
+      "img": "dylan.jpg",
+      "position": "teaching assistant"
     }
   ],
   "alums": [
+    {
+      "firstName": "nikhil",
+      "lastName": "singhal",
+      "year": "2022",
+      "img": "nik.jpg"
+    },
+    {
+      "firstName": "claire",
+      "lastName": "cheng",
+      "year": "2022",
+      "img": "claire.JPG"
+    },
+    {
+      "firstName": "daniel",
+      "lastName": "sun",
+      "img": "dansun.jpg",
+      "year": "2022"
+    },
+    {
+      "firstName": "akshaj",
+      "lastName": "kadaveru",
+      "year": "2022",
+      "img": "akshaj.jpeg"
+    },
+    {
+      "firstName": "albert",
+      "lastName": "xing",
+      "year": "2022",
+      "img": "albert.jpg"
+    },
+    {
+      "firstName": "mufaro",
+      "lastName": "makiwa",
+      "year": "2022",
+      "img": "mufaro.JPG"
+    },
+    {
+      "firstName": "noah",
+      "lastName": "raby",
+      "year": "2022",
+      "img": "noah.jpg"
+    },
+    {
+      "firstName": "thanh",
+      "lastName": "nguyen",
+      "year": "2022",
+      "img": "thanh.jpg"
+    },
+    {
+      "firstName": "kevin",
+      "lastName": "chen",
+      "year": "2022",
+      "img": "kevin.jpg"
+    },
+    {
+      "firstName": "allen",
+      "lastName": "ding",
+      "year": "2022",
+      "img": "allen.jpg"
+    },
     {
       "firstName": "justin",
       "lastName": "park",
