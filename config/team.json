@@ -65,6 +65,12 @@
       "lastName": "walker",
       "img": "dylan.jpg",
       "position": "teaching assistant"
+    },
+    {
+      "firstName": "edward",
+      "lastName": "chen",
+      "position": "historian",
+      "img": "edwardchen.jpg"
     }
   ],
   "alums": [
