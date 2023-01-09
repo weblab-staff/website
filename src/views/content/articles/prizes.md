@@ -3,9 +3,9 @@
 Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2018).
 
 - **1st Place: $3,500**
-- 2nd Place: $3,000
-- 3rd Place: $2,500
-- 4th Place: $2,000
+- 2nd Place: $2,500
+- 3rd Place: $2,000
+- 4th Place: $1,750
 - Honorable Mention: $1,000
 
 ## Special Prizes
@@ -17,13 +17,13 @@ You can indicate whether you would like to be considered for any of these specia
 
 ### Most Unique Concept
 
-**Prize: $750**
+**Prize: $500**
 
 Awarded to the team that, as determined by the staff, created a site with the most unique, interesting, and compelling concept. This site would solve an interesting problem that doesn't have an established solution or address one of the competition themes in a creative way.
 
 ### Most Responsive UI Design
 
-**Prize: $750**
+**Prize: $500**
 
 Awarded to the team that created a site with the best responsive design across screen and device sizes.
 
@@ -31,13 +31,13 @@ Note: To win this prize, you may NOT do any sort of device or user-agent detecti
 
 ### Most Innovative UI Feature
 
-**Prize: $750**
+**Prize: $500**
 
 Awarded to the team that, as determined by the staff, implemented the most innovative, well-designed, and interesting UI feature. Think about the UI lecture - how will you surprise users (in a good way) and use your UI feature to draw users to your site? Take risks and be bold!
 
 ### Most Innovative Backend Feature
 
-**Prize: $750**
+**Prize: $500**
 
 Awarded to the team that, as determined by the staff, implemented the most impressive feature or algorithm on the backend. This can be a cool use of various technologies, design or implementation of a nontrivial algorithm, or something else on the backend. Surprise us!
 
@@ -46,25 +46,3 @@ Awarded to the team that, as determined by the staff, implemented the most impre
 **Prize: $500**
 
 Awarded to the team (among all submissions) that receives the most Facebook likes. Votes will open when semifinalists are announced and will close during the awards ceremony.
-
-## Sponsor Prizes
-
-### MIT Open Learning Canvas Prize
-
-**Prize: $500**
-
-Awarded to the team that creates a project that can best be integrated with the Canvas API.
-
-### Gather Innovation Prize
-
-**Prize: $1,500**
-
-Gather’s mission is creating opportunity and connection for people, no matter where they are. We’ll award the Gather Innovation Prize to the project that we feel best embodies our mission!
-
-### Next Jump Human Innovation Prize
-
-**Prize: $1,000**
-
-Next Jump is a deliberately developmental organization focused on enhancing the performance of teams and leaders by improving judgement, decision making, self-awareness. An organization or team’s most important asset is their people. Next Jump is sponsoring a $1,000 prize for the team that creates the most innovative human capital tool to enhance performance and decision making.
-
-Good luck!
