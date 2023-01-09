@@ -78,7 +78,7 @@ mixin event_details(event)
       .lecturer Lecturer: #{event.who}
   .room= event.where
   if event.links
-    .resourcesOffice Hours
+    .resources
       for resource in event.links
         a(href=resource.link)
           if resource.type == "youtube"
