@@ -11,7 +11,7 @@
             "creators": ["Kenneth Choi", "Michael Kuoch", "Enrique Casillas"],
             "descript": "Chat and play casino games with other users, mint your own custom NFTs, and view and trade your NFTs elsewhere.",
             "img": "https://i.imgur.com/55d0mlu.jpg",
-            "link": "youtu.be/qcH8S0UUdiE?t=2184"
+            "link": "projectfortuna.herokuapp.com"
           },
           {
             "place": "2nd Place",
@@ -19,7 +19,7 @@
             "creators": ["Ziqian Zhong", "Mingyang Deng", "Shengtong Zhang"],
             "descript": "A game in which players guess words by revealing blocks from a blurry image.",
             "img": "https://i.imgur.com/q6SXYbn.png",
-            "link": "youtu.be/qcH8S0UUdiE?t=1918"
+            "link": "mosaic-detective.com"
           },
           {
             "place": "3rd Place",
@@ -27,7 +27,7 @@
             "creators": ["Jaeyoon Song", "Hao Lyu"],
             "descript": "A note taking tool for online meetings with live transcript and tracks a user's meeting statistics (frequency of meetings, common words spoken).",
             "img": "https://i.imgur.com/1VMTIVI.png",
-            "link": "noteworthynotes-2022.herokuapp.com"
+            "link": "noteworthynotes.herokuapp.com"
           },
           {
             "place": "4th Place",
@@ -35,7 +35,7 @@
             "creators": ["Mingzhen Qi", "Xinran Wang", "Yi Suo"],
             "descript": "BEAsleep is a web-based interactive sleep tracker that encourages students to sleep more healthily with the ability for users to customize their own cute beaver!",
             "img": "https://i.imgur.com/Z6rXs8r.png",
-            "link": "youtu.be/qcH8S0UUdiE?t=2861"
+            "link": "beasleep.herokuapp.com"
           }
         ],
         "honorableMentions": [
@@ -44,14 +44,14 @@
             "creators": ["Jason Li", "Joey Zheng"],
             "descript": "Our website is a platform that brings people together to virtually connect through the popular social game, Paranoia.",
             "img": "https://i.imgur.com/byQoLSO.png",
-            "link": "paranoia-2022.herokuapp.com"
+            "link": "paranoiajj.herokuapp.com"
           },
           {
             "project": "Graph Ninja",
             "creators": ["Grace Tian", "Liane Xu", "Ziwei Jiang"],
             "descript": "Graph Ninja teaches users about quadratic functions in a fun, original, and engaging way.",
             "img": "https://i.imgur.com/IIacguu.png",
-            "link": "graph-ninja-2022.herokuapp.com"
+            "link": "graph-ninja-game.herokuapp.com"
           }
         ],
         "semifinalists": [
@@ -64,28 +64,28 @@
             ],
             "descript": "Two-player card game where you build sentences from cards and activate them to reach your goal.",
             "img": "https://i.imgur.com/FCRtF2X.png",
-            "link": "dreamer-showdown-2022.herokuapp.com"
+            "link": "dreamer-showdown.herokuapp.com"
           },
           {
             "project": "Wildcard",
             "creators": ["Lilian Luong", "Michelle Yin", "Patrick Kao"],
             "descript": "Wildcard is an online multiplayer card game creator.",
             "img": "https://i.imgur.com/8n9zsFy.png",
-            "link": "youtu.be/qcH8S0UUdiE?t=773"
+            "link": "wildcard-game.herokuapp.com"
           },
           {
             "project": "Identify",
             "creators": ["William Wang", "Disha Kohli", "Jennifer Zhou"],
             "descript": "Identify is a quizbowl style multiplayer game where users listen to a song and try to guess it as fast as possible.",
             "img": "https://i.imgur.com/DP1384L.png",
-            "link": "youtu.be/qcH8S0UUdiE?t=466"
+            "link": "identify-mit.herokuapp.com"
           },
           {
             "project": "Chimera",
             "creators": ["Hannah Kim", "Christine Tu", "James Xiu"],
             "descript": "Chimera Doodles is an online, multiplayer game that allows parties of up to 8 users to create drawings together.",
             "img": "https://i.imgur.com/l6U2IOW.png",
-            "link": "youtu.be/qcH8S0UUdiE?t=2365"
+            "link": "chimeradoodles.herokuapp.com"
           }
         ]
       }
