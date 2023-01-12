@@ -103,7 +103,7 @@
             "creators": ["Nicholas Tsao", "Michael Han", "Anugrah Chemparathy"],
             "descript": "A multiplayer game of online tag. Every move causes you to slide in a direction until you hit an obstacle, so be careful!",
             "img": "https://imgur.com/fAlT0vE.png",
-            "link": "dash-tag.herokuapp.com/"
+            "link": "dash-tag-2021.herokuapp.com/"
           },
           {
             "place": "2nd Place",
@@ -127,7 +127,7 @@
             "creators": ["Jessica Xu", "Sarah Wang"],
             "descript": "The Write Pet encourages reflection. Adopt a pet and journal consistently to raise your pet’s happiness. Take care of yourself by taking care of your pet!",
             "img": "https://imgur.com/e2VYqeC.png",
-            "link": "the-write-pet.herokuapp.com/"
+            "link": "the-write-pet-2021.herokuapp.com/"
           }
         ],
         "honorableMentions": [
@@ -261,7 +261,7 @@
             "creators": ["Amy Vogel", "Wendy Trattner"],
             "descript": "Craft your own computer-generated poetry. Choose a corpus and a poem structure, and watch the magic happen! ",
             "img": "https://i.imgur.com/pa1FcP3.png",
-            "link": "stanza-poetry.herokuapp.com/"
+            "link": "stanza-2020.herokuapp.com/"
           },
           {
             "project": "h2gro",
@@ -318,7 +318,7 @@
             "creators": ["Ashika Verma"],
             "descript": "Routify allows users to game their productivity by getting points and gold when the user finishes something they need to do.",
             "img": "https://i.imgur.com/pYw0NL2.png",
-            "link": "routify.herokuapp.com/"
+            "link": "routify-2019.herokuapp.com/"
           }
         ],
         "honorableMentions": [
