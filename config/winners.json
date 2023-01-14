@@ -119,7 +119,7 @@
             "creators": ["Kevin Chen", "Amy Zhong"],
             "descript": "Musicards is a fun way to find new music and share your favorite songs with others! Log in with Spotify, make requests, trade songs, and build your deck :)",
             "img": "https://imgur.com/sc599ZW.png",
-            "link": "musicards-mit.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=2762s"
           },
           {
             "place": "4th Place",
@@ -127,7 +127,7 @@
             "creators": ["Jessica Xu", "Sarah Wang"],
             "descript": "The Write Pet encourages reflection. Adopt a pet and journal consistently to raise your pet’s happiness. Take care of yourself by taking care of your pet!",
             "img": "https://imgur.com/e2VYqeC.png",
-            "link": "the-write-pet-2021.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1229s"
           }
         ],
         "honorableMentions": [
@@ -143,7 +143,7 @@
             "creators": ["Kyaw Hpone Myint", "Dina Sharon"],
             "descript": "WeWorld users upload photos and add tags and captions to view their pictures and experiences through the lens of a new language.",
             "img": "https://imgur.com/ZeXxvB6.png",
-            "link": "weworld.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1003s"
           }
         ],
         "semifinalists": [
@@ -152,28 +152,28 @@
             "creators": ["Adam Janicki", "Henry Wang"],
             "descript": "Fanvision is a platform for NBA fans who want to predict game outcomes without betting money. Users compete to top the daily podium and season standings.",
             "img": "https://imgur.com/BQHhBn8.png",
-            "link": "fanvision.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=435s"
           },
           {
             "project": "Remembomb",
             "creators": ["Kalyn Bowen"],
             "descript": "RememBomb is a card matching and social deduction game for 5+ players (more the merrier)! Keep your eyes focused on the board at all times.",
             "img": "https://imgur.com/lyV13fN.png",
-            "link": "remembomb.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1449s"
           },
           {
             "project": "Personify",
             "creators": ["Meenakshi Singh", "Tina Lu", "Kelly Lam"],
             "descript": "Personify is a Spotify Playlist Generator that creates a playlist based on an input message, specified genres, and algorithm choice.",
             "img": "https://imgur.com/pyUDg6b.png",
-            "link": "per-sonify.herokuapp.com/"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1921s"
           },
           {
             "project": "A4A",
             "creators": ["Dejon Kurti", "Hassan Mohiuddin", "Haoran Wen"],
             "descript": "A4A is a site designed to help MIT students get their questions answered in a quick, informative, and easy fashion.",
             "img": "https://imgur.com/XJN5nI9.png",
-            "link": "a4a.herokuapp.com"
+            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=2152s"
           }
         ]
       }
