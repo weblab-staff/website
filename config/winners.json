@@ -152,7 +152,7 @@
             "creators": ["Adam Janicki", "Henry Wang"],
             "descript": "Fanvision is a platform for NBA fans who want to predict game outcomes without betting money. Users compete to top the daily podium and season standings.",
             "img": "https://imgur.com/BQHhBn8.png",
-            "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=435s"
+            "link": "fanvision.vercel.app"
           },
           {
             "project": "Remembomb",
