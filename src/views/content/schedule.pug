@@ -13,7 +13,7 @@ mixin header()
   var weeks = [[9 - start, 15 - start], 
               [16 - start, 22 - start], 
               [23 - start, 29 - start], 
-              [30 - start, 33 - start - 31]]
+              [30 - start, 37 - start - 31]]
 
 //- Sidebar generator
   Does not need to be edited
@@ -59,7 +59,7 @@ mixin schedule()
         if thisday <= 31
           h3.date #{oftheweek[(thisday + start - 1) % 7]}, january #{thisday}
         else
-          h3.date #{oftheweek[(thisday + start - 1) % 7]}, february #{thisday - 30}
+          h3.date #{oftheweek[(thisday + start - 1) % 7]}, february #{thisday - 31}
         for event in calendar[thisday]
           if event.type == "block"
             .block= event.name
