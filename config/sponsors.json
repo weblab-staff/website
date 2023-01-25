@@ -1,49 +1,14 @@
-[{
-        "name": "Appian",
-        "path": "appian.png",
-        "link": "https://appian.com/",
-        "level": "other"
-    },
-    {
-        "name": "MIT Open Learning",
-        "path": "open-learning.png",
-        "link": "https://openlearning.mit.edu/",
-        "level": "silver"
-    },
-    {
-        "name": "Ramp",
-        "path": "ramp.png",
-        "link": "https://ramp.com/",
-        "level": "other"
-    },
-    {
-        "name": "Cresicor",
-        "path": "cresicor.png",
-        "link": "https://cresicor.ai/",
-        "level": "silver"
-    },
-    {
-        "name": "Bloomberg",
-        "path": "bloomberg.png",
-        "link": "https://www.bloomberg.com/",
-        "level": "other"
-    },
-    {
-        "name": "Gather",
-        "path": "gather.png",
-        "link": "https://gather.town/",
-        "level": "silver"
-    },
-    {
-        "name": "Next Jump",
-        "path": "nextjump.png",
-        "link": "https://nextjump.com/",
-        "level": "gold"
-    },
-    {
-        "name": "Meta",
-        "path": "meta.png",
-        "link": "https://meta.com/",
-        "level": "silver"
-    }
+[
+  {
+    "name": "Vividly",
+    "path": "vividly.svg",
+    "link": "https://www.govividly.com/",
+    "level": "silver"
+  },
+  {
+    "name": "Mobi",
+    "path": "mobi.png",
+    "link": "https://www.takemobi.com/",
+    "level": "gold"
+  }
 ]
