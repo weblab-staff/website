@@ -14,7 +14,6 @@ In addition, teams may be awarded special prizes at the discretion of the staff.
 
 You can indicate whether you would like to be considered for any of these special prizes during the final submission.
 
-
 ### Most Unique Concept
 
 **Prize: $500**
@@ -46,3 +45,13 @@ Awarded to the team that, as determined by the staff, implemented the most impre
 **Prize: $500**
 
 Awarded to the team (among all submissions) that receives the most Facebook likes. Votes will open when semifinalists are announced and will close during the awards ceremony.
+
+## Sponsor Prizes
+
+### Most Relevant to Consumer Packaged Goods (awarded by Vividly)
+
+**Prize: $500**
+
+The consumer packaged goods (CPG) industry accounts for over $5 trillion globally in annual sales, yet is rife with manual labor and inefficient technology such as spreadsheets and poorly-scanned PDF files. As a result, many CPG brands have little insight into their finances and methods of improving sales and marketing tactics for their products. At Vividly, we're transforming how CPG brands do business—we offer SaaS products that give brands the visibility they need to grow efficiently.
+
+We're looking for creative and interesting projects that relate to the problems that CPG brands, retailers, and consumers face!
