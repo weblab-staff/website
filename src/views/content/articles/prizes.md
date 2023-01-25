@@ -50,7 +50,7 @@ Awarded to the team (among all submissions) that receives the most Facebook like
 
 ### Most Relevant to Consumer Packaged Goods (awarded by Vividly)
 
-**Prize: $500**
+**Prize: $500 & Care Package**
 
 The consumer packaged goods (CPG) industry accounts for over $5 trillion globally in annual sales, yet is rife with manual labor and inefficient technology such as spreadsheets and poorly-scanned PDF files. As a result, many CPG brands have little insight into their finances and methods of improving sales and marketing tactics for their products. At Vividly, we're transforming how CPG brands do business—we offer SaaS products that give brands the visibility they need to grow efficiently.
 
