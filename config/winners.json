@@ -1,5 +1,100 @@
 [
   {
+    "head": "2023. u & i",
+    "divisions": [
+      {
+        "name": "main division",
+        "winners": [
+          {
+            "place": "1st Place",
+            "project": "Commons",
+            "creators": ["Benjamin Bartschi"],
+            "descript": "Commons is a collaborative, real-time canvas for blocking out 3D experiences.",
+            "img": "https://i.imgur.com/00HG1qU.png",
+            "link": "commons.herokuapp.com/"
+          },
+          {
+            "place": "2nd Place",
+            "project": "CSS Space Ships",
+            "creators": ["Jason Lin"],
+            "descript": "A two-player competitive CSS game where players play as spaceships to collect gold and return creatures to their home planet.",
+            "img": "https://i.imgur.com/YsMQFYq.png",
+            "link": "css-space-ships.herokuapp.com/"
+          },
+          {
+            "place": "3rd Place",
+            "project": "scrambled",
+            "creators": ["Sarah Wang", "Timothy Feng"],
+            "descript": "a game about yolks",
+            "img": "https://i.imgur.com/QPF48MW.png",
+            "link": "scrambled.one"
+          },
+          {
+            "place": "4th Place",
+            "project": "Instaspam",
+            "creators": ["Victory Yinka-Banjo", "Nnamdi Obi"],
+            "descript": "Instaspam allows MIT students to view summaries of dormspam emails in a social media 'Feed' format with options for reading and flagging emails.",
+            "img": "https://i.imgur.com/w3OeA4O.png",
+            "link": "instaspam.herokuapp.com/"
+          }
+        ],
+        "honorableMentions": [
+          {
+            "project": "BackChatGPT",
+            "creators": ["Ben Sheres", "Braden Barlow", "Patrick Haertel"],
+            "descript": "The goal of BackChatGPT is to deduce what prompt created a GPT Output.",
+            "img": "https://i.imgur.com/s2Knpoz.png",
+            "link": "back-chat-gpt.vercel.app"
+          },
+          {
+            "project": "MazED",
+            "creators": ["Jeremy Yu", "Andrew Liu", "Sophia Chen"],
+            "descript": "MazED is an educational platform that transforms classroom learning into a multiplayer tag-style maze game.",
+            "img": "https://i.imgur.com/0TGR8QP.jpg",
+            "link": "mazed.herokuapp.com/"
+          }
+        ],
+        "semifinalists": [
+          {
+            "project": "Labyrinth",
+            "creators": ["Eric Yang", "Samuel Wang"],
+            "descript": "Labyrinth is a multiplayer game where a team of players explore a maze of rooms and attempt to defeat increasingly difficult waves of enemies.",
+            "img": "https://i.imgur.com/nQDFCFB.png",
+            "link": "labyrinth-weblab.herokuapp.com"
+          },
+          {
+            "project": "Present Pastell",
+            "creators": ["Autumn Artist", "Mercy Olagunju", "Ty Todd"],
+            "descript": "An online journaling website responsive to your emotions, working as an online mood ring.",
+            "img": "https://i.imgur.com/36ftUI3.png",
+            "link": "present-pastell.herokuapp.com/"
+          },
+          {
+            "project": "Ruins",
+            "creators": ["Adam Bundy", "Noah Morales"],
+            "descript": "rUIns is a web-based RPG game where you fight monsters in the ruins to gain equipment to make your character more powerful.",
+            "img": "https://i.imgur.com/Sq6qCIz.png",
+            "link": "ruins-rpg.herokuapp.com/"
+          },
+          {
+            "project": "TaleTree",
+            "creators": ["Sebastian Alberdi", "Dariyan Khan", "Maxwell Jiang"],
+            "descript": "TaleTree is a website where users can read and write collaborative stories by appending snippets of text to others'.",
+            "img": "https://i.imgur.com/jYUdZ9Y.png",
+            "link": "taletree.herokuapp.com"
+          },
+          {
+            "project": "Wordbash",
+            "creators": ["Andy Jiang", "Rowechen Zhong", "Alexander Hu"],
+            "descript": "Wordbash is a party game revolving around crazy AI-generated prompts and hilarious human-written responses.",
+            "img": "https://i.imgur.com/izQuA41.png",
+            "link": "wordbash.herokuapp.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "head": "2022. imagine",
     "divisions": [
       {
