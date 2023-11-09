@@ -8,7 +8,9 @@
           {
             "place": "1st Place",
             "project": "Commons",
-            "creators": ["Benjamin Bartschi"],
+            "creators": [
+              "Benjamin Bartschi"
+            ],
             "descript": "Commons is a collaborative, real-time canvas for blocking out 3D experiences.",
             "img": "https://i.imgur.com/00HG1qU.png",
             "link": "commons.herokuapp.com/"
@@ -16,7 +18,9 @@
           {
             "place": "2nd Place",
             "project": "CSS Space Ships",
-            "creators": ["Jason Lin"],
+            "creators": [
+              "Jason Lin"
+            ],
             "descript": "Compete against a friend to become the coolest spaceship as you explore and change the fabric of the universe with the powers of CSS.",
             "img": "https://i.imgur.com/YsMQFYq.png",
             "link": "css-space-ships.herokuapp.com/"
@@ -24,7 +28,10 @@
           {
             "place": "3rd Place",
             "project": "scrambled",
-            "creators": ["Sarah Wang", "Timothy Feng"],
+            "creators": [
+              "Sarah Wang",
+              "Timothy Feng"
+            ],
             "descript": "a game about yolks",
             "img": "https://i.imgur.com/UfiWEjC.png",
             "link": "scrambled.one"
@@ -32,7 +39,10 @@
           {
             "place": "4th Place",
             "project": "Instaspam",
-            "creators": ["Victory Yinka-Banjo", "Nnamdi Obi"],
+            "creators": [
+              "Victory Yinka-Banjo",
+              "Nnamdi Obi"
+            ],
             "descript": "Instaspam allows MIT students to view summaries of dormspam emails in a social media 'Feed' format with options for reading and flagging emails.",
             "img": "https://i.imgur.com/hoUu8JB.png",
             "link": "instaspam.herokuapp.com/"
@@ -41,14 +51,22 @@
         "honorableMentions": [
           {
             "project": "BackChatGPT",
-            "creators": ["Ben Sheres", "Braden Barlow", "Patrick Haertel"],
+            "creators": [
+              "Ben Sheres",
+              "Braden Barlow",
+              "Patrick Haertel"
+            ],
             "descript": "The goal of BackChatGPT is to deduce what prompt created a GPT Output.",
             "img": "https://i.imgur.com/s2Knpoz.png",
             "link": "back-chat-gpt.vercel.app"
           },
           {
             "project": "MazED",
-            "creators": ["Jeremy Yu", "Andrew Liu", "Sophia Chen"],
+            "creators": [
+              "Jeremy Yu",
+              "Andrew Liu",
+              "Sophia Chen"
+            ],
             "descript": "MazED is an educational platform that transforms classroom learning into a multiplayer tag-style maze game.",
             "img": "https://i.imgur.com/0TGR8QP.jpg",
             "link": "mazed.herokuapp.com/"
@@ -57,35 +75,53 @@
         "semifinalists": [
           {
             "project": "Labyrinth",
-            "creators": ["Eric Yang", "Samuel Wang"],
+            "creators": [
+              "Eric Yang",
+              "Samuel Wang"
+            ],
             "descript": "Labyrinth is a multiplayer game where a team of players explore a maze of rooms and attempt to defeat increasingly difficult waves of enemies.",
             "img": "https://i.imgur.com/nQDFCFB.png",
             "link": "labyrinth-weblab.herokuapp.com"
           },
           {
             "project": "Present Pastell",
-            "creators": ["Autumn Artist", "Mercy Olagunju", "Ty Todd"],
+            "creators": [
+              "Autumn Artist",
+              "Mercy Olagunju",
+              "Ty Todd"
+            ],
             "descript": "An online journaling website responsive to your emotions, working as an online mood ring.",
             "img": "https://i.imgur.com/36ftUI3.png",
             "link": "present-pastell.herokuapp.com/"
           },
           {
             "project": "Ruins",
-            "creators": ["Adam Bundy", "Noah Morales"],
+            "creators": [
+              "Adam Bundy",
+              "Noah Morales"
+            ],
             "descript": "rUIns is a web-based RPG game where you fight monsters in the ruins to gain equipment to make your character more powerful.",
             "img": "https://i.imgur.com/Sq6qCIz.png",
             "link": "ruins-rpg.herokuapp.com/"
           },
           {
             "project": "TaleTree",
-            "creators": ["Sebastian Alberdi", "Dariyan Khan", "Maxwell Jiang"],
+            "creators": [
+              "Sebastian Alberdi",
+              "Dariyan Khan",
+              "Maxwell Jiang"
+            ],
             "descript": "TaleTree is a website where users can read and write collaborative stories by appending snippets of text to others'.",
             "img": "https://i.imgur.com/jYUdZ9Y.png",
             "link": "taletree.herokuapp.com"
           },
           {
             "project": "Wordbash",
-            "creators": ["Andy Jiang", "Rowechen Zhong", "Alexander Hu"],
+            "creators": [
+              "Andy Jiang",
+              "Rowechen Zhong",
+              "Alexander Hu"
+            ],
             "descript": "Wordbash is a party game revolving around crazy AI-generated prompts and hilarious human-written responses.",
             "img": "https://i.imgur.com/izQuA41.png",
             "link": "wordbash.herokuapp.com/"
@@ -103,7 +139,11 @@
           {
             "place": "1st Place",
             "project": "Fortuna",
-            "creators": ["Kenneth Choi", "Michael Kuoch", "Enrique Casillas"],
+            "creators": [
+              "Kenneth Choi",
+              "Michael Kuoch",
+              "Enrique Casillas"
+            ],
             "descript": "Chat and play casino games with other users, mint your own custom NFTs, and view and trade your NFTs elsewhere.",
             "img": "https://i.imgur.com/55d0mlu.jpg",
             "link": "fortuna-2022.herokuapp.com/"
@@ -111,7 +151,11 @@
           {
             "place": "2nd Place",
             "project": "Mosaic Detective",
-            "creators": ["Ziqian Zhong", "Mingyang Deng", "Shengtong Zhang"],
+            "creators": [
+              "Ziqian Zhong",
+              "Mingyang Deng",
+              "Shengtong Zhang"
+            ],
             "descript": "A game in which players guess words by revealing blocks from a blurry image.",
             "img": "https://i.imgur.com/q6SXYbn.png",
             "link": "youtu.be/qcH8S0UUdiE?t=1918"
@@ -119,15 +163,22 @@
           {
             "place": "3rd Place",
             "project": "Noteworthy",
-            "creators": ["Jaeyoon Song", "Hao Lyu"],
+            "creators": [
+              "Jaeyoon Song",
+              "Hao Lyu"
+            ],
             "descript": "A note taking tool for online meetings with live transcript and tracks a user's meeting statistics (frequency of meetings, common words spoken).",
-            "img": "https://i.imgur.com/1VMTIVI.png",
+            "img": "https://i.imgur.com/LZo31a1.jpg",
             "link": "noteworthy-2022.herokuapp.com"
           },
           {
             "place": "4th Place",
             "project": "BEAsleep",
-            "creators": ["Mingzhen Qi", "Xinran Wang", "Yi Suo"],
+            "creators": [
+              "Mingzhen Qi",
+              "Xinran Wang",
+              "Yi Suo"
+            ],
             "descript": "BEAsleep is a web-based interactive sleep tracker that encourages students to sleep more healthily with the ability for users to customize their own cute beaver!",
             "img": "https://i.imgur.com/Z6rXs8r.png",
             "link": "youtu.be/qcH8S0UUdiE?t=2861"
@@ -136,14 +187,21 @@
         "honorableMentions": [
           {
             "project": "Paranoia",
-            "creators": ["Jason Li", "Joey Zheng"],
+            "creators": [
+              "Jason Li",
+              "Joey Zheng"
+            ],
             "descript": "Our website is a platform that brings people together to virtually connect through the popular social game, Paranoia.",
             "img": "https://i.imgur.com/byQoLSO.png",
             "link": "paranoia-2022.herokuapp.com"
           },
           {
             "project": "Graph Ninja",
-            "creators": ["Grace Tian", "Liane Xu", "Ziwei Jiang"],
+            "creators": [
+              "Grace Tian",
+              "Liane Xu",
+              "Ziwei Jiang"
+            ],
             "descript": "Graph Ninja teaches users about quadratic functions in a fun, original, and engaging way.",
             "img": "https://i.imgur.com/IIacguu.png",
             "link": "graph-ninja-2022.herokuapp.com"
@@ -163,21 +221,33 @@
           },
           {
             "project": "Wildcard",
-            "creators": ["Lilian Luong", "Michelle Yin", "Patrick Kao"],
+            "creators": [
+              "Lilian Luong",
+              "Michelle Yin",
+              "Patrick Kao"
+            ],
             "descript": "Wildcard is an online multiplayer card game creator.",
             "img": "https://i.imgur.com/8n9zsFy.png",
             "link": "youtu.be/qcH8S0UUdiE?t=773"
           },
           {
             "project": "Identify",
-            "creators": ["William Wang", "Disha Kohli", "Jennifer Zhou"],
+            "creators": [
+              "William Wang",
+              "Disha Kohli",
+              "Jennifer Zhou"
+            ],
             "descript": "Identify is a quizbowl style multiplayer game where users listen to a song and try to guess it as fast as possible.",
             "img": "https://i.imgur.com/DP1384L.png",
             "link": "youtu.be/qcH8S0UUdiE?t=466"
           },
           {
             "project": "Chimera",
-            "creators": ["Hannah Kim", "Christine Tu", "James Xiu"],
+            "creators": [
+              "Hannah Kim",
+              "Christine Tu",
+              "James Xiu"
+            ],
             "descript": "Chimera Doodles is an online, multiplayer game that allows parties of up to 8 users to create drawings together.",
             "img": "https://i.imgur.com/l6U2IOW.png",
             "link": "youtu.be/qcH8S0UUdiE?t=2365"
@@ -195,7 +265,11 @@
           {
             "place": "1st Place",
             "project": "Dash Tag",
-            "creators": ["Nicholas Tsao", "Michael Han", "Anugrah Chemparathy"],
+            "creators": [
+              "Nicholas Tsao",
+              "Michael Han",
+              "Anugrah Chemparathy"
+            ],
             "descript": "A multiplayer game of online tag. Every move causes you to slide in a direction until you hit an obstacle, so be careful!",
             "img": "https://imgur.com/fAlT0vE.png",
             "link": "dash-tag-2021.herokuapp.com/"
@@ -203,7 +277,9 @@
           {
             "place": "2nd Place",
             "project": "Soro Soke",
-            "creators": ["Bilikisu Ayeni"],
+            "creators": [
+              "Bilikisu Ayeni"
+            ],
             "descript": "SoroSoke listens to you speak and gives you feedback on a variety of common speaking metrics, showing you how to improve.",
             "img": "https://imgur.com/FEGqV3B.png",
             "link": "soro-soke.herokuapp.com/"
@@ -211,7 +287,10 @@
           {
             "place": "3rd Place",
             "project": "musicards",
-            "creators": ["Kevin Chen", "Amy Zhong"],
+            "creators": [
+              "Kevin Chen",
+              "Amy Zhong"
+            ],
             "descript": "Musicards is a fun way to find new music and share your favorite songs with others! Log in with Spotify, make requests, trade songs, and build your deck :)",
             "img": "https://imgur.com/sc599ZW.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=2762s"
@@ -219,7 +298,10 @@
           {
             "place": "4th Place",
             "project": "the write pet",
-            "creators": ["Jessica Xu", "Sarah Wang"],
+            "creators": [
+              "Jessica Xu",
+              "Sarah Wang"
+            ],
             "descript": "The Write Pet encourages reflection. Adopt a pet and journal consistently to raise your pet’s happiness. Take care of yourself by taking care of your pet!",
             "img": "https://imgur.com/e2VYqeC.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1229s"
@@ -228,14 +310,21 @@
         "honorableMentions": [
           {
             "project": "Plasmablaster",
-            "creators": ["Ryan Kim", "Shashvat Srivastava", "Helen Lu"],
+            "creators": [
+              "Ryan Kim",
+              "Shashvat Srivastava",
+              "Helen Lu"
+            ],
             "descript": "Create custom maps to battle on and step up your laser tag game with extraordinary power ups, while dodging using ML-powered posenets.",
             "img": "https://imgur.com/sVQn8GS.png",
             "link": "plasmablaster.herokuapp.com/"
           },
           {
             "project": "WeWorld",
-            "creators": ["Kyaw Hpone Myint", "Dina Sharon"],
+            "creators": [
+              "Kyaw Hpone Myint",
+              "Dina Sharon"
+            ],
             "descript": "WeWorld users upload photos and add tags and captions to view their pictures and experiences through the lens of a new language.",
             "img": "https://imgur.com/ZeXxvB6.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1003s"
@@ -244,28 +333,41 @@
         "semifinalists": [
           {
             "project": "Fanvision",
-            "creators": ["Adam Janicki", "Henry Wang"],
+            "creators": [
+              "Adam Janicki",
+              "Henry Wang"
+            ],
             "descript": "Fanvision is a platform for NBA fans who want to predict game outcomes without betting money. Users compete to top the daily podium and season standings.",
             "img": "https://imgur.com/BQHhBn8.png",
             "link": "fanvision.vercel.app"
           },
           {
             "project": "Remembomb",
-            "creators": ["Kalyn Bowen"],
+            "creators": [
+              "Kalyn Bowen"
+            ],
             "descript": "RememBomb is a card matching and social deduction game for 5+ players (more the merrier)! Keep your eyes focused on the board at all times.",
             "img": "https://imgur.com/lyV13fN.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1449s"
           },
           {
             "project": "Personify",
-            "creators": ["Meenakshi Singh", "Tina Lu", "Kelly Lam"],
+            "creators": [
+              "Meenakshi Singh",
+              "Tina Lu",
+              "Kelly Lam"
+            ],
             "descript": "Personify is a Spotify Playlist Generator that creates a playlist based on an input message, specified genres, and algorithm choice.",
             "img": "https://imgur.com/pyUDg6b.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=1921s"
           },
           {
             "project": "A4A",
-            "creators": ["Dejon Kurti", "Hassan Mohiuddin", "Haoran Wen"],
+            "creators": [
+              "Dejon Kurti",
+              "Hassan Mohiuddin",
+              "Haoran Wen"
+            ],
             "descript": "A4A is a site designed to help MIT students get their questions answered in a quick, informative, and easy fashion.",
             "img": "https://imgur.com/XJN5nI9.png",
             "link": "youtube.com/watch?v=7ZKlw3Xlgl8&t=2152s"
@@ -283,7 +385,11 @@
           {
             "place": "1st Place",
             "project": "The Tavern",
-            "creators": ["Yodahe Alemu", "Joshua Verdejo", "Niko Sendek"],
+            "creators": [
+              "Yodahe Alemu",
+              "Joshua Verdejo",
+              "Niko Sendek"
+            ],
             "descript": "We created a comprehensive, immersive, and collaborative storytelling app, utilizing modern technology to breathe new life into the classic text adventure.",
             "img": "https://i.imgur.com/S0mQgUB.png",
             "link": "thetavern.herokuapp.com/"
@@ -291,7 +397,10 @@
           {
             "place": "2nd Place",
             "project": "UTrain",
-            "creators": ["Steven Diaz", "Roberto Ramirez"],
+            "creators": [
+              "Steven Diaz",
+              "Roberto Ramirez"
+            ],
             "descript": "An easy and fun way to train your machine learning models through the web. No Tensors. No Torches. All you.",
             "img": "https://i.imgur.com/EGf14bM.png",
             "link": "utrain.herokuapp.com/"
@@ -299,7 +408,11 @@
           {
             "place": "3rd Place",
             "project": "day.ly",
-            "creators": ["Amy Lei", "Hui Min Wu", "Ivy Mao"],
+            "creators": [
+              "Amy Lei",
+              "Hui Min Wu",
+              "Ivy Mao"
+            ],
             "descript": " Day.ly streamlines bullet journaling online. It has a daily autosaving notebook, trackable, customizable widgets, collections, and custom themes.",
             "img": "https://i.imgur.com/XbYfNTF.png",
             "link": "day-ly.herokuapp.com/"
@@ -307,7 +420,11 @@
           {
             "place": "4th Place",
             "project": "em7",
-            "creators": ["Dylan Liu", "Carl Joshua Quines", "Emma Qin"],
+            "creators": [
+              "Dylan Liu",
+              "Carl Joshua Quines",
+              "Emma Qin"
+            ],
             "descript": "em7 allows users who are interested in music but don't have much music theory background a platform to create and share their own melodies and harmonies.",
             "img": "https://i.imgur.com/dRaPJwu.png",
             "link": "em7.herokuapp.com/"
@@ -316,14 +433,19 @@
         "honorableMentions": [
           {
             "project": "Voxualizer",
-            "creators": ["Matthew Leonard", "Prithvi Undavalli"],
+            "creators": [
+              "Matthew Leonard",
+              "Prithvi Undavalli"
+            ],
             "descript": "This is a website that lets you build a 3D music visualizer out of voxels that respond to the music you play.",
             "img": "https://i.imgur.com/isigT94.png",
             "link": "craft-your-own-visualizer.herokuapp.com/"
           },
           {
             "project": "QuPong",
-            "creators": ["Tareq El Dandachi"],
+            "creators": [
+              "Tareq El Dandachi"
+            ],
             "descript": "Create open source quantum circuits, simulate them and compete with your friends by playing pong. Easy way to teach people new to quantum how it all works.",
             "img": "https://i.imgur.com/q8LHXIs.png",
             "link": "qupong.herokuapp.com/"
@@ -332,35 +454,52 @@
         "semifinalists": [
           {
             "project": "pop'n",
-            "creators": ["Jocelyn Shen", "Shirley Cao", "Julia Jia"],
+            "creators": [
+              "Jocelyn Shen",
+              "Shirley Cao",
+              "Julia Jia"
+            ],
             "descript": "pop'n is a cultural enrichment game to satisfy curiosity about places around the world through online polls and data visualizations. let's get pop'n!",
             "img": "https://i.imgur.com/6M0X9fw.png",
             "link": "pop-n.herokuapp.com/"
           },
           {
             "project": "colorfly",
-            "creators": ["Benjamin Bartschi", "Emily Huang", "Anna Landler"],
+            "creators": [
+              "Benjamin Bartschi",
+              "Emily Huang",
+              "Anna Landler"
+            ],
             "descript": "colorfly makes creating unique art easy for users through generative designs. Download, share, and track progress!",
             "img": "https://i.imgur.com/08wu3zL.png",
             "link": "colorfly.herokuapp.com/"
           },
           {
             "project": "Study Garden",
-            "creators": ["Eileen Tan-Aristy", "Tommy Adebiyi", "Jennifer Wang"],
+            "creators": [
+              "Eileen Tan-Aristy",
+              "Tommy Adebiyi",
+              "Jennifer Wang"
+            ],
             "descript": "Study Garden allows students to keep track of their study sessions in the form of flowers that grow as they study. ",
             "img": "https://i.imgur.com/802gjim.png",
             "link": "study-garden.herokuapp.com/"
           },
           {
             "project": "Stanza",
-            "creators": ["Amy Vogel", "Wendy Trattner"],
+            "creators": [
+              "Amy Vogel",
+              "Wendy Trattner"
+            ],
             "descript": "Craft your own computer-generated poetry. Choose a corpus and a poem structure, and watch the magic happen! ",
             "img": "https://i.imgur.com/pa1FcP3.png",
             "link": "stanza-2020.herokuapp.com/"
           },
           {
             "project": "h2gro",
-            "creators": ["Jude He"],
+            "creators": [
+              "Jude He"
+            ],
             "descript": "A game where you can log water drinking and use it to water a virtual garden. Plants are dynamically generated & you can cross breed them to make new ones.",
             "img": "https://i.imgur.com/iVCgJYo.png",
             "link": "h2gro.herokuapp.com/"
@@ -378,7 +517,9 @@
           {
             "place": "1st Place",
             "project": "Keyframes",
-            "creators": ["Shreyas Kapur"],
+            "creators": [
+              "Shreyas Kapur"
+            ],
             "descript": "Create beautiful, compelling animated presentations right on the web. Think Adobe After Effects, a powerful animation software, inside the browser!",
             "img": "https://i.imgur.com/3lqCXeR.png",
             "link": "keyframes.tv"
@@ -386,7 +527,11 @@
           {
             "place": "2nd Place",
             "project": "Dilemma Llama",
-            "creators": ["Zoe Allen", "Artemisia Luk", "Xiaoqing Zhang"],
+            "creators": [
+              "Zoe Allen",
+              "Artemisia Luk",
+              "Xiaoqing Zhang"
+            ],
             "descript": "Dilemma Llama helps people crowdsource opinions on hard dilemmas. Users post dilemmas, and other users respond with arguments for either 'Yes' or 'No.'",
             "img": "https://i.imgur.com/zSCy9Qk.png",
             "link": "dilemma-llama.herokuapp.com"
@@ -394,7 +539,10 @@
           {
             "place": "3rd Place",
             "project": "Sound Space",
-            "creators": ["Matthew Farejowicz", "Joonho Ko"],
+            "creators": [
+              "Matthew Farejowicz",
+              "Joonho Ko"
+            ],
             "descript": "Play songs with your friends! In space! It's like Patatap but social and collaborative.",
             "img": "https://i.imgur.com/xxnGpGn.png",
             "link": "sound-space.herokuapp.com/"
@@ -402,7 +550,11 @@
           {
             "place": "co-4th Place",
             "project": "Keybeats",
-            "creators": ["Bryan Chen", "Elizabeth Zhou", "Jodi Huang"],
+            "creators": [
+              "Bryan Chen",
+              "Elizabeth Zhou",
+              "Jodi Huang"
+            ],
             "descript": "A rhythm game for music lovers of all kinds! Welcomes casual players as well as providing incentive (stars) for those who want to better their skills!",
             "img": "https://i.imgur.com/X3W6JcP.png",
             "link": "keybeats.herokuapp.com"
@@ -410,7 +562,9 @@
           {
             "place": "co-4th Place",
             "project": "Routify",
-            "creators": ["Ashika Verma"],
+            "creators": [
+              "Ashika Verma"
+            ],
             "descript": "Routify allows users to game their productivity by getting points and gold when the user finishes something they need to do.",
             "img": "https://i.imgur.com/pYw0NL2.png",
             "link": "routify-2019.herokuapp.com/"
@@ -419,14 +573,22 @@
         "honorableMentions": [
           {
             "project": "Diurnalis",
-            "creators": ["Kathryn Jin", "Janice Yang", "Justin Park"],
+            "creators": [
+              "Kathryn Jin",
+              "Janice Yang",
+              "Justin Park"
+            ],
             "descript": "One question per day, 365 days per year. Dive into a universe where you can record your thoughts, explore others’ responses, and reflect on your past self.",
             "img": "https://i.imgur.com/kVgUPnp.png",
             "link": "diurnalis.herokuapp.com/"
           },
           {
             "project": "Ghost",
-            "creators": ["Lillian Bu", "Rachel Kwak", "Calvin Phung"],
+            "creators": [
+              "Lillian Bu",
+              "Rachel Kwak",
+              "Calvin Phung"
+            ],
             "descript": "Take turns adding letters to the end of the string - avoid spelling a complete word, or you'll become a ghost. Ghost all your friends to win!",
             "img": "https://i.imgur.com/vOcNCYT.png",
             "link": "ghostfriends.herokuapp.com/"
@@ -435,28 +597,44 @@
         "semifinalists": [
           {
             "project": "Lyra",
-            "creators": ["Kevin Frans", "Jeremy Ma", "Michael Nguyen"],
+            "creators": [
+              "Kevin Frans",
+              "Jeremy Ma",
+              "Michael Nguyen"
+            ],
             "descript": "explore new songs with others in an open world. queue music to shared nodes to create collaborative playlists. add favorites to your personal collection!",
             "img": "https://i.imgur.com/5sqLlzu.png",
             "link": "lyra.ttp.codes"
           },
           {
             "project": "HotTake",
-            "creators": ["Taylor Burke", "Shirley Lei", "Emily Yin"],
+            "creators": [
+              "Taylor Burke",
+              "Shirley Lei",
+              "Emily Yin"
+            ],
             "descript": "A modern take on classic card games that allow close friends to continually play games on and off.",
             "img": "https://i.imgur.com/LUCL8Gm.png",
             "link": "hottake.herokuapp.com/"
           },
           {
             "project": "News Racer",
-            "creators": ["Tammam Mustafa", "Yunxing Liao", "Fadi Atieh"],
+            "creators": [
+              "Tammam Mustafa",
+              "Yunxing Liao",
+              "Fadi Atieh"
+            ],
             "descript": "We built an in-browser game that allows you to type race against other people or on your own. Typing content is fresh, daily news.",
             "img": "https://i.imgur.com/n0ROFH9.png",
             "link": "newsracer.herokuapp.com/"
           },
           {
             "project": "SnapStack",
-            "creators": ["Chris Chang", "Nikhil Singhal", "Melody Phu"],
+            "creators": [
+              "Chris Chang",
+              "Nikhil Singhal",
+              "Melody Phu"
+            ],
             "descript": "SnapStack is a social judge-based card game where players respond to prompts by making memes out of each other, using images from social media profiles.",
             "img": "https://i.imgur.com/TTLwZcD.png",
             "link": "snapstack.appspot.com"
@@ -474,7 +652,10 @@
           {
             "place": "1st Place",
             "project": "plix",
-            "creators": ["Shannon Peng", "Jessica Tang"],
+            "creators": [
+              "Shannon Peng",
+              "Jessica Tang"
+            ],
             "descript": "Your pixel art community",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/plix.jpg",
             "link": "plix.herokuapp.com"
@@ -482,7 +663,10 @@
           {
             "place": "2nd Place",
             "project": "scribble",
-            "creators": ["Sophia Kwon", "Sandy Yang"],
+            "creators": [
+              "Sophia Kwon",
+              "Sandy Yang"
+            ],
             "descript": "Play telephone pictionary with your friends! Make up a phrase and watch as your friends attempt to draw, caption, redraw, and recaption!",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/scribble.jpg",
             "link": "scribble6148.herokuapp.com"
@@ -490,7 +674,10 @@
           {
             "place": "3rd Place",
             "project": "mtune",
-            "creators": ["Patrick Insinger", "Philip Sun"],
+            "creators": [
+              "Patrick Insinger",
+              "Philip Sun"
+            ],
             "descript": "Create and stream playlists from SoundCloud, Spotify, and Youtube. Combine professional tracks with indie remixes for the best experience.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/mtune.jpg",
             "link": "mtune.io"
@@ -498,7 +685,11 @@
           {
             "place": "4th Place",
             "project": "CourseRoots",
-            "creators": ["Angela Cai", "Alisa Ono", "Tingxiao Sun"],
+            "creators": [
+              "Angela Cai",
+              "Alisa Ono",
+              "Tingxiao Sun"
+            ],
             "descript": "A collaborative annotation tool for lecture notes. Study, share insights and grow a network of knowledge among your peers.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/courseroots.jpg",
             "link": "courseroots.site"
@@ -507,14 +698,22 @@
         "honorableMentions": [
           {
             "project": "Greenspace",
-            "creators": ["David Morejon", "Gabrielle Rivera", "Mary Thielking"],
+            "creators": [
+              "David Morejon",
+              "Gabrielle Rivera",
+              "Mary Thielking"
+            ],
             "descript": "Mark outdoor areas for other people to find. Plan events, write reviews and discover new natural areas around you!",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/greenspace.jpg",
             "link": "greenspace2018.herokuapp.com"
           },
           {
             "project": "BeaverBytes",
-            "creators": ["Agustin Garcia", "Alyssa Li", "Weishan Liao"],
+            "creators": [
+              "Agustin Garcia",
+              "Alyssa Li",
+              "Weishan Liao"
+            ],
             "descript": "An interactive map for sharing and finding free food. Keeps track of foods near you, erasing the need to wade through pools of irrelevant postings.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/beaverbytes.jpg",
             "link": "beaverbytes.herokuapp.com"
@@ -528,7 +727,10 @@
           {
             "place": "1st Place",
             "project": "Vulture",
-            "creators": ["Linnea Rylander", "Angela Wong"],
+            "creators": [
+              "Linnea Rylander",
+              "Angela Wong"
+            ],
             "descript": "Provides the MIT community with the location, type, distance, and time of free food postings in a user friendly way!",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/vulture.jpg",
             "link": "vulturemit.herokuapp.com"
@@ -536,7 +738,10 @@
           {
             "place": "2nd Place",
             "project": "inkspire",
-            "creators": ["Shannen Wu", "Jessica Yin"],
+            "creators": [
+              "Shannen Wu",
+              "Jessica Yin"
+            ],
             "descript": "Want to see some of your craziest imaginations come to life? On inkspire, you can post an idea, and see what others have to illustrate for you!",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/inkspire.jpg",
             "link": "inkspire-app.herokuapp.com"
@@ -544,7 +749,9 @@
           {
             "place": "3rd Place (tie)",
             "project": "Scheduly",
-            "creators": ["Stephanie Hu"],
+            "creators": [
+              "Stephanie Hu"
+            ],
             "descript": "A task scheduling app with features aimed to keep your todo lists organized and your mind focused on one thing at a time.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/scheduly.jpg",
             "link": "myscheduly.herokuapp.com"
@@ -552,7 +759,11 @@
           {
             "place": "3rd Place (tie)",
             "project": "Free Food Finder",
-            "creators": ["Jenna Himawan", "Tavish Smith", "Byron Xu"],
+            "creators": [
+              "Jenna Himawan",
+              "Tavish Smith",
+              "Byron Xu"
+            ],
             "descript": "By integrating the free-food@mit.edu mailing list with new features, Free Food Finder offers a better food finding experience for the MIT community.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/freefoodfinder.jpg",
             "link": "mit-free-food-finder.herokuapp.com"
@@ -562,21 +773,33 @@
         "semifinalists": [
           {
             "project": "mealmate",
-            "creators": ["Cynthia Liu", "Nanxi Liu", "Sabrina Liu"],
+            "creators": [
+              "Cynthia Liu",
+              "Nanxi Liu",
+              "Sabrina Liu"
+            ],
             "descript": "A web app that pairs MIT students up to eat at dining halls! Befriend peers, connect with friends, and enjoy a delicious meal in good company.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/mealmate.jpg",
             "link": "mealmate-mit.herokuapp.com"
           },
           {
             "project": "dtp",
-            "creators": ["Jaeyoung Jung", "Nikhil Reddy", "Alvin Zhu"],
+            "creators": [
+              "Jaeyoung Jung",
+              "Nikhil Reddy",
+              "Alvin Zhu"
+            ],
             "descript": "Organize and discover public study sessions and pset parties. Invite friends and sync schedules with a variety of calendar applications.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/dtp.jpg",
             "link": "jungj.scripts.mit.edu/dtp"
           },
           {
             "project": "Down2Meet",
-            "creators": ["Mathangi Ganesh", "Emily Wang", "Vicky Wang"],
+            "creators": [
+              "Mathangi Ganesh",
+              "Emily Wang",
+              "Vicky Wang"
+            ],
             "descript": "Get matched to meet someone in person at a local event, skipping the awkward \"get to know each other\" phase of other friend-matching apps.",
             "img": "http://webdevelopment.mit.edu/2018/webby/screenshots/down2meet.jpg",
             "link": "down2meet.herokuapp.com"
@@ -594,7 +817,9 @@
           {
             "place": "1st Place",
             "project": "dou/dou",
-            "creators": ["Tahin Syed"],
+            "creators": [
+              "Tahin Syed"
+            ],
             "descript": "A picture is worth 1000 words. What if we take out half the words from your picture and asked someone else to draw what they think it is?",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/doudou.png",
             "link": "doudou.azurewebsites.net"
@@ -602,7 +827,11 @@
           {
             "place": "2nd Place",
             "project": "NapQuest",
-            "creators": ["Shahul Alam", "Lauren Huang", "Ameila Paine"],
+            "creators": [
+              "Shahul Alam",
+              "Lauren Huang",
+              "Ameila Paine"
+            ],
             "descript": "Share your favorite napping locations and pictures of napping friends around campus. Climb your way to the top of our Dreamerboard for fame and glory.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/napquest.png",
             "link": "napquest.herokuapp.com"
@@ -610,7 +839,11 @@
           {
             "place": "3rd Place",
             "project": "Stations",
-            "creators": ["Jeremy Bogle", "Elliott Forde", "Patrick Everett"],
+            "creators": [
+              "Jeremy Bogle",
+              "Elliott Forde",
+              "Patrick Everett"
+            ],
             "descript": "A crowd-sourced DJing application - allows you to host your own \"station\" to give guests the ability to add songs to a queue and vote on what's next.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/stations.png",
             "link": "stationsplay.herokuapp.com"
@@ -618,7 +851,11 @@
           {
             "place": "4th Place",
             "project": "Hot Tea",
-            "creators": ["Andy Kuang", "Rhea Lin", "Jennifer McCleary"],
+            "creators": [
+              "Andy Kuang",
+              "Rhea Lin",
+              "Jennifer McCleary"
+            ],
             "descript": "With a click of a button, restaurants can easily provide wait times for customers to conveniently view when deciding where to eat.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/hottea.png",
             "link": "hot-tea.herokuapp.com"
@@ -627,14 +864,18 @@
         "honorableMentions": [
           {
             "project": "GoalDigger",
-            "creators": ["Keith Orlando"],
+            "creators": [
+              "Keith Orlando"
+            ],
             "descript": "A social media platform for creating and sharing goals. Weekly check-ins help you stay focused and create productive competition among friends.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/goaldigger.png",
             "link": "goaldigger.io"
           },
           {
             "project": "Spree",
-            "creators": ["Phillip Ou"],
+            "creators": [
+              "Phillip Ou"
+            ],
             "descript": "Helps you achieve your financial goals so you can achieve your adventurous ones.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/spree.png",
             "link": "spree-save.herokuapp.com"
@@ -654,28 +895,41 @@
           },
           {
             "project": "ConnectMIT",
-            "creators": ["Hannah Chen", "Saron Teklezgi", "Kendra Knittel"],
+            "creators": [
+              "Hannah Chen",
+              "Saron Teklezgi",
+              "Kendra Knittel"
+            ],
             "descript": "A simpler version of Infinite Connection, designed to help MIT students and alumni network together.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/connectmit.png",
             "link": "connect-mit.herokuapp.com"
           },
           {
             "project": "Fudo",
-            "creators": ["Rachel Zhang", "Deepankar Gupta", "Sunny Tian"],
+            "creators": [
+              "Rachel Zhang",
+              "Deepankar Gupta",
+              "Sunny Tian"
+            ],
             "descript": "View the newest and most popular food images and share your latest food experiences and recipes.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/fudo.png",
             "link": "fudo.com"
           },
           {
             "project": "Constellation",
-            "creators": ["Angel Alvarez", "Thad Megchelsen"],
+            "creators": [
+              "Angel Alvarez",
+              "Thad Megchelsen"
+            ],
             "descript": "A tool used to connect tutorials and websites for easier viewing. Makes discovering new content a simple process.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/constellation.png",
             "link": "constellationmit.azurewebsites.net"
           },
           {
             "project": "JIF&Jelly",
-            "creators": ["Jeffrey Lu"],
+            "creators": [
+              "Jeffrey Lu"
+            ],
             "descript": "Provides a personal experience for discovering and saving recipes. Search meals by ingredients or create new ones.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/jifjelly.png",
             "link": "jifandjelly.herokuapp.com"
@@ -688,7 +942,11 @@
           {
             "place": "1st Place",
             "project": "Beaver++",
-            "creators": ["Chris Xue", "Rebecca Weinberger", "Reva Ranka"],
+            "creators": [
+              "Chris Xue",
+              "Rebecca Weinberger",
+              "Reva Ranka"
+            ],
             "descript": "Upload, view, and save products for sale. Users are given a way to easily carry out transactions with each other.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/beaver.png",
             "link": "beaverplus.herokuapp.com"
@@ -696,7 +954,11 @@
           {
             "place": "2nd Place",
             "project": "Fluency",
-            "creators": ["Su Yang", "Stella Yang", "Kentaro Tanaka"],
+            "creators": [
+              "Su Yang",
+              "Stella Yang",
+              "Kentaro Tanaka"
+            ],
             "descript": "An language-learning tool that connects students from all around the world.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/fluency.png",
             "link": "fluency.azurewebsites.net"
@@ -704,7 +966,10 @@
           {
             "place": "3rd Place",
             "project": "Hatch",
-            "creators": ["Allen Lee", "Allen Liu"],
+            "creators": [
+              "Allen Lee",
+              "Allen Liu"
+            ],
             "descript": "A platform for students to open restaurants out of their dorm. Choose to either host a meal (charging a fee or not) or attend a meal.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/hatch.png",
             "link": "hatch-mit.herokuapp.com"
@@ -714,28 +979,42 @@
         "semifinalists": [
           {
             "project": "Biblios",
-            "creators": ["Sammy Cherna", "Julia Fiksinski", "Ariel Jacobs"],
+            "creators": [
+              "Sammy Cherna",
+              "Julia Fiksinski",
+              "Ariel Jacobs"
+            ],
             "descript": "Maintain your own personal library, available for others to borrow. A social network for readers that actually has what you want to read.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/biblios.png",
             "link": "biblios.meteorapp.com"
           },
           {
             "project": "Mad Skillz",
-            "creators": ["Kat, Shannon, Dillon", ""],
+            "creators": [
+              "Kat, Shannon, Dillon",
+              ""
+            ],
             "descript": "Connects skilled college students to ambitious hobbyist students. Students post tasks to be completed so skilled users can put their skills to work.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/madskillz.png",
             "link": "madskillz.herokuapp.com"
           },
           {
             "project": "Together",
-            "creators": ["Matthew Woicik", "John Matthew"],
+            "creators": [
+              "Matthew Woicik",
+              "John Matthew"
+            ],
             "descript": "Allows users to make goals and daily tasks for those goals. View the goals of other users, and even add others' goals to your list.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/together.png",
             "link": "dtofree.herokuapp.com"
           },
           {
             "project": "Handprint",
-            "creators": ["Ramya Nagarajan", "Jennifer Zou", "Shannon Peng"],
+            "creators": [
+              "Ramya Nagarajan",
+              "Jennifer Zou",
+              "Shannon Peng"
+            ],
             "descript": "Volunteering gamified. Upload challenges for volunteers to complete or earn points for completing posts.",
             "img": "http://webdevelopment.mit.edu/2017/webby/screenshots/handprint.png",
             "link": "handprints.herokuapp.com"
@@ -753,7 +1032,9 @@
           {
             "place": "1st Place",
             "project": "FratWorks",
-            "creators": ["Donald Little"],
+            "creators": [
+              "Donald Little"
+            ],
             "descript": "Fratworks.xyz is a dashboard that helps manage chores and tasks of a fraternity to ensure an even contribution by all members.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_fratworks.png",
             "link": "fratworks.xyz"
@@ -761,7 +1042,11 @@
           {
             "place": "2nd Place",
             "project": "Yarn",
-            "creators": ["Rachel Simpson", "Hunter Gatewood", "Kamoya Ikhofua"],
+            "creators": [
+              "Rachel Simpson",
+              "Hunter Gatewood",
+              "Kamoya Ikhofua"
+            ],
             "descript": "With Yarn, join a community of people writing beautiful, collaborative stories.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_yarns.png",
             "link": "yarns.herokuapp.com"
@@ -769,7 +1054,11 @@
           {
             "place": "3rd Place",
             "project": "Overlaps",
-            "creators": ["Yilun Du", "Justin Yu", "Brandon Wang"],
+            "creators": [
+              "Yilun Du",
+              "Justin Yu",
+              "Brandon Wang"
+            ],
             "descript": "Overlaps is an online platform through teachers and students can both take and offer classes, with a unique pricing system.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_overlaps.png",
             "link": "overlaps.meteor.com"
@@ -777,7 +1066,11 @@
           {
             "place": "4th Place",
             "project": "MoneyMatters",
-            "creators": ["Danny Tang", "Aaron Sipser", "Rupayan Neogy"],
+            "creators": [
+              "Danny Tang",
+              "Aaron Sipser",
+              "Rupayan Neogy"
+            ],
             "descript": "MoneyMatters is a money tracking web app designed for the average millennial, featuring a split charge calculator and detailed history views.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_moneymatters.png",
             "link": "moneymatters.eastus.cloudapp.azure.com"
@@ -786,14 +1079,22 @@
         "honorableMentions": [
           {
             "project": "Capsulate",
-            "creators": ["Reece Tamashiro", "Andrew Ilyas", "Kenny Gea"],
+            "creators": [
+              "Reece Tamashiro",
+              "Andrew Ilyas",
+              "Kenny Gea"
+            ],
             "descript": "Make predictions. Interact with other people's predictions. Explore how close everyone's predictions were to reality.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_capsulate.png",
             "link": "capsulate.me"
           },
           {
             "project": "Course TBD",
-            "creators": ["Yinzhan Xu", "Jintao Chen", "Qingshu Han"],
+            "creators": [
+              "Yinzhan Xu",
+              "Jintao Chen",
+              "Qingshu Han"
+            ],
             "descript": "Course TBD shows you what classes your friends are taking and your next Pset's due date on one shared calendar.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_coursetbd.png",
             "link": "www.coursetbd.com"
@@ -802,21 +1103,32 @@
         "semifinalists": [
           {
             "project": "IHTFYP",
-            "creators": ["Leigh Marie Braswell", "Lizzie Wei"],
+            "creators": [
+              "Leigh Marie Braswell",
+              "Lizzie Wei"
+            ],
             "descript": "Whenever someone loses or finds an item, they can use our IHTFYP to easily find or return it, which matches similar lost and found forms.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_ihtfyp.png",
             "link": "ihtfyp.herokuapp.com"
           },
           {
             "project": "Uhmm",
-            "creators": ["Kyle Swanson", "Julian Fuchs", "Bryce Hwang"],
+            "creators": [
+              "Kyle Swanson",
+              "Julian Fuchs",
+              "Bryce Hwang"
+            ],
             "descript": "A roadtrip meal planner: given start and destination points, Uhmm suggests good restaurants along the way and displays them on a map.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_uhmm.png",
             "link": "roadtrip-uhmm.rhcloud.com"
           },
           {
             "project": "Firefly moment",
-            "creators": ["Cynthia Lo", "Lisa Ruan", "Annie Dai"],
+            "creators": [
+              "Cynthia Lo",
+              "Lisa Ruan",
+              "Annie Dai"
+            ],
             "descript": "Firefly helps you to capture, catalog, and share day-to-day sayings, quotes, and memories, storing them for whenever you need a quick pick-me-up.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_fireflymoment.png",
             "link": "firefly-moment.herokuapp.com"
@@ -829,7 +1141,10 @@
           {
             "place": "1st Place",
             "project": "Markit",
-            "creators": ["Daniel Smith", "Elliott Forde"],
+            "creators": [
+              "Daniel Smith",
+              "Elliott Forde"
+            ],
             "descript": "markit is an educational stock market alternative that allows you to practice trading in the market without knowing technical terms or the monetary risk.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_markit.png",
             "link": "pure-caverns-1922.herokuapp.com"
@@ -837,7 +1152,10 @@
           {
             "place": "2nd Place",
             "project": "Graffiti",
-            "creators": ["Kevin Weng", "Christopher Wang"],
+            "creators": [
+              "Kevin Weng",
+              "Christopher Wang"
+            ],
             "descript": "Graffiti lets users create unstructured message boards. Users vote on messages' lifespans to extend the period of time they are displayed.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_graffiti.png",
             "link": "graffitimit.meteor.com"
@@ -845,7 +1163,11 @@
           {
             "place": "3rd Place",
             "project": "Skiary",
-            "creators": ["Jackie Liu", "Cristina Mata", "Amy Liu"],
+            "creators": [
+              "Jackie Liu",
+              "Cristina Mata",
+              "Amy Liu"
+            ],
             "descript": "Skiary is a reimagining of the personal diary. Using geolocation services and a weather API, Skiary generates calming sky gradients and graphics into its UI.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_skiary.png",
             "link": "skiary.meteor.com"
@@ -855,35 +1177,53 @@
         "semifinalists": [
           {
             "project": "Pantry",
-            "creators": ["Binh Le", "Gregory Hui", "Wei Xun He"],
+            "creators": [
+              "Binh Le",
+              "Gregory Hui",
+              "Wei Xun He"
+            ],
             "descript": "Pantry is a web app designed to help people use their spare ingredients in order to cook meals that align with their exercise and wellness goals.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_pantry.png",
             "link": "pantrysite.herokuapp.com"
           },
           {
             "project": "MyBucket",
-            "creators": ["Maryam Archie", "Hiram Moncivais"],
+            "creators": [
+              "Maryam Archie",
+              "Hiram Moncivais"
+            ],
             "descript": "MyBucket is a web application that allows users to make a bucket list and then provides local opportunities to fulfill their dreams.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_mybucket.png",
             "link": "mybucket.meteor.com"
           },
           {
             "project": "S'mores",
-            "creators": ["Nayoung Lee", "Cheahuychou Mao", "Margaret Yu"],
+            "creators": [
+              "Nayoung Lee",
+              "Cheahuychou Mao",
+              "Margaret Yu"
+            ],
             "descript": "S'mores is a webapp that lets you plan your meals efficiently by minimizing the time spent in creating your grocery list. ",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_smores.png",
             "link": "smoresplanner.herokuapp.com"
           },
           {
             "project": "Pset Buddies",
-            "creators": ["Sarah Shader", "Lauren Luo"],
+            "creators": [
+              "Sarah Shader",
+              "Lauren Luo"
+            ],
             "descript": "Meet more people and finish your psets! With Pset Buddies you can enter your pset progress and find people to work with!",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_psetbuddies.png",
             "link": "psetbuddies.herokuapp.com"
           },
           {
             "project": "Hack Homies",
-            "creators": ["Jessie Wang", "Vivian Zhang", "Sarah Wooders"],
+            "creators": [
+              "Jessie Wang",
+              "Vivian Zhang",
+              "Sarah Wooders"
+            ],
             "descript": "Build your hackathon team using HackHomies' custom recommendation and search systems.",
             "img": "http://webdevelopment.mit.edu/2016/webby/screenshots/_t_hackhomies.png",
             "link": "hackhomies.meteor.com"
@@ -901,7 +1241,11 @@
           {
             "place": "1st Place",
             "project": "Harmony",
-            "creators": ["Liang Zhou", "Budmonde Duinkharjav", "Justin Xiao"],
+            "creators": [
+              "Liang Zhou",
+              "Budmonde Duinkharjav",
+              "Justin Xiao"
+            ],
             "descript": "Harmony is a web app designed to facilitate online collaborative sheet music composition.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_harmony.png",
             "link": "icanphysics.herokuapp.com"
@@ -909,7 +1253,10 @@
           {
             "place": "2nd Place",
             "project": "MediaSync",
-            "creators": ["Eugene Oh", "Armand McQueen"],
+            "creators": [
+              "Eugene Oh",
+              "Armand McQueen"
+            ],
             "descript": "MediaSync lets you watch videos and listen to music with your friends no matter how far away they are - and all in perfect sync!",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_mediasync.png",
             "link": "mediasync-eugeneoh.rhcloud.com"
@@ -917,7 +1264,11 @@
           {
             "place": "3rd Place",
             "project": "Nomad",
-            "creators": ["Dang Pham", "Nathalie Huynh", "Kamilla Takiela"],
+            "creators": [
+              "Dang Pham",
+              "Nathalie Huynh",
+              "Kamilla Takiela"
+            ],
             "descript": "Make friends, explore cities, and share your memories with other travelers near you, with our travel buddy Nomad!",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_nomad.png",
             "link": "nomadhub.herokuapp.com"
@@ -938,21 +1289,33 @@
         "honorableMentions": [
           {
             "project": "D3NIGMA",
-            "creators": ["Landon Carter", "Raymond Liu", "Runpeng Liu"],
+            "creators": [
+              "Landon Carter",
+              "Raymond Liu",
+              "Runpeng Liu"
+            ],
             "descript": "Create beautiful, interactive maps for your website or presentation without coding anything with our full-feature editor and intuitive tutorial system.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_d3nigma.png",
             "link": "d3nigma.herokuapp.com"
           },
           {
             "project": "Grapes",
-            "creators": ["Michelle Suh", "Estelle Yoon", "Ami Suzuki"],
+            "creators": [
+              "Michelle Suh",
+              "Estelle Yoon",
+              "Ami Suzuki"
+            ],
             "descript": "Grapes is a community-based web platform where anyone can buy and sell used items in their own marketplace.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_grapes.png",
             "link": "grapes-msuh.rhcloud.com"
           },
           {
             "project": "LinguaGem",
-            "creators": ["Christopher Wornack", "Raymond Wu", "Elise Xue"],
+            "creators": [
+              "Christopher Wornack",
+              "Raymond Wu",
+              "Elise Xue"
+            ],
             "descript": "LinguaGem is a series of games designed to help the user learn basic phrases in any language of choice.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_linguagem.png",
             "link": "linguagem.herokuapp.com"
@@ -966,7 +1329,11 @@
           {
             "place": "1st Place",
             "project": "travelingtable",
-            "creators": ["Kimberly Leon", "Kiran Wattamwar", "Deepti Raghavan"],
+            "creators": [
+              "Kimberly Leon",
+              "Kiran Wattamwar",
+              "Deepti Raghavan"
+            ],
             "descript": "travelingtable allows users to explore and post recipes from cuisines around the world through an interactive map.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_travelingtable.png",
             "link": "travelingtable.herokuapp.com"
@@ -974,7 +1341,11 @@
           {
             "place": "2nd Place",
             "project": "GreenBuggle",
-            "creators": ["Jessica Guo", "Lilian Ma", "Sunnia Ye"],
+            "creators": [
+              "Jessica Guo",
+              "Lilian Ma",
+              "Sunnia Ye"
+            ],
             "descript": "GreenBuggle promotes responsible travel by comparing the monetary, time, and environmental costs of driving, public transport or walking.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_greenbuggle.png",
             "link": "greenbuggle.herokuapp.com"
@@ -982,7 +1353,11 @@
           {
             "place": "3rd Place",
             "project": "Hitch",
-            "creators": ["Advaith Anand", "Rose Wang", "Larry Zhang"],
+            "creators": [
+              "Advaith Anand",
+              "Rose Wang",
+              "Larry Zhang"
+            ],
             "descript": "Hitch finds people for you to share rides with. Just tell us where you want to go and we'll match you with other people on similar routes.",
             "img": "http://webdevelopment.mit.edu/2015/webby/screenshots/_t_hitch.png",
             "link": "hitcharide.herokuapp.com"
