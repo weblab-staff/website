@@ -1,6 +1,6 @@
 # prizes
 
-Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2018).
+Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2023).
 
 - **1st Place: $3,500**
 - 2nd Place: $2,500
@@ -45,13 +45,3 @@ Awarded to the team that, as determined by the staff, implemented the most impre
 **Prize: $500**
 
 Awarded to the team (among all submissions) that receives the most Facebook likes. Votes will open when semifinalists are announced and will close during the awards ceremony.
-
-## Sponsor Prizes
-
-### Most Relevant to Consumer Packaged Goods (awarded by Vividly)
-
-**Prize: $500 & Care Package**
-
-The consumer packaged goods (CPG) industry accounts for over $5 trillion globally in annual sales, yet is rife with manual labor and inefficient technology such as spreadsheets and poorly-scanned PDF files. As a result, many CPG brands have little insight into their finances and methods of improving sales and marketing tactics for their products. At Vividly, we're transforming how CPG brands do business—we offer SaaS products that give brands the visibility they need to grow efficiently.
-
-We're looking for creative and interesting projects that relate to the problems that CPG brands, retailers, and consumers face!

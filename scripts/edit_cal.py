@@ -9,16 +9,17 @@ def editline(s):
 	month = mid[4:6]
 	day = mid[6:8]
 
-	day = str(int(day) + 6)
+	day = str(int(day) - 1)
 	if len(day) == 1:
 		day = "0" + day
 
-	year = "2023"
+	year = "2024"
 	res = year + month + day + s[8:]
+	print(res)
 
 	return res
 
-with open('out.ics', "w+") as out,  open("MIT 6.148 2022 Public Calendar_9qf6vtl7b9omuqi98usg4g5np8@group.calendar.google.com.ics", "r") as inp:
+with open('out.ics', "w+") as out, open("MIT 6.148 2023 Public Calendar_61b97ada9cacac7b1463febff25ef18052f6c023e00e8047e170dd69bbc16b96@group.calendar.google.com.ics", "r") as inp:
 	for line in inp:
 
 		fields = ["DTSTART:", "DTEND:"]
