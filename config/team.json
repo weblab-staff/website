@@ -1,79 +1,145 @@
 {
   "current": [
     {
+      "firstName": "kenneth",
+      "lastName": "choi",
+      "position": "president",
+      "img": "kenny.jpg"
+    },
+    {
       "firstName": "nicholas",
       "lastName": "tsao",
-      "position": "president",
+      "position": "eternally staff",
       "img": "nicholas.jpg"
     },
     {
+      "firstName": "tony",
+      "lastName": "cui",
+      "position": "co-academic chair",
+      "img": "tacui.jpg"
+    },
+    {
+      "firstName": "abby",
+      "lastName": "chou",
+      "position": "co-academic chair",
+      "img": "abbychou.jpg"
+    },
+    {
+      "firstName": "mark",
+      "lastName": "tabor",
+      "position": "operations chair",
+      "img": "markt3.jpg"
+    },
+    {
+      "firstName": "andrew",
+      "lastName": "liu",
+      "position": "treasurer",
+      "img": "placeholder1.png"
+    },
+    {
+      "firstName": "jay",
+      "lastName": "hilton",
+      "position": "tech chair",
+      "img": "jhilton.jpg"
+    },
+    {
+      "firstName": "joyce",
+      "lastName": "yoon",
+      "position": "sponsor chair",
+      "img": "placeholder1.png"
+    },
+    {
+      "firstName": "helen",
+      "lastName": "yang",
+      "position": "historian",
+      "img": "helenzy.png"
+    },
+    {
+      "firstName": "stanley",
+      "lastName": "zhao",
+      "position": "ta",
+      "img": "placeholder1.png"
+    },
+    {
+      "firstName": "enrique",
+      "lastName": "casillas",
+      "position": "ta",
+      "img": "placeholder1.png"
+    },
+    {
+      "firstName": "michael",
+      "lastName": "kuoch",
+      "position": "ta",
+      "img": "mkuoch.jpg"
+    },
+    {
+      "firstName": "christine",
+      "lastName": "imogu",
+      "position": "ta",
+      "img": "placeholder1.png"
+    }
+  ],
+  "alums": [
+    {
       "firstName": "shashvat",
       "lastName": "srivastava",
-      "position": "tech chair",
+      "year": "2023",
       "img": "shash.jpg"
     },
     {
       "firstName": "helen",
       "lastName": "lu",
-      "img": "helen.jpg",
-      "position": "eternally staff"
+      "year": "2023",
+      "img": "helen.jpg"
     },
     {
       "firstName": "vincent",
       "lastName": "huang",
-      "position": "teaching assistant",
+      "year": "2023",
       "img": "vincent.jpg"
     },
     {
       "firstName": "philena",
       "lastName": "liu",
-      "position": "treasurer",
+      "year": "2023",
       "img": "philena.jpg"
     },
     {
       "firstName": "leo",
       "lastName": "martinez",
-      "position": "pub chair",
+      "year": "2023",
       "img": "leo.jpg"
-    },
-    {
-      "firstName": "jacky",
-      "lastName": "luong",
-      "position": "ops chair",
-      "img": "jacky.jpg"
-    },
-    {
-      "firstName": "kenneth",
-      "lastName": "choi",
-      "position": "co-academic chair",
-      "img": "kenny.jpg"
     },
     {
       "firstName": "qiong",
       "lastName": "zhou huang",
-      "position": "co-academic chair",
+      "year": "2023",
       "img": "qiong.jpg"
     },
     {
       "firstName": "william",
       "lastName": "qs xu",
-      "position": "sponsor chair",
+      "year": "2023",
       "img": "william.jpg"
+    },
+    {
+      "firstName": "jacky",
+      "lastName": "luong",
+      "year": "2023",
+      "img": "jacky.jpg"
     },
     {
       "firstName": "dylan",
       "lastName": "walker",
-      "img": "dylan.jpg",
-      "position": "teaching assistant"
+      "year": "2023",
+      "img": "dylan.jpg"
     },
     {
       "firstName": "edward",
       "lastName": "chen",
-      "position": "historian",
+      "year": "2023",
       "img": "edwardchen.jpg"
-    }
-  ],
-  "alums": [
+    },
     {
       "firstName": "nikhil",
       "lastName": "singhal",
