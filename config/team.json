@@ -22,7 +22,7 @@
       "firstName": "abby",
       "lastName": "chou",
       "position": "co-academic chair",
-      "img": "abbychou.jpg"
+      "img": "abbychou-square.jpg"
     },
     {
       "firstName": "mark",
@@ -34,7 +34,7 @@
       "firstName": "andrew",
       "lastName": "liu",
       "position": "treasurer",
-      "img": "placeholder1.png"
+      "img": "azliu.png"
     },
     {
       "firstName": "jay",
@@ -46,7 +46,7 @@
       "firstName": "joyce",
       "lastName": "yoon",
       "position": "sponsor chair",
-      "img": "placeholder1.png"
+      "img": "jeyoon.jpg"
     },
     {
       "firstName": "helen",
@@ -58,7 +58,7 @@
       "firstName": "stanley",
       "lastName": "zhao",
       "position": "ta",
-      "img": "placeholder1.png"
+      "img": "szhao.png"
     },
     {
       "firstName": "enrique",
@@ -76,7 +76,7 @@
       "firstName": "christine",
       "lastName": "imogu",
       "position": "ta",
-      "img": "placeholder1.png"
+      "img": "ccimogu.jpg"
     }
   ],
   "alums": [
