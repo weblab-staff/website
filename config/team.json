@@ -7,12 +7,6 @@
       "img": "kenny.jpg"
     },
     {
-      "firstName": "nicholas",
-      "lastName": "tsao",
-      "position": "eternally staff",
-      "img": "nicholas.jpg"
-    },
-    {
       "firstName": "tony",
       "lastName": "cui",
       "position": "co-academic chair",
@@ -77,6 +71,12 @@
       "lastName": "imogu",
       "position": "ta",
       "img": "ccimogu.jpg"
+    },
+    {
+      "firstName": "nicholas",
+      "lastName": "tsao",
+      "position": "eternal staff",
+      "img": "nicholas.jpg"
     }
   ],
   "alums": [
