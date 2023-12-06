@@ -42,6 +42,6 @@ Awarded to the team that, as determined by the staff, implemented the most impre
 
 ### Webby Award
 
-**Prize: $500**
+**Prize: $250**
 
 Awarded to the team (among all submissions) that receives the most Facebook likes. Votes will open when semifinalists are announced and will close during the awards ceremony.
