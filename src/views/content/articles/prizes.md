@@ -1,6 +1,6 @@
 # prizes
 
-Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2023).
+Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2024).
 
 - **1st Place: $3,000**
 - 2nd Place: $2,250
