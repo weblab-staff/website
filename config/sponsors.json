@@ -1,14 +1,14 @@
 [
   {
-    "name": "Vividly",
-    "path": "vividly.svg",
-    "link": "https://www.govividly.com/",
-    "level": "silver"
-  },
-  {
     "name": "Mobi",
     "path": "mobi.png",
     "link": "https://www.takemobi.com/",
-    "level": "gold"
+    "level": "platinum"
+  },
+  {
+    "name": "Render",
+    "path": "render.png",
+    "link": "https://render.com/",
+    "level": "silver"
   }
 ]

@@ -2,11 +2,11 @@
 
 Projects entered into the contest and eligible may win prizes (the following are prize amounts from 2023).
 
-- **1st Place: $3,500**
-- 2nd Place: $2,500
-- 3rd Place: $2,000
-- 4th Place: $1,750
-- Honorable Mention: $1,000
+- **1st Place: $3,000**
+- 2nd Place: $2,250
+- 3rd Place: $1,750
+- 4th Place: $1,500
+- Honorable Mention: $750
 
 ## Special Prizes
 
@@ -20,7 +20,7 @@ You can indicate whether you would like to be considered for any of these specia
 
 Awarded to the team that, as determined by the staff, created a site with the most unique, interesting, and compelling concept. This site would solve an interesting problem that doesn't have an established solution or address one of the competition themes in a creative way.
 
-### Most Responsive UI Design
+### Most Responsive UI Design (Sponsored by Render)
 
 **Prize: $500**
 
