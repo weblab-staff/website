@@ -75,7 +75,9 @@ var exports = {
                 if (line === "") continue;
                 let split = line.split(':');
                 if (split.length == 1) {
-                  entry.who = line.trim(); // assume line without colon is the lecturer
+                  // We assume that a line without a colon is the list of lecturers.
+                  const names = line.split(",").map((name) => name.trim());
+                  entry.who = names.join(" & ");
                 } else {
                   const key = split[0].toLowerCase().trim();
                   const val = split[1].toLowerCase().trim();
