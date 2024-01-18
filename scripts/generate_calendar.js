@@ -84,7 +84,6 @@ var exports = {
                   const val = split[1].toLowerCase().trim();
 
                   if (key == "desc") {
-                    console.log("hi", valUpper);
                     entry.desc = valUpper;
                   }
 
