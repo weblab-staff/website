@@ -124,6 +124,10 @@
         font-weight: 600;
         color: $primary-accent;
       }
+      .desc {
+        font-size: 0.8em;
+        color: rgba($primary-text, 0.5);
+      }
     }
     .oh span {
       color: $oh-color;

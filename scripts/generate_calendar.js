@@ -80,7 +80,13 @@ var exports = {
                   entry.who = names.join(" & ");
                 } else {
                   const key = split[0].toLowerCase().trim();
+                  const valUpper = split[1].trim();
                   const val = split[1].toLowerCase().trim();
+
+                  if (key == "desc") {
+                    console.log("hi", valUpper);
+                    entry.desc = valUpper;
+                  }
 
                   if (key == "type") {
                     entry.type = val; // can always explicitly set type
@@ -97,10 +103,6 @@ var exports = {
                       type: key.split(" ")[0],
                       link: link
                     });
-                  }
-
-                  if (key == "desc") {
-                    entry.desc = val;
                   }
                 }
               }

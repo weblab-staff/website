@@ -76,6 +76,8 @@ mixin event_details(event)
     span= event.name
     if event.who
       .lecturer Lecturer: #{event.who}
+    if event.desc
+      .desc #{event.desc}
   .room= event.where
   if event.links
     .resources
@@ -87,5 +89,3 @@ mixin event_details(event)
             <i class="far fa-file-pdf"></i>
           else if resource.type == "info"
             <i class="fas fa-info"></i>
-  if event.desc
-    .description #{event.desc}
