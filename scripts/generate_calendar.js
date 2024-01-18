@@ -98,6 +98,10 @@ var exports = {
                       link: link
                     });
                   }
+
+                  if (key == "desc") {
+                    entry.desc = val;
+                  }
                 }
               }
             }

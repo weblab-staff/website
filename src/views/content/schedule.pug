@@ -87,3 +87,5 @@ mixin event_details(event)
             <i class="far fa-file-pdf"></i>
           else if resource.type == "info"
             <i class="fas fa-info"></i>
+  if event.desc
+    .description #{event.desc}
