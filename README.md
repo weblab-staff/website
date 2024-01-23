@@ -120,7 +120,7 @@ info: link_to_something_else
 
 if no type is explicitly provided, the website will infer based on the title (e.g. contains 'lunch', 'milestone', 'office hours')
 
-to make an event with an instantaneous time (e.g. milestone due at 11:59am), set the calendar entry to start and end at the same time (e.g. 11:59am - 11:59am)
+to make an event with an instantaneous time (e.g. milestone due at 12 PM), set the calendar entry to start and end at the same time (e.g. 12pm - 12pm)
 
 Note:
 The calendar script assumes that the system time is EST. If the schedule page does not seem right, make sure to change your system time to EST while running gulp.
