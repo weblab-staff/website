@@ -1,5 +1,114 @@
 [
   {
+    "head": "2024. send it or blend it",
+    "divisions": [
+      {
+        "name":"main division",
+        "winners": [
+          {
+            "place":"1st Place",
+            "project": "Hexblend",
+            "creators": [
+              "Adam Zweiger",
+              "Evan Kim",
+              "Justin Chen"
+            ],
+            "descript": "Hexblend is a game about blending colors. With single-player and multi-player modes with many options, this game offers a diverse palette.",
+            "img": "https://i.imgur.com/AHwmOdY.png",
+            "link": "hexblend.onrender.com/"
+          },
+          {
+            "place": "2nd Place",
+            "project": "Maze Craze",
+            "creators": [
+              "Ruhundaka Ejilemele",
+              "Christopher Franco",
+              "Dat Tran"
+            ],
+            "descript": "A round-based maze party game where you try to earn as many coins as you can. Each round, a new perk adds to the chaos.", 
+            "img": "https://i.imgur.com/8wsQsVr.png",
+            "link": "mazecraze.onrender.com/"
+          },
+          {
+            "place": "3rd Place",
+            "project": "Memoia",
+            "creators": [
+              "Sophie Wang",
+              "Annabel Tiong"
+            ],
+            "descript": "Enjoy an immersive study space with timers and a music player. Assign tasks to virtual pets and watch them evolve.",
+            "img": "https://i.imgur.com/Ec6xUQz.png",
+            "link": "memoia.onrender.com/"
+          },
+          {
+            "place": "4th Place",
+            "project": "Sharedom",
+            "creators": [
+              "LeAnn Tai"
+            ],
+            "descript": "Discover the ultimate way to borrow anything you need for FREE with Sharedom's innovative point system. Join a vibrant community of sharers!",
+            "img": "https://i.imgur.com/tkRaSH7.png",
+            "link": "sharedom.onrender.com/"
+          }
+        ],
+        "honorableMentions": [
+          {
+            "project": "Melting Pot",
+            "creators": [
+              "Kathryn L",
+              "Rachel Lu"
+            ],
+            "descript": "Melting Pot is a multiplayer, competitive game where players make hotpot dishes to earn points and learn about multicultural foods!",
+            "img": "https://i.imgur.com/JBrfpa0.png",
+            "link": "melting-pot.onrender.com/"
+          },
+          {
+            "project": "Purrductive",
+            "creators": [
+              "Andy Phung"
+            ],
+            "descript": "Purrductive is a cat-themed platform for virtual study rooms! Users can join rooms, add their tasks, and complete them to attract cats!",
+            "img": "https://i.imgur.com/fnD3K4h.png",
+            "link": "purrductive.onrender.com/"
+          },
+          {
+            "project": "RoomCraft",
+            "creators": [
+              "Jasmine Shone",
+              "Minnie Liang",
+              "Allison Fan"
+            ],
+            "descript": "Slay the dragons of your life with RoomCraft, an all-in-one productivity hub that uses gamification to incentivize action.",
+            "img": "https://i.imgur.com/tIWxMLt.png",
+            "link": "roomcraft-p861.onrender.com/"
+          }
+        ],
+        "semifinalists": [
+          {
+            "project": "Ambi",
+            "creators": [
+              "Sage Maxwell",
+              "Jing Xuan Sun"
+            ],
+            "descript": "Ambi is a room-design audio workstation, where users can create the rooms of their dreams using furniture that produce sound which users can mix.",
+            "img": "https://i.imgur.com/y7MXQXw.png",
+            "link": "ambi.onrender.com/"
+          },
+          {
+            "project": "Dine and Dash",
+            "creators": [
+              "Thomas Wu",
+              "Krystal Montgomery"
+            ],
+            "descript": "Dine and Dash is a food trivia and geographical exploration game. Embark on the ultimate heist to seize and savor the world's most exquisite dishes!",
+            "img": "https://i.imgur.com/H3qnXzH.png",
+            "link": "dine-and-dash.onrender.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "head": "2023. u & i",
     "divisions": [
       {
