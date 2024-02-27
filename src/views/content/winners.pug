@@ -51,3 +51,8 @@ mixin past_winners()
                   .descript= winner.descript
                   .link
                     a(href= "https://" + winner.link)= winner.link
+    if year.head.slice(0, 4) === "2024"
+      p= "Read the behind-the-scenes stories of four winners "
+        a(href= "https://render.com/blog/built-on-render-winners-mit-weblab" target="_blank")= "here"
+        span= "!"
+
