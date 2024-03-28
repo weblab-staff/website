@@ -41,5 +41,9 @@ block content
         a.sponsor.action(href="mailto:weblab-staff@mit.edu") ask us about sponsoring
       .sponsors.grid
         +sponsors
-      p= "web.lab is hosted on "
-        a(href= "https://render.com/" target="new")= "Render"
+      .sponsors.technical
+        h2.title technical sponsors
+        .sponsors.technical.sponsor
+          div= "web.lab is hosted on "
+          a(href= 'https://render.com/', target="new")
+            img.logo(src= '/public/img/sponsors/render.png')

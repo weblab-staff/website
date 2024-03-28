@@ -253,6 +253,29 @@
     }
   }
 
+  &.technical {  
+    .technical.sponsor {
+      display: flex;
+      gap: 2px;
+    }
+
+    a {
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+    }
+  
+    .logo {
+      height: 22px;
+      transition: filter 0.2s;
+      filter: grayscale(1) opacity(0.6);
+    }
+  
+    .logo:hover {
+      filter:none;
+    }
+  }
+
   h2.title {
     margin-bottom: 0;
   }
