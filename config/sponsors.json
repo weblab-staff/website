@@ -1,14 +1,20 @@
 [
   {
-    "name": "Mobi",
-    "path": "mobi.png",
-    "link": "https://www.takemobi.com/",
+    "name": "fetch.ai",
+    "path": "fetchai.svg",
+    "link": "https://fetch.ai/",
     "level": "platinum"
   },
   {
-    "name": "Render",
-    "path": "render.png",
-    "link": "https://render.com/",
+    "name": "Akamai",
+    "path": "akamai.png",
+    "link": "https://www.akamai.com/",
+    "level": "silver"
+  },
+  {
+    "name": "Codeium",
+    "path": "codeium.png",
+    "link": "https://codeium.com/",
     "level": "silver"
   }
 ]
