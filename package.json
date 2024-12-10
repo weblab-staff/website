@@ -25,5 +25,8 @@
   },
   "overrides": {
     "graceful-fs": "^4.2.11"
+  },
+  "devDependencies": {
+    "node-sass": "npm:sass@^1.81.1"
   }
 }
