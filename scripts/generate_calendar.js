@@ -46,6 +46,11 @@ var exports = {
               links: []
             }
 
+            // if year is < 2025, ignore
+            if (ev.start.dateTime && new Date(ev.start.dateTime).getFullYear() < 2025) {
+              continue;
+            }
+
             let start = new Date(ev.start.dateTime || ev.start.date);
             let end = new Date(ev.end.dateTime || ev.start.date);
             let day = start.getDate() + (start.getMonth() * 31); // assumes only jan/feb

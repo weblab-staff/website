@@ -16,5 +16,17 @@
     "path": "codeium.png",
     "link": "https://codeium.com/",
     "level": "silver"
+  },
+  {
+    "name": "Suno",
+    "path": "suno.png",
+    "link": "https://suno.com/",
+    "level": "other"
+  },
+  {
+    "name": "Enhearten",
+    "path": "enhearten.png",
+    "link": "https://enhearten.com/",
+    "level": "other"
   }
 ]

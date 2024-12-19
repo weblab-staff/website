@@ -1,6 +1,6 @@
 var gulp = require("gulp");
 var pump = require("pump");
-var sass = require("gulp-sass");
+var sass = require('gulp-sass')(require('sass'));
 var pug = require("gulp-pug");
 var rename = require("gulp-rename");
 var connect = require("gulp-connect");

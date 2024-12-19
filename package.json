@@ -16,17 +16,18 @@
     "gulp-connect": "^5.5.0",
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
     "jstransformer-markdown-it": "^2.1.0",
     "natives": "^1.1.6",
     "node": "^10.11.0",
     "nodemon": "^1.18.3",
-    "pump": "^3.0.0"
+    "pump": "^3.0.0",
+    "sass": "^1.83.0"
   },
   "overrides": {
     "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
-    "node-sass": "npm:sass@^1.81.1"
+    "gulp-sass": "^6.0.0",
+    "node-sass": "^4.14.0"
   }
 }
